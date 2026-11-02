@@ -34,7 +34,7 @@ export FIREWORKS_API_KEY=...           # never commit it
 Then follow the commands in each experiment folder. Every run saves one row per test item under `results/`, so every number can be checked without re-running a model. Data sources: [DATA.md](DATA.md).
 
 ## Team
-Bryan Finkel, Anika, Furkan Imamoglu.
+finance bros, a team of three. Names are kept out of this repo on purpose.
 
 ## Disclosure
 The scoring bench, the test sets and earlier runs were built before today in a team member's [open-model-eval](https://github.com/gvm-agents/open-model-eval) (full description: [docs/bench-overview.md](docs/bench-overview.md)). Built today: the trained Forms models, the final Sorting run, experiments 03 and 04, and this write-up. We used AI coding assistants (Claude Code) throughout. Public data only.
