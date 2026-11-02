@@ -1,0 +1,66 @@
+[
+ {
+  "company": "Microsoft",
+  "metric": "capex",
+  "value_usd": 24200000000,
+  "period": "Q1 FY2026 (Jul-Sep 2025)",
+  "source": "Microsoft 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "capex",
+  "value_usd": 24000000000,
+  "period": "Q3 2025",
+  "source": "Alphabet 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "capex",
+  "value_usd": 22600000000,
+  "period": "Q3 2025",
+  "source": "Amazon 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "capex",
+  "value_usd": 15000000000,
+  "period": "Q3 2025",
+  "source": "Meta 10-Q",
+  "mark": "verified_older"
+ },
+ {
+  "company": "NVIDIA",
+  "metric": "revenue",
+  "value_usd": 35000000000,
+  "period": "Q2 FY2026 (May-Jul 2025)",
+  "source": "NVIDIA 10-Q",
+  "mark": "verified_older"
+ },
+ {
+  "company": "TSMC",
+  "metric": "capex",
+  "value_usd": 10000000000,
+  "period": "Q3 2025",
+  "source": "TSMC quarterly report",
+  "mark": "unverified"
+ },
+ {
+  "company": "Oracle",
+  "metric": "backlog_rpo",
+  "value_usd": 130000000000,
+  "period": "Q1 FY2026",
+  "source": "Oracle 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "revenue",
+  "value_usd": 1200000000,
+  "period": "Q2 2025",
+  "source": "CoreWeave 10-Q",
+  "mark": "verified_current"
+ }
+]

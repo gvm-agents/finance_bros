@@ -1,0 +1,42 @@
+{
+  "steps": 100,
+  "base": {
+    "label": "base",
+    "exact_match": 0.8342541436464088,
+    "unterminated": 5,
+    "prompt_tokens": 103275,
+    "sampled_tokens": 81018,
+    "field_accuracy": {
+      "type": 0.8342541436464088,
+      "priority": 0.9281767955801105
+    }
+  },
+  "tuned": {
+    "label": "tuned",
+    "exact_match": 0.8232044198895028,
+    "unterminated": 0,
+    "prompt_tokens": 103275,
+    "sampled_tokens": 3144,
+    "field_accuracy": {
+      "type": 0.8232044198895028,
+      "priority": 0.9668508287292817
+    }
+  },
+  "promoted_model": "accounts/bryan-finkel-1999/models/muse-starter-sl-triage-2",
+  "exact_match_delta": -0.011,
+  "paired": {
+    "only_tuned_correct": 21,
+    "only_base_correct": 23,
+    "p_value": 0.880395821280672
+  },
+  "session": "ts-6f5b94ce3e5c4e4a82a772d0955580d1",
+  "log": "(local path removed)",
+  "cost": {
+    "training": "$0 (promotional)",
+    "evaluation_sampling": {
+      "prompt_tokens": 206550,
+      "sampled_tokens": 84162,
+      "note": "billed separately from training at published per-token rates"
+    }
+  }
+}

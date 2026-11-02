@@ -1,0 +1,83 @@
+{
+  "_comment": "Who does what, by job type. Values are lane names from lanes.json, in order of preference, so swapping a model is a one-line change here or there and no code changes. The first lane the active policy allows is used. A lane that is off or has no deployment right now is skipped, so the second reader falls back in the order given. comparison_only lanes are never routed to.",
+  "jobs": {
+    "triage_8k": {
+      "first": [
+        "gptoss120_fw",
+        "gemma4_12b_local"
+      ],
+      "second": [
+        "gemma4_12b_local",
+        "muse_glimmer_tuned_fw",
+        "gpt56luna_none",
+        "deepseek41_fw_off"
+      ],
+      "stronger": [
+        "sonnet5"
+      ],
+      "auditor": [
+        "gemma4_e2b_mini"
+      ],
+      "private": [
+        "gemma4_12b_local"
+      ],
+      "second_read": "normals"
+    },
+    "headline": {
+      "first": [
+        "gptoss120_fw",
+        "gemma4_12b_local"
+      ],
+      "second": [
+        "gemma4_12b_local",
+        "gpt56luna_none",
+        "deepseek41_fw_off"
+      ],
+      "stronger": [
+        "sonnet5"
+      ],
+      "auditor": [
+        "gemma4_12b_local",
+        "gemma4_e2b_mini"
+      ],
+      "private": [
+        "gemma4_12b_local"
+      ]
+    }
+  },
+  "policies": {
+    "all_models": {
+      "label": "All models",
+      "block_origins": [],
+      "local_only": false
+    },
+    "no_china": {
+      "label": "No China-origin models",
+      "block_origins": [
+        "China"
+      ],
+      "local_only": false
+    },
+    "open_only": {
+      "label": "Open models only",
+      "block_origins": [
+        "China"
+      ],
+      "local_only": false,
+      "block_groups": [
+        "frontier"
+      ]
+    },
+    "local_only": {
+      "label": "Nothing leaves the laptop",
+      "block_origins": [],
+      "local_only": true
+    }
+  },
+  "default_policy": "no_china",
+  "unsure_below": 0.8,
+  "audit_rate": 0.05,
+  "second_queue_cap": 200,
+  "first_bands": {},
+  "pace_per_second": {}
+}

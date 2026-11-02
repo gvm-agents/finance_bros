@@ -1,0 +1,73 @@
+{
+ "topic": "backlog",
+ "reply": {
+  "answer": "Concentration in AI backlog is extreme for the pure-play infrastructure providers. CoreWeave's ~$103.7 billion RPO is dominated by a handful of names: OpenAI (~$6.5 billion contracted through 2031) and Meta (~$21 billion committed through 2032), with the company itself warning that customer concentration with a limited number of top clients will likely persist. IREN similarly derives a large portion of its AI Cloud Services revenue from a small number of customers, highlighted by its five-year Microsoft agreement announced November 2025 covering GPU acquisitions and 'Horizon' capacity builds. Alphabet's revenue backlog includes $16.8 billion tied to a single related-party joint venture (Crux AI), and Amazon's AWS backlog growth is explicitly driven by two counterparties\u2014OpenAI (~$138 billion cumulative) and Anthropic (>$100 billion expansion)\u2014rather than a broad customer base. TeraWulf's new HPC lease backlog is anchored by Fluidstack and Anthropic. In aggregate, the disclosed RPO/backlog growth across CoreWeave, IREN, Alphabet, Amazon, and TeraWulf in 2025-2026 is attributable overwhelmingly to a small handful of AI labs/hyperscalers (OpenAI, Anthropic, Meta, Microsoft), meaning backlog quality is highly dependent on the credit and continued scaling plans of just 3-4 counterparties.",
+  "claims": [
+   {
+    "company": "CoreWeave",
+    "metric": "backlog_rpo",
+    "value_usd": 103700000000,
+    "period": "2026-06-30",
+    "source": "SEC filing data"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "other",
+    "value_usd": 6500000000,
+    "period": "through 2031-05-31",
+    "source": "CoreWeave: OpenAI order form commitment"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "other",
+    "value_usd": 21000000000,
+    "period": "through 2032-12-20",
+    "source": "CoreWeave: Meta order form commitment"
+   },
+   {
+    "company": "IREN",
+    "metric": "backlog_rpo",
+    "value_usd": 5100000000,
+    "period": "2026-06-30",
+    "source": "SEC filing data"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "backlog_rpo",
+    "value_usd": 16800000000,
+    "period": "2026-09-30",
+    "source": "Alphabet: Crux AI related-party backlog"
+   },
+   {
+    "company": "Amazon",
+    "metric": "other",
+    "value_usd": 138000000000,
+    "period": "through 2034 (8 yrs from Q1 2026)",
+    "source": "Amazon: OpenAI expanded commitment ($38B + $100B)"
+   },
+   {
+    "company": "Amazon",
+    "metric": "other",
+    "value_usd": 100000000000,
+    "period": "10 years from Q2 2026",
+    "source": "Amazon: Anthropic expanded commitment"
+   },
+   {
+    "company": "TeraWulf",
+    "metric": "leases_not_started",
+    "value_usd": 11100000,
+    "period": "2026-06-30",
+    "source": "SEC filing data"
+   }
+  ],
+  "next_question": "What server and network useful lives do these companies assume, and what is the earnings effect if GPUs/chips last only 3-4 years instead of 6, given how much of the hyperscalers' backlog and capex (e.g., Oracle's $664B RPO against $47B OCF) rests on long depreciation schedules supporting thin near-term margins?"
+ },
+ "meta": {
+  "usd": 0.0325,
+  "tokens_in": 10409,
+  "tokens_out": 1168,
+  "seconds": 11.5,
+  "error": ""
+ },
+ "worker_usd": 0.031386450000000024
+}

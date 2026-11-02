@@ -1,0 +1,136 @@
+{
+ "topic": "life",
+ "reply": {
+  "answer": "Hyperscalers currently depreciate servers/network gear over fairly long lives: Microsoft uses 2-6 years, Amazon moved most servers to 5 years (from 6) in 2025, Meta extended most server/network assets to 5.5 years in Jan 2025, Oracle still uses 6 years, and Nebius just extended from 4 to 5 years. If actual useful life for AI chips/accelerators is really only 3-4 years (as many skeptics argue given GPU obsolescence), annual depreciation charges would roughly double versus a 6-year schedule, since depreciation expense scales inversely with useful life. Given the hundreds of billions in capex and purchase commitments these companies have taken on (Microsoft $135.9B capex, Alphabet $159.8B, Amazon $215.2B, Meta $104.4B, Oracle $75.7B), shortening useful lives to 3-4 years would plausibly add tens of billions of dollars in incremental annual depreciation across the group, compressing operating margins and GAAP EPS materially even though cash capex and free cash flow would be unaffected in the near term. The effect would be most severe for Oracle and Meta given their comparatively thinner operating cash flow and operating margins relative to committed capex, and could also trigger impairment reviews on existing fleets originally depreciated over 5-6 year schedules. For pure-play neoclouds (CoreWeave, Nebius, IREN) with GPU-heavy balance sheets and already thin or negative free cash flow, a 3-4 year useful life assumption could push them toward GAAP losses and tighter debt covenant headroom given leverage already in the tens of billions relative to revenue.",
+  "claims": [
+   {
+    "company": "Microsoft",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2026",
+    "source": "Microsoft 10-K: servers and network equipment, two to six years"
+   },
+   {
+    "company": "Amazon",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "2025",
+    "source": "Amazon 10-K: changed servers/networking useful life from six to five years effective Jan 1 2025"
+   },
+   {
+    "company": "Meta",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "2025",
+    "source": "Meta 10-K: extended most servers/network assets to 5.5 years effective Jan 1 2025"
+   },
+   {
+    "company": "Oracle",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2026",
+    "source": "Oracle 10-K: servers/networking equipment, six-year useful life"
+   },
+   {
+    "company": "Nebius",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "Jan 2026",
+    "source": "Nebius 10-K: extended useful life of servers/network equipment from four to five years"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "capex",
+    "value_usd": 135921000000,
+    "period": "to 2026-09-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "capex",
+    "value_usd": 159804000000,
+    "period": "to 2026-09-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "Amazon",
+    "metric": "capex",
+    "value_usd": 215192000000,
+    "period": "to 2026-09-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "Meta",
+    "metric": "capex",
+    "value_usd": 104438000000,
+    "period": "to 2026-09-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "Oracle",
+    "metric": "capex",
+    "value_usd": 75660000000,
+    "period": "to 2026-08-31",
+    "source": "10-K"
+   },
+   {
+    "company": "Oracle",
+    "metric": "operating_cash_flow",
+    "value_usd": 46940000000,
+    "period": "to 2026-08-31",
+    "source": "10-K"
+   },
+   {
+    "company": "Meta",
+    "metric": "operating_cash_flow",
+    "value_usd": 133087000000,
+    "period": "to 2026-09-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "capex",
+    "value_usd": 20566000000,
+    "period": "to 2026-06-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "debt",
+    "value_usd": 35551000000,
+    "period": "to 2026-06-30",
+    "source": "10-Q"
+   },
+   {
+    "company": "IREN",
+    "metric": "capex",
+    "value_usd": 2998006000,
+    "period": "to 2026-06-30",
+    "source": "10-K"
+   },
+   {
+    "company": "TeraWulf",
+    "metric": "other",
+    "value_usd": null,
+    "period": "2026",
+    "source": "TeraWulf 10-Q: miners depreciated over 4 years, computer equipment over 5 years"
+   },
+   {
+    "company": "TeraWulf",
+    "metric": "depreciation",
+    "value_usd": 14500000,
+    "period": "H1 2026",
+    "source": "TeraWulf 10-Q: accelerated depreciation expense related to shortened useful lives of miner building/miners"
+   }
+  ],
+  "next_question": "What incremental annual GAAP depreciation expense would each hyperscaler and neocloud report if its entire AI server fleet were reclassified to a 3-4 year useful life, based on disclosed gross PP&E balances for servers and networking equipment?"
+ },
+ "meta": {
+  "usd": 0.0405,
+  "tokens_in": 11808,
+  "tokens_out": 1690,
+  "seconds": 15.5,
+  "error": ""
+ },
+ "worker_usd": 0.04418025000000003
+}

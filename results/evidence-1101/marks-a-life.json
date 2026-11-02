@@ -1,0 +1,50 @@
+[
+ {
+  "company": "Amazon",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2024 10-K",
+  "source": "Amazon 10-K 2024 - extended useful life of servers to 6 years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Microsoft",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2024 10-K",
+  "source": "Microsoft 10-K - server useful life 6 years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2023 10-K",
+  "source": "Alphabet 10-K 2023 - extended servers/network equipment useful life to up to 6 years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Meta",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2025 guidance",
+  "source": "Meta investor letters - servers depreciated over 5-5.5 years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2024 S-1/10-K",
+  "source": "CoreWeave filings - GPU useful life ~5-6 years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Core Scientific",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2024 10-K",
+  "source": "Core Scientific 10-K - miner/server useful life ~2-5 years",
+  "mark": "not_a_fact"
+ }
+]

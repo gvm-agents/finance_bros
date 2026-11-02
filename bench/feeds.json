@@ -1,0 +1,355 @@
+{
+ "_comment": "Public real-time sources for the news task. Tier 1 = primary, free, no key. Licensed news (WSJ, FT, Bloomberg, Reuters, AlphaSense, NewsFeed files) is deliberately not here: public data only.",
+ "feeds": [
+  {
+   "name": "SEC 8-K filings (live)",
+   "group": "Regulators and filings",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&company=&dateb=&owner=include&count=40&output=atom",
+   "sec": true
+  },
+  {
+   "name": "SEC Form D filings (live)",
+   "group": "Regulators and filings",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D&company=&dateb=&owner=include&count=40&output=atom",
+   "sec": true
+  },
+  {
+   "name": "SEC press releases",
+   "group": "Regulators and filings",
+   "url": "https://www.sec.gov/news/pressreleases.rss",
+   "sec": true
+  },
+  {
+   "name": "Federal Register: Commerce BIS (export controls)",
+   "group": "Regulators and filings",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau"
+  },
+  {
+   "name": "Federal Register: Treasury OFAC (sanctions)",
+   "group": "Regulators and filings",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=foreign-assets-control-office"
+  },
+  {
+   "name": "Federal Register: AI search",
+   "group": "Regulators and filings",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=%22artificial+intelligence%22"
+  },
+  {
+   "name": "Federal Reserve press",
+   "group": "Regulators and filings",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+  },
+  {
+   "name": "DOJ press releases",
+   "group": "Regulators and filings",
+   "url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+  },
+  {
+   "name": "White House presidential actions",
+   "group": "Regulators and filings",
+   "url": "https://www.whitehouse.gov/presidential-actions/feed/"
+  },
+  {
+   "name": "UK gov news",
+   "group": "Regulators and filings",
+   "url": "https://www.gov.uk/search/news-and-communications.atom"
+  },
+  {
+   "name": "OpenAI news",
+   "group": "AI labs and releases",
+   "url": "https://openai.com/news/rss.xml"
+  },
+  {
+   "name": "Google AI blog",
+   "group": "AI labs and releases",
+   "url": "https://blog.google/technology/ai/rss/"
+  },
+  {
+   "name": "Google DeepMind blog",
+   "group": "AI labs and releases",
+   "url": "https://deepmind.google/blog/feed/basic/"
+  },
+  {
+   "name": "NVIDIA blog",
+   "group": "AI labs and releases",
+   "url": "https://blogs.nvidia.com/feed/"
+  },
+  {
+   "name": "Hugging Face blog",
+   "group": "AI labs and releases",
+   "url": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+   "name": "arXiv cs.AI",
+   "group": "AI labs and releases",
+   "url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  {
+   "name": "GitHub releases: Ollama",
+   "group": "AI labs and releases",
+   "url": "https://github.com/ollama/ollama/releases.atom"
+  },
+  {
+   "name": "GitHub releases: vLLM",
+   "group": "AI labs and releases",
+   "url": "https://github.com/vllm-project/vllm/releases.atom"
+  },
+  {
+   "name": "TechCrunch",
+   "group": "Tech press",
+   "url": "https://techcrunch.com/feed/"
+  },
+  {
+   "name": "The Verge",
+   "group": "Tech press",
+   "url": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+   "name": "Ars Technica",
+   "group": "Tech press",
+   "url": "https://feeds.arstechnica.com/arstechnica/index"
+  },
+  {
+   "name": "Techmeme",
+   "group": "Tech press",
+   "url": "https://www.techmeme.com/feed.xml"
+  },
+  {
+   "name": "MIT Technology Review",
+   "group": "Tech press",
+   "url": "https://www.technologyreview.com/feed/"
+  },
+  {
+   "name": "Hacker News: AI (hnrss)",
+   "group": "Community",
+   "url": "https://hnrss.org/newest?q=AI&points=10"
+  },
+  {
+   "name": "Hacker News: search API",
+   "group": "Community",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=open%20model",
+   "json": "hits"
+  },
+  {
+   "name": "Reddit r/LocalLLaMA",
+   "group": "Community",
+   "url": "https://www.reddit.com/r/LocalLLaMA/.rss"
+  },
+  {
+   "name": "GDELT global news search",
+   "group": "Global sweep",
+   "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22export%20controls%22&mode=artlist&format=json&timespan=24h&maxrecords=25",
+   "json": "articles"
+  },
+  {
+   "name": "Google News search: export controls",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=%22export+controls%22+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Bluesky: Hugging Face profile",
+   "group": "Community",
+   "url": "https://bsky.app/profile/huggingface.bsky.social/rss"
+  },
+  {
+   "name": "Data Center Dynamics",
+   "group": "Data centers and power",
+   "url": "https://www.datacenterdynamics.com/en/rss/"
+  },
+  {
+   "name": "Data Center Frontier",
+   "group": "Data centers and power",
+   "url": "https://www.datacenterfrontier.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D"
+  },
+  {
+   "name": "Data Center Knowledge",
+   "group": "Data centers and power",
+   "url": "https://www.datacenterknowledge.com/rss.xml"
+  },
+  {
+   "name": "The Register",
+   "group": "Tech press",
+   "url": "https://www.theregister.com/headlines.atom"
+  },
+  {
+   "name": "EIA Today in Energy",
+   "group": "Data centers and power",
+   "url": "https://www.eia.gov/rss/todayinenergy.xml"
+  },
+  {
+   "name": "SemiAnalysis",
+   "group": "Data centers and power",
+   "url": "https://newsletter.semianalysis.com/feed"
+  },
+  {
+   "name": "Google News: data centers",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=%22data+center%22+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Google News: Digital Realty",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=%22Digital+Realty%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Google News: neocloud",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=neocloud+OR+CoreWeave+OR+Nebius+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Google News: robotics",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=humanoid+robot+OR+robotics+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Google News: AI models",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=%22open+model%22+OR+%22open-weight%22+OR+DeepSeek+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Robot Report",
+   "group": "Robotics",
+   "url": "https://www.therobotreport.com/feed/"
+  },
+  {
+   "name": "IEEE Spectrum robotics",
+   "group": "Robotics",
+   "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"
+  },
+  {
+   "name": "Microsoft news",
+   "group": "Big tech newsrooms",
+   "url": "https://news.microsoft.com/feed/"
+  },
+  {
+   "name": "Meta newsroom",
+   "group": "Big tech newsrooms",
+   "url": "https://about.fb.com/news/feed/"
+  },
+  {
+   "name": "Apple newsroom",
+   "group": "Big tech newsrooms",
+   "url": "https://www.apple.com/newsroom/rss-feed.rss"
+  },
+  {
+   "name": "Amazon news",
+   "group": "Big tech newsrooms",
+   "url": "https://www.aboutamazon.com/news/rss"
+  },
+  {
+   "name": "Yahoo Finance: NVDA",
+   "group": "Market headlines",
+   "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NVDA&region=US&lang=en-US"
+  },
+  {
+   "name": "Yahoo Finance: MSFT",
+   "group": "Market headlines",
+   "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=MSFT&region=US&lang=en-US"
+  },
+  {
+   "name": "Yahoo Finance: DLR",
+   "group": "Market headlines",
+   "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=DLR&region=US&lang=en-US"
+  },
+  {
+   "name": "Reddit r/MachineLearning",
+   "group": "Community",
+   "url": "https://www.reddit.com/r/MachineLearning/.rss"
+  },
+  {
+   "name": "Reddit r/singularity",
+   "group": "Community",
+   "url": "https://www.reddit.com/r/singularity/.rss"
+  },
+  {
+   "name": "Reddit r/datacenter",
+   "group": "Community",
+   "url": "https://www.reddit.com/r/datacenter/.rss"
+  },
+  {
+   "name": "New York Times: Technology",
+   "group": "Mainstream press",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+  },
+  {
+   "name": "New York Times: Business",
+   "group": "Mainstream press",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"
+  },
+  {
+   "name": "Wall Street Journal: Technology",
+   "group": "Mainstream press",
+   "url": "https://feeds.content.dowjones.io/public/rss/RSSWSJD"
+  },
+  {
+   "name": "Wall Street Journal: Markets",
+   "group": "Mainstream press",
+   "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
+  },
+  {
+   "name": "San Jose Mercury News",
+   "group": "Mainstream press",
+   "url": "https://news.google.com/rss/search?q=site:mercurynews.com+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "CNBC Technology",
+   "group": "Mainstream press",
+   "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+  },
+  {
+   "name": "Google News: Technology",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Google News: AI",
+   "group": "Global sweep",
+   "url": "https://news.google.com/rss/search?q=%22artificial+intelligence%22+when:1h&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "name": "Bing News: AI",
+   "group": "Global sweep",
+   "url": "https://www.bing.com/news/search?q=artificial+intelligence&format=rss"
+  },
+  {
+   "name": "Hacker News front page",
+   "group": "Community",
+   "url": "https://hnrss.org/frontpage"
+  },
+  {
+   "name": "Hacker News newest",
+   "group": "Community",
+   "url": "https://hnrss.org/newest"
+  },
+  {
+   "name": "Utility Dive",
+   "group": "Data centers",
+   "url": "https://www.utilitydive.com/feeds/news/"
+  },
+  {
+   "name": "PR Newswire: technology",
+   "group": "Company news",
+   "url": "https://www.prnewswire.com/rss/consumer-technology-latest-news/consumer-technology-latest-news-list.rss"
+  },
+  {
+   "name": "WSJ via Google News",
+   "group": "Mainstream press",
+   "url": "https://news.google.com/rss/search?q=site:wsj.com+technology+when:1d&hl=en-US&gl=US&ceid=US:en"
+  }
+ ],
+ "no_feed_found": [
+  "FTC press (old address gone)",
+  "Fireworks blog",
+  "Anthropic news",
+  "Treasury OFAC page (use Federal Register)",
+  "Commerce BIS page (use Federal Register)"
+ ],
+ "streams": [
+  {
+   "name": "Bluesky live stream",
+   "group": "Community",
+   "url": "wss://jetstream2.us-east.bsky.network/subscribe?wantedCollections=app.bsky.feed.post",
+   "note": "WebSocket, free, no key. Measured 2026-11-01: about 40 posts a second, median age 0.09 seconds. Filter by keyword before any model sees a post."
+  }
+ ]
+}

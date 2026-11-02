@@ -1,0 +1,32 @@
+{
+ "goals": [
+  {
+   "id": "g1",
+   "title": "Are AI data center commitments funded?",
+   "parent": null,
+   "status": "done",
+   "run": null
+  },
+  {
+   "id": "g2",
+   "title": "Which of these companies have disclosed forward commitments that are largest compared with their operating cash flow and cash, and where is the gap widest?",
+   "parent": "g1",
+   "status": "done",
+   "run": "funding"
+  },
+  {
+   "id": "g3",
+   "title": "How much of the contracted backlog (remaining performance obligations) depends on a few AI customers?",
+   "parent": "g1",
+   "status": "done",
+   "run": "backlog"
+  },
+  {
+   "id": "g4",
+   "title": "What server and network useful lives do these companies use, and what is the earnings effect if chips last 3 to 4 years instead of 6?",
+   "parent": "g1",
+   "status": "done",
+   "run": "life"
+  }
+ ]
+}

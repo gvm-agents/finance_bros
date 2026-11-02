@@ -1,0 +1,100 @@
+{
+ "topic": "funding",
+ "reply": {
+  "answer": "The widest gaps between forward commitments and current operating cash flow/cash sit among the AI-infrastructure-focused neoclouds and crypto-miners-turned-datacenter operators: CoreWeave, IREN, Applied Digital, Nebius, and Core Scientific. CoreWeave has disclosed tens of billions in contracted backlog (RPO) against operating cash flow that is still negative to modestly positive, making its commitment-to-cash-flow ratio extreme. IREN, Applied Digital, and Nebius have each signed multi-billion-dollar, multi-year compute/power lease and purchase agreements (including Microsoft and Meta/Nvidia-linked deals) that dwarf their current cash balances and operating cash flow, since these are earlier-stage firms scaling rapidly ahead of revenue. Among hyperscalers, Microsoft, Meta, Amazon, and Oracle also carry enormous capex and lease commitments, but their massive operating cash flow (Microsoft ~$100B+/yr, Amazon ~$100B+/yr) keeps the ratio far more manageable than for the smaller AI-infrastructure names. Oracle stands out among large caps for a relatively stretched position, given its RPO (~$500B+ disclosed in 2025) versus much smaller operating cash flow (~$20B) and cash reserves, making it the large-cap name with the widest gap. Overall, the widest relative gap is in CoreWeave and Oracle, where contracted future obligations/backlog are many multiples of current cash flow and liquidity.",
+  "claims": [
+   {
+    "company": "CoreWeave",
+    "metric": "backlog_rpo",
+    "value_usd": 30000000000,
+    "period": "Q2 2025",
+    "source": "CoreWeave investor presentation"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "operating_cash_flow",
+    "value_usd": null,
+    "period": "2025",
+    "source": "estimate, not precisely disclosed"
+   },
+   {
+    "company": "Oracle",
+    "metric": "backlog_rpo",
+    "value_usd": 500000000000,
+    "period": "FY2025 (Sept 2025)",
+    "source": "Oracle Q1 FY2026 earnings call"
+   },
+   {
+    "company": "Oracle",
+    "metric": "operating_cash_flow",
+    "value_usd": 20000000000,
+    "period": "FY2025",
+    "source": "Oracle 10-K"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "operating_cash_flow",
+    "value_usd": 130000000000,
+    "period": "FY2025",
+    "source": "Microsoft 10-K"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "capex",
+    "value_usd": 80000000000,
+    "period": "FY2025",
+    "source": "Microsoft 10-K"
+   },
+   {
+    "company": "Amazon",
+    "metric": "operating_cash_flow",
+    "value_usd": 115000000000,
+    "period": "FY2025 (TTM est.)",
+    "source": "Amazon 10-Q"
+   },
+   {
+    "company": "Meta",
+    "metric": "capex",
+    "value_usd": 70000000000,
+    "period": "FY2025 guidance",
+    "source": "Meta Q2 2025 earnings call"
+   },
+   {
+    "company": "Nebius",
+    "metric": "purchase_commitments",
+    "value_usd": 17400000000,
+    "period": "2025",
+    "source": "Nebius-Microsoft deal announcement"
+   },
+   {
+    "company": "IREN",
+    "metric": "purchase_commitments",
+    "value_usd": 9700000000,
+    "period": "2025",
+    "source": "IREN-Microsoft AI cloud deal"
+   },
+   {
+    "company": "Applied Digital",
+    "metric": "leases_not_started",
+    "value_usd": 7000000000,
+    "period": "2025",
+    "source": "Applied Digital-CoreWeave lease agreement"
+   },
+   {
+    "company": "Core Scientific",
+    "metric": "leases_not_started",
+    "value_usd": 10000000000,
+    "period": "2025",
+    "source": "Core Scientific-CoreWeave hosting agreement"
+   }
+  ],
+  "next_question": "Do you want a detailed ratio comparison (commitments \u00f7 operating cash flow and \u00f7 cash) for each company using their most recent 10-Q/10-K filings?"
+ },
+ "meta": {
+  "usd": 0.0147,
+  "tokens_in": 399,
+  "tokens_out": 1395,
+  "seconds": 14.7,
+  "error": ""
+ }
+}

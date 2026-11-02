@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.egg-info/
+.env
+.pytest_cache/
+
+# Large raw collections kept off GitHub (see DATA.md)
+/data/cache/
+/data/sec_pdfs/
+/data/adv_library/
+/data/adv_screen/
+*.log
+/data/adv/

@@ -1,0 +1,57 @@
+{
+  "_comment": "One total spending cap for all models and machines. Every paid run also has its own --max-usd. bench/readiness.py adds up every results/runs/*/calls.jsonl plus other_spend. Rented GPU time is not covered by --max-usd and is tracked by hand in other_spend.",
+  "total_usd": 100,
+  "fireworks_limit_confirmed": "2026-10-30",
+  "other_spend": [
+    {
+      "what": "1031 injection test (Sonnet 5, Haiku 4.5)",
+      "usd": 1.6547
+    },
+    {
+      "what": "1031 injection test (DeepSeek, gpt-oss, Nemotron)",
+      "usd": 0.2812
+    },
+    {
+      "what": "1031 version-sorting test (5 models)",
+      "usd": 1.551
+    },
+    {
+      "what": "1031 injection test (luna, DeepSeek with room, Opus; Opus stopped at the cap after 84 of 90)",
+      "usd": 3.2069
+    },
+    {
+      "what": "1101 worker ramp (gpt-oss, Rune)",
+      "usd": 0.381
+    },
+    {
+      "what": "1101 live news 650 headlines (gpt-oss, DeepSeek)",
+      "usd": 0.06
+    },
+    {
+      "what": "1101 five-company data center test (gpt-oss, Sonnet)",
+      "usd": 0.092
+    },
+    {
+      "what": "1101 trained model scoring, two passes of 181 filings (Muse Glimmer, per-token estimate)",
+      "usd": 1.2
+    },
+    {
+      "what": "1101 one rented H200 GPU, about 6 minutes (estimate at $10 an hour; confirm in the console)",
+      "usd": 1.0
+    },
+    {
+      "what": "1101 trained model run 3 scoring, two passes of 181 filings (Muse Glimmer, per-token estimate)",
+      "usd": 1.2
+    },
+    {
+      "what": "1101 evidence test and chain: workers on gpt-oss",
+      "usd": 0.061
+    },
+    {
+      "what": "1101 evidence test and chain: Sonnet, eight answers",
+      "usd": 0.194
+    }
+  ],
+  "fireworks_usd": 25,
+  "fireworks_balance_seen_usd": 25.48
+}

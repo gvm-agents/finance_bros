@@ -1,0 +1,66 @@
+[
+ {
+  "company": "CoreWeave",
+  "metric": "backlog_rpo",
+  "value_usd": 103700000000,
+  "period": "2026-06-30",
+  "source": "SEC filing data",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "other",
+  "value_usd": 6500000000,
+  "period": "through 2031-05-31",
+  "source": "CoreWeave: OpenAI order form commitment",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "other",
+  "value_usd": 21000000000,
+  "period": "through 2032-12-20",
+  "source": "CoreWeave: Meta order form commitment",
+  "mark": "verified_current"
+ },
+ {
+  "company": "IREN",
+  "metric": "backlog_rpo",
+  "value_usd": 5100000000,
+  "period": "2026-06-30",
+  "source": "SEC filing data",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "backlog_rpo",
+  "value_usd": 16800000000,
+  "period": "2026-09-30",
+  "source": "Alphabet: Crux AI related-party backlog",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "other",
+  "value_usd": 138000000000,
+  "period": "through 2034 (8 yrs from Q1 2026)",
+  "source": "Amazon: OpenAI expanded commitment ($38B + $100B)",
+  "mark": "unverified"
+ },
+ {
+  "company": "Amazon",
+  "metric": "other",
+  "value_usd": 100000000000,
+  "period": "10 years from Q2 2026",
+  "source": "Amazon: Anthropic expanded commitment",
+  "mark": "verified_current"
+ },
+ {
+  "company": "TeraWulf",
+  "metric": "leases_not_started",
+  "value_usd": 11100000,
+  "period": "2026-06-30",
+  "source": "SEC filing data",
+  "mark": "verified_current"
+ }
+]

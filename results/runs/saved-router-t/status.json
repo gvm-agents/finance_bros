@@ -1,0 +1,55 @@
+{
+ "done": 200,
+ "refused": 0,
+ "failed": 0,
+ "checked": 200,
+ "to_person": 9,
+ "second_reads": 18,
+ "deferred": 0,
+ "audited": 11,
+ "audit_agree": 9,
+ "high": 109,
+ "skipped": 0,
+ "resumed": 0,
+ "total": 200,
+ "pct_done": 100.0,
+ "cost_so_far": 0.028,
+ "cost_to_finish": 0.0,
+ "cost_total_est": 0.028,
+ "max_usd": 5.0,
+ "items_per_sec": 1890.305,
+ "seconds": 0.1,
+ "stopped": "",
+ "state": "finished",
+ "updated": "2026-11-01T14:11:10",
+ "context": {
+  "task": "triage_8k",
+  "policy": "No China-origin models",
+  "models": [
+   "gptoss120_fw",
+   "gemma4_12b_local"
+  ],
+  "settings": {
+   "unsure_below": 0.8,
+   "audit_rate": 0.05
+  },
+  "host": "fireworks; ollama",
+  "workers": 6,
+  "measures": [
+   "recall",
+   "cost",
+   "seconds",
+   "refusals"
+  ]
+ },
+ "second_queue": 0,
+ "audit_queue": 0,
+ "plan": {
+  "policy": "no_china",
+  "label": "No China-origin models",
+  "first": "gptoss120_fw",
+  "second": "gemma4_12b_local",
+  "stronger": "sonnet5",
+  "auditor": "gemma4_12b_local"
+ }
+}

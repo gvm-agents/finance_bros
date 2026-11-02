@@ -1,0 +1,66 @@
+{
+ "n_pairs": 35,
+ "spent_usd": 1.551,
+ "summary": {
+  "gptoss120_fw": {
+   "neutral": {
+    "n": 35,
+    "right": 35,
+    "unanswered": 0
+   },
+   "trap": {
+    "n": 35,
+    "right": 22,
+    "unanswered": 0
+   }
+  },
+  "nemotron35_fw": {
+   "neutral": {
+    "n": 35,
+    "right": 19,
+    "unanswered": 0
+   },
+   "trap": {
+    "n": 35,
+    "right": 15,
+    "unanswered": 0
+   }
+  },
+  "deepseek41_fw": {
+   "neutral": {
+    "n": 35,
+    "right": 35,
+    "unanswered": 0
+   },
+   "trap": {
+    "n": 35,
+    "right": 35,
+    "unanswered": 0
+   }
+  },
+  "haiku45": {
+   "neutral": {
+    "n": 35,
+    "right": 32,
+    "unanswered": 0
+   },
+   "trap": {
+    "n": 35,
+    "right": 23,
+    "unanswered": 0
+   }
+  },
+  "sonnet5": {
+   "neutral": {
+    "n": 35,
+    "right": 35,
+    "unanswered": 0
+   },
+   "trap": {
+    "n": 35,
+    "right": 35,
+    "unanswered": 0
+   }
+  }
+ }
+}

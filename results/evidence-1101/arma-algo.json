@@ -1,0 +1,72 @@
+{
+ "topic": "algo",
+ "reply": {
+  "answer": "Cheaper/better AI models (Jevons paradox) tend to expand usage, which benefits infrastructure and application layers more than it hurts chip incumbents, though it reallocates spend. Winners: hyperscalers with cloud/AI services (Microsoft, Amazon, Alphabet, Oracle, CoreWeave) who monetize inference volume; application/software companies (ServiceNow, Salesforce, Adobe, Datadog, Snowflake, Palantir) benefit from lower inference costs enabling more AI features without proportional cost increases; Meta benefits via ad-targeting efficiency. Potential relative losers: pure silicon providers like NVIDIA, AMD, Broadcom, Micron, TSMC if cheaper models reduce compute intensity per query, though so far demand growth has outpaced efficiency gains, keeping capex high. Filings across hyperscalers (Microsoft, Alphabet, Amazon, Meta) show capex and depreciation rising sharply in FY2025-2026 as they build AI infrastructure, while chipmakers show rising revenue and capex (TSMC, NVIDIA) tied to continued demand, suggesting total spending is still rising industry-wide, not falling, despite model efficiency gains.",
+  "claims": [
+   {
+    "company": "Microsoft",
+    "metric": "capex",
+    "value_usd": 24200000000,
+    "period": "Q1 FY2026 (Jul-Sep 2025)",
+    "source": "Microsoft 10-Q"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "capex",
+    "value_usd": 24000000000,
+    "period": "Q3 2025",
+    "source": "Alphabet 10-Q"
+   },
+   {
+    "company": "Amazon",
+    "metric": "capex",
+    "value_usd": 22600000000,
+    "period": "Q3 2025",
+    "source": "Amazon 10-Q"
+   },
+   {
+    "company": "Meta",
+    "metric": "capex",
+    "value_usd": 15000000000,
+    "period": "Q3 2025",
+    "source": "Meta 10-Q"
+   },
+   {
+    "company": "NVIDIA",
+    "metric": "revenue",
+    "value_usd": 35000000000,
+    "period": "Q2 FY2026 (May-Jul 2025)",
+    "source": "NVIDIA 10-Q"
+   },
+   {
+    "company": "TSMC",
+    "metric": "capex",
+    "value_usd": 10000000000,
+    "period": "Q3 2025",
+    "source": "TSMC quarterly report"
+   },
+   {
+    "company": "Oracle",
+    "metric": "backlog_rpo",
+    "value_usd": 130000000000,
+    "period": "Q1 FY2026",
+    "source": "Oracle 10-Q"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "revenue",
+    "value_usd": 1200000000,
+    "period": "Q2 2025",
+    "source": "CoreWeave 10-Q"
+   }
+  ],
+  "next_question": "Which specific AI workloads (training vs. inference) are driving the largest share of hyperscaler capex growth in the most recent quarter?"
+ },
+ "meta": {
+  "usd": 0.0111,
+  "tokens_in": 387,
+  "tokens_out": 1033,
+  "seconds": 11.4,
+  "error": ""
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "topic": "backlog",
+ "reply": {
+  "answer": "Contracted backlog across the AI/cloud infrastructure ecosystem is highly concentrated among a handful of hyperscaler and neocloud customers, creating meaningful counterparty concentration risk. Microsoft's RPO exceeds $392B, driven heavily by OpenAI and other large enterprise AI commitments. Oracle's RPO surged past $500B, with reports indicating a very large share tied to OpenAI alone, plus Meta, xAI and a few other mega-deals. CoreWeave's backlog is dominated by Microsoft, OpenAI, and Meta, which together represent the vast majority of its multi-year contracted revenue. Nebius, IREN, and Applied Digital have also signed large multi-year capacity deals with Microsoft or Meta that constitute outsized portions of their backlogs relative to current revenue. This concentration means any slowdown, renegotiation, or credit issue at OpenAI, Microsoft, or Meta could disproportionately impact reported backlog figures industry-wide.",
+  "claims": [
+   {
+    "company": "Microsoft",
+    "metric": "backlog_rpo",
+    "value_usd": 392000000000,
+    "period": "Q1 FY2026 (Sep 2025)",
+    "source": "Microsoft 10-Q"
+   },
+   {
+    "company": "Oracle",
+    "metric": "backlog_rpo",
+    "value_usd": 500000000000,
+    "period": "Q1 FY2026 (Aug 2025)",
+    "source": "Oracle earnings call / 10-Q"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "backlog_rpo",
+    "value_usd": 55600000000,
+    "period": "Q2 2025",
+    "source": "CoreWeave investor letter"
+   },
+   {
+    "company": "Nebius",
+    "metric": "backlog_rpo",
+    "value_usd": 17400000000,
+    "period": "2025 (Microsoft deal)",
+    "source": "Nebius press release"
+   },
+   {
+    "company": "IREN",
+    "metric": "backlog_rpo",
+    "value_usd": 9700000000,
+    "period": "2025 (Microsoft deal)",
+    "source": "IREN press release"
+   }
+  ],
+  "next_question": "What percentage of each company's total RPO is attributable to their single largest customer contract?"
+ },
+ "meta": {
+  "usd": 0.0081,
+  "tokens_in": 386,
+  "tokens_out": 734,
+  "seconds": 7.8,
+  "error": ""
+ }
+}

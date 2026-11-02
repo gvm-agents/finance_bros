@@ -1,0 +1,186 @@
+{
+ "snapshots": [
+  {
+   "as_of": "2012-03-01",
+   "venture_advisers": 24,
+   "funds": null
+  },
+  {
+   "as_of": "2013-01-02",
+   "venture_advisers": 675,
+   "funds": null,
+   "new": 651,
+   "gone": 0
+  },
+  {
+   "as_of": "2014-01-02",
+   "venture_advisers": 731,
+   "funds": null,
+   "new": 86,
+   "gone": 30
+  },
+  {
+   "as_of": "2015-01-02",
+   "venture_advisers": 778,
+   "funds": null,
+   "new": 108,
+   "gone": 61
+  },
+  {
+   "as_of": "2016-01-04",
+   "venture_advisers": 859,
+   "funds": null,
+   "new": 121,
+   "gone": 40
+  },
+  {
+   "as_of": "2017-01-03",
+   "venture_advisers": 916,
+   "funds": null,
+   "new": 142,
+   "gone": 85
+  },
+  {
+   "as_of": "2018-03-01",
+   "venture_advisers": 1044,
+   "funds": null,
+   "new": 209,
+   "gone": 81
+  },
+  {
+   "as_of": "2019-03-01",
+   "venture_advisers": 1165,
+   "funds": null,
+   "new": 205,
+   "gone": 84
+  },
+  {
+   "as_of": "2020-01-02",
+   "venture_advisers": 1265,
+   "funds": null,
+   "new": 194,
+   "gone": 94
+  },
+  {
+   "as_of": "2021-01-05",
+   "venture_advisers": 1392,
+   "funds": null,
+   "new": 225,
+   "gone": 98
+  },
+  {
+   "as_of": "2022-01-03",
+   "venture_advisers": 1566,
+   "funds": null,
+   "new": 322,
+   "gone": 148
+  },
+  {
+   "as_of": "2023-01-05",
+   "venture_advisers": 1826,
+   "funds": null,
+   "new": 419,
+   "gone": 159
+  },
+  {
+   "as_of": "2024-01-03",
+   "venture_advisers": 2091,
+   "funds": 27222,
+   "new": 409,
+   "gone": 144
+  },
+  {
+   "as_of": "2025-01-02",
+   "venture_advisers": 1974,
+   "funds": 31785,
+   "new": 306,
+   "gone": 423
+  },
+  {
+   "as_of": "2026-01-02",
+   "venture_advisers": 2155,
+   "funds": 34186,
+   "new": 307,
+   "gone": 126
+  },
+  {
+   "as_of": "2026-10-02",
+   "venture_advisers": 2312,
+   "funds": 38775,
+   "new": 276,
+   "gone": 119
+  }
+ ],
+ "cohort_of_latest_list": {
+  "2012": {
+   "advisers": 238,
+   "funds": 2170
+  },
+  "2013": {
+   "advisers": 30,
+   "funds": 22493
+  },
+  "2014": {
+   "advisers": 47,
+   "funds": 566
+  },
+  "2015": {
+   "advisers": 59,
+   "funds": 538
+  },
+  "2016": {
+   "advisers": 66,
+   "funds": 742
+  },
+  "2017": {
+   "advisers": 85,
+   "funds": 1399
+  },
+  "2018": {
+   "advisers": 116,
+   "funds": 772
+  },
+  "2019": {
+   "advisers": 129,
+   "funds": 1012
+  },
+  "2020": {
+   "advisers": 134,
+   "funds": 1087
+  },
+  "2021": {
+   "advisers": 196,
+   "funds": 1365
+  },
+  "2022": {
+   "advisers": 253,
+   "funds": 2431
+  },
+  "2023": {
+   "advisers": 234,
+   "funds": 1214
+  },
+  "2024": {
+   "advisers": 251,
+   "funds": 1329
+  },
+  "2025": {
+   "advisers": 240,
+   "funds": 915
+  },
+  "2026": {
+   "advisers": 234,
+   "funds": 742
+  }
+ },
+ "skipped": [
+  [
+   "2012-02-01",
+   "no venture rows found"
+  ],
+  [
+   "2019-01-01",
+   "no venture rows found"
+  ]
+ ]
+}

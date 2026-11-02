@@ -1,0 +1,61 @@
+{
+ "done": 181,
+ "refused": 0,
+ "failed": 0,
+ "checked": 181,
+ "to_person": 3,
+ "second_reads": 92,
+ "deferred": 0,
+ "audited": 11,
+ "audit_agree": 10,
+ "high": 92,
+ "skipped": 0,
+ "resumed": 0,
+ "total": 181,
+ "pct_done": 100.0,
+ "cost_so_far": 0.024,
+ "cost_to_finish": 0.0,
+ "cost_total_est": 0.024,
+ "max_usd": 0.1,
+ "items_per_sec": 1.996,
+ "seconds": 90.7,
+ "stopped": "",
+ "state": "finished",
+ "updated": "2026-11-02T08:23:29",
+ "context": {
+  "task": "triage_8k",
+  "policy": "No China-origin models",
+  "models": [
+   "gptoss120_fw",
+   "gemma4_12b_local"
+  ],
+  "settings": {
+   "second read band": null,
+   "up to": null,
+   "audit share": 0.05
+  },
+  "host": "fireworks; ollama",
+  "workers": 6,
+  "measures": [
+   "recall",
+   "cost",
+   "seconds",
+   "refusals"
+  ]
+ },
+ "second_queue": 0,
+ "audit_queue": 0,
+ "plan": {
+  "policy": "no_china",
+  "label": "No China-origin models",
+  "first": "gptoss120_fw",
+  "second": "gemma4_12b_local",
+  "stronger": "sonnet5",
+  "auditor": "gemma4_e2b_mini"
+ },
+ "second_lanes_on": [
+  "gemma4_12b_local",
+  "gpt56luna_none",
+  "gemma4_e2b_mini"
+ ]
+}

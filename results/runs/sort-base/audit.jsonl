@@ -1,0 +1,11 @@
+{"id": "0001731122-26-001347", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "normal", "seconds": 5.696}
+{"id": "0001104659-26-119828", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "normal", "seconds": 0.354}
+{"id": "0001493152-26-049298", "lane": "gemma4_e2b_mini", "live": "high", "audit": "high", "seconds": 0.864}
+{"id": "0001193125-26-424294", "lane": "gemma4_e2b_mini", "live": "high", "audit": "high", "seconds": 1.378}
+{"id": "0001213900-26-110029", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "normal", "seconds": 1.245}
+{"id": "0001829126-26-011490", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "high", "seconds": 0.31}
+{"id": "0001437749-26-031665", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "normal", "seconds": 0.81}
+{"id": "0001140361-26-039580", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "normal", "seconds": 0.606}
+{"id": "0001062993-26-005423", "lane": "gemma4_e2b_mini", "live": "normal", "audit": "normal", "seconds": 0.623}
+{"id": "0001193805-26-000756", "lane": "gemma4_e2b_mini", "live": "high", "audit": "high", "seconds": 2.185}
+{"id": "0001493152-26-027774", "lane": "gemma4_e2b_mini", "live": "high", "audit": "high", "seconds": 1.704}

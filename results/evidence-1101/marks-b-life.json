@@ -1,0 +1,138 @@
+[
+ {
+  "company": "Microsoft",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2026",
+  "source": "Microsoft 10-K: servers and network equipment, two to six years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Amazon",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "2025",
+  "source": "Amazon 10-K: changed servers/networking useful life from six to five years effective Jan 1 2025",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Meta",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "2025",
+  "source": "Meta 10-K: extended most servers/network assets to 5.5 years effective Jan 1 2025",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Oracle",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "FY2026",
+  "source": "Oracle 10-K: servers/networking equipment, six-year useful life",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Nebius",
+  "metric": "depreciation",
+  "value_usd": null,
+  "period": "Jan 2026",
+  "source": "Nebius 10-K: extended useful life of servers/network equipment from four to five years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "Microsoft",
+  "metric": "capex",
+  "value_usd": 135921000000,
+  "period": "to 2026-09-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "capex",
+  "value_usd": 159804000000,
+  "period": "to 2026-09-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "capex",
+  "value_usd": 215192000000,
+  "period": "to 2026-09-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "capex",
+  "value_usd": 104438000000,
+  "period": "to 2026-09-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "capex",
+  "value_usd": 75660000000,
+  "period": "to 2026-08-31",
+  "source": "10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "operating_cash_flow",
+  "value_usd": 46940000000,
+  "period": "to 2026-08-31",
+  "source": "10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "operating_cash_flow",
+  "value_usd": 133087000000,
+  "period": "to 2026-09-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "capex",
+  "value_usd": 20566000000,
+  "period": "to 2026-06-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "debt",
+  "value_usd": 35551000000,
+  "period": "to 2026-06-30",
+  "source": "10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "IREN",
+  "metric": "capex",
+  "value_usd": 2998006000,
+  "period": "to 2026-06-30",
+  "source": "10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "TeraWulf",
+  "metric": "other",
+  "value_usd": null,
+  "period": "2026",
+  "source": "TeraWulf 10-Q: miners depreciated over 4 years, computer equipment over 5 years",
+  "mark": "not_a_fact"
+ },
+ {
+  "company": "TeraWulf",
+  "metric": "depreciation",
+  "value_usd": 14500000,
+  "period": "H1 2026",
+  "source": "TeraWulf 10-Q: accelerated depreciation expense related to shortened useful lives of miner building/miners",
+  "mark": "verified_current"
+ }
+]

@@ -1,0 +1,8 @@
+{"lane": "gptoss120_fw", "workers": 6, "items": 200, "wall_s": 15.2, "items_per_s": 13.14, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0281, "p50_s": 0.42, "p95_s": 0.63}
+{"lane": "gptoss120_fw", "workers": 12, "items": 200, "wall_s": 7.6, "items_per_s": 26.39, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0281, "p50_s": 0.38, "p95_s": 0.83}
+{"lane": "gptoss120_fw", "workers": 24, "items": 200, "wall_s": 4.4, "items_per_s": 45.35, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0281, "p50_s": 0.4, "p95_s": 1.19}
+{"lane": "gptoss120_fw", "workers": 48, "items": 200, "wall_s": 3.6, "items_per_s": 55.75, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0281, "p50_s": 0.42, "p95_s": 2.35}
+{"lane": "gptoss120_fw", "workers": 48, "items": 688, "wall_s": 8.8, "items_per_s": 78.07, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0836, "p50_s": 0.5, "p95_s": 1.23}
+{"lane": "gptoss120_fw", "workers": 96, "items": 688, "wall_s": 99.0, "items_per_s": 6.95, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0836, "p50_s": 0.4, "p95_s": 41.26}
+{"lane": "gptoss120_fw", "workers": 192, "items": 688, "wall_s": 10.0, "items_per_s": 68.5, "refused": 0, "refused_pct": 0.0, "errors": 0, "usd": 0.0836, "p50_s": 0.42, "p95_s": 8.25}
+{"lane": "rune_fw", "workers": 6, "items": 688, "wall_s": 59.7, "items_per_s": 11.53, "refused": 75, "refused_pct": 9.8, "errors": 0, "usd": 0.0179, "p50_s": 0.18, "p95_s": 0.22}

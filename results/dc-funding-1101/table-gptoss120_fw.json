@@ -1,0 +1,438 @@
+{
+ "lane": "gptoss120_fw",
+ "usd": 0.0073,
+ "cells": {
+  "filled": 31,
+  "blank": 59
+ },
+ "table": {
+  "Microsoft": {
+   "numbers": {
+    "capex": {
+     "usd": 135921000000,
+     "end": "2026-09-30",
+     "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "acc": "0001193125-26-436133",
+     "how": "year + 3 months - prior 3 months"
+    },
+    "operating_cash_flow": {
+     "usd": 195878000000,
+     "end": "2026-09-30",
+     "concept": "NetCashProvidedByUsedInOperatingActivities",
+     "acc": "0001193125-26-436133",
+     "how": "year + 3 months - prior 3 months"
+    },
+    "cash": {
+     "usd": 20281000000,
+     "end": "2026-09-30",
+     "concept": "CashAndCashEquivalentsAtCarryingValue",
+     "acc": "0001193125-26-436133"
+    },
+    "securities": {
+     "usd": 44228000000,
+     "end": "2026-09-30",
+     "concept": "ShortTermInvestments",
+     "acc": "0001193125-26-436133"
+    },
+    "debt": {
+     "usd": 35481000000,
+     "end": "2026-09-30",
+     "concept": "LongTermDebt",
+     "acc": "0001193125-26-436133"
+    },
+    "xbrl_commitments": {}
+   },
+   "report": {
+    "form": "10-Q",
+    "accession": "0001193125-26-436133",
+    "doc": "msft-20260930.htm",
+    "filed": "2026-10-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+   },
+   "commitments": [
+    {
+     "usd": 13000000000.0,
+     "kind": "purchase_commitment",
+     "category": "other",
+     "horizon": "2026",
+     "quote": "We have made total funding commitments of $13.0 billion related to our investment, of which $12.0 billion has been funded as of September 30, 2026."
+    },
+    {
+     "usd": 364600000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "fiscal year 2027 to fiscal year 2034",
+     "quote": "As of September 30, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $364.6 billion, with some arrangements subject to certain contractual conditions being met."
+    }
+   ],
+   "rejected_quotes": 0
+  },
+  "Amazon": {
+   "numbers": {
+    "capex": {
+     "usd": 215192000000,
+     "end": "2026-09-30",
+     "concept": "PaymentsToAcquireProductiveAssets",
+     "acc": "0001018724-26-000040",
+     "how": "full year"
+    },
+    "operating_cash_flow": {
+     "usd": 168300000000,
+     "end": "2026-09-30",
+     "concept": "NetCashProvidedByUsedInOperatingActivities",
+     "acc": "0001018724-26-000040",
+     "how": "full year"
+    },
+    "cash": {
+     "usd": 55783000000,
+     "end": "2026-09-30",
+     "concept": "CashAndCashEquivalentsAtCarryingValue",
+     "acc": "0001018724-26-000040"
+    },
+    "securities": {
+     "usd": 58443000000,
+     "end": "2026-09-30",
+     "concept": "MarketableSecuritiesCurrent",
+     "acc": "0001018724-26-000040"
+    },
+    "debt": {
+     "usd": 180887000000,
+     "end": "2026-09-30",
+     "concept": "LongTermDebt",
+     "acc": "0001018724-26-000040"
+    },
+    "xbrl_commitments": {
+     "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+      "usd": 32408000000,
+      "end": "2024-06-30",
+      "concept": "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount",
+      "acc": "0001018724-24-000130"
+     },
+     "ContractualObligation": {
+      "usd": 883581000000,
+      "end": "2026-09-30",
+      "concept": "ContractualObligation",
+      "acc": "0001018724-26-000040"
+     }
+    }
+   },
+   "report": {
+    "form": "10-Q",
+    "accession": "0001018724-26-000040",
+    "doc": "amzn-20260930.htm",
+    "filed": "2026-10-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+   },
+   "commitments": [
+    {
+     "usd": 38000000000.0,
+     "kind": "purchase_commitment",
+     "category": "chips",
+     "horizon": "8.0 years",
+     "quote": "In Q1 2026, AWS and OpenAI Group PBC (\u201cOpenAI\u201d) announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips."
+    },
+    {
+     "usd": 100000000000.0,
+     "kind": "purchase_commitment",
+     "category": "chips",
+     "horizon": "10.0 years",
+     "quote": "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $100.0 billion over 10.0 years, which includes contractual obligations related to the performance of AWS chips."
+    },
+    {
+     "usd": 220000000000.0,
+     "kind": "planned_capex",
+     "category": "other",
+     "horizon": "2026",
+     "quote": "We continue to expect 2026 cash capital expenditures to be approximately $220 billion."
+    }
+   ],
+   "rejected_quotes": 0
+  },
+  "Alphabet": {
+   "numbers": {
+    "capex": {
+     "usd": 159804000000,
+     "end": "2026-09-30",
+     "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "acc": "0001652044-26-000084",
+     "how": "year + 9 months - prior 9 months"
+    },
+    "operating_cash_flow": {
+     "usd": 179551000000,
+     "end": "2026-09-30",
+     "concept": "NetCashProvidedByUsedInOperatingActivities",
+     "acc": "0001652044-26-000084",
+     "how": "year + 9 months - prior 9 months"
+    },
+    "cash": {
+     "usd": 56334000000,
+     "end": "2026-09-30",
+     "concept": "CashAndCashEquivalentsAtCarryingValue",
+     "acc": "0001652044-26-000084"
+    },
+    "securities": {
+     "usd": 208764000000,
+     "end": "2026-09-30",
+     "concept": "MarketableSecuritiesCurrent",
+     "acc": "0001652044-26-000084"
+    },
+    "debt": {
+     "usd": 127485000000,
+     "end": "2026-09-30",
+     "concept": "DebtInstrumentCarryingAmount",
+     "acc": "0001652044-26-000084"
+    },
+    "xbrl_commitments": {
+     "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+      "usd": 75600000000,
+      "end": "2026-03-31",
+      "concept": "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount",
+      "acc": "0001652044-26-000048"
+     },
+     "PurchaseObligation": {
+      "usd": 7700000000,
+      "end": "2025-12-31",
+      "concept": "PurchaseObligation",
+      "acc": "0001652044-26-000018"
+     }
+    }
+   },
+   "report": {
+    "form": "10-Q",
+    "accession": "0001652044-26-000084",
+    "doc": "goog-20260930.htm",
+    "filed": "2026-10-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+   },
+   "commitments": [
+    {
+     "usd": 5000000000.0,
+     "kind": "purchase_commitment",
+     "category": "land_and_buildings",
+     "horizon": "2026 onward",
+     "quote": "Blackstone is committed to provide future capital contributions of up to $5.0 billion, and we are committed to provide future data center and energy infrastructure backstops in support of agreements the venture may enter into of up to $10.0 billion, subject to certain conditions."
+    },
+    {
+     "usd": 6000000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "as of September 30, 2026",
+     "quote": "(1) Includes a short-term lease agreement entered into in June 2026, and amended in September 2026, with a remaining non-cancelable commitment of approximately $6.0 billion as of September 30, 2026."
+    },
+    {
+     "usd": 159000000.0,
+     "kind": "lease_not_commenced",
+     "category": "other",
+     "horizon": "three and nine months ended September 30, 2026",
+     "quote": "(1)Additionally, during the three and nine months ended September 30, 2026, we made $159 million and $994 million of lease prepayments for leases not yet commenced, respectively, which are expected to be accounted for as finance leases."
+    },
+    {
+     "usd": 10000000000.0,
+     "kind": "planned_capex",
+     "category": "land_and_buildings",
+     "horizon": "through 2030",
+     "quote": "Also, included in this amount is $10.0 billion of potential future data center and energy infrastructure backstops in support of our investment in the Crux AI joint venture."
+    },
+    {
+     "usd": 130500000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "2026-2031",
+     "quote": "As of September 30, 2026, we have entered into leases, primarily related to data centers and energy infrastructure, that have not yet commenced with future lease payments of $130.5 billion."
+    },
+    {
+     "usd": 924400000000.0,
+     "kind": "purchase_commitment",
+     "category": "other",
+     "horizon": "through 2031",
+     "quote": "$924.4 billion material purchase commitments, of which $802.1 billion relates to multi-year commitments for technical infrastructure and inventory, energy take-or-pay contracts, and content licenses."
+    },
+    {
+     "usd": 130500000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "2026-2031",
+     "quote": "$130.5 billion future payments for leases not yet commenced, primarily related to data centers and energy infrastructure."
+    },
+    {
+     "usd": 924400000000.0,
+     "kind": "purchase_commitment",
+     "category": "other",
+     "horizon": "within 12 months",
+     "quote": "Of the total material purchase commitments of $924.4 billion, $213.4 billion is due within 12 months."
+    },
+    {
+     "usd": 75700000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "as of September 30, 2026",
+     "quote": "$75.7 billion of financial support in the form of backstop obligations relating to data centers, including data center lease payments and the associated energy costs for certain agreements."
+    },
+    {
+     "usd": 22800000000.0,
+     "kind": "purchase_commitment",
+     "category": "power",
+     "horizon": "as of September 30, 2026",
+     "quote": "$22.8 billion of financial guarantees, primarily to support counterparty procurement of long-lead time equipment for our future power purchase and energy agreements."
+    }
+   ],
+   "rejected_quotes": 0
+  },
+  "Meta": {
+   "numbers": {
+    "capex": {
+     "usd": 104438000000,
+     "end": "2026-09-30",
+     "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "acc": "0001628280-26-066773",
+     "how": "year + 9 months - prior 9 months"
+    },
+    "operating_cash_flow": {
+     "usd": 133087000000,
+     "end": "2026-09-30",
+     "concept": "NetCashProvidedByUsedInOperatingActivities",
+     "acc": "0001628280-26-066773",
+     "how": "year + 9 months - prior 9 months"
+    },
+    "cash": {
+     "usd": 11222000000,
+     "end": "2026-09-30",
+     "concept": "CashAndCashEquivalentsAtCarryingValue",
+     "acc": "0001628280-26-066773"
+    },
+    "securities": {
+     "usd": 71227000000,
+     "end": "2026-09-30",
+     "concept": "MarketableSecuritiesCurrent",
+     "acc": "0001628280-26-066773"
+    },
+    "debt": {
+     "usd": 84000000000,
+     "end": "2026-09-30",
+     "concept": "DebtInstrumentCarryingAmount",
+     "acc": "0001628280-26-066773"
+    },
+    "xbrl_commitments": {
+     "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+      "usd": 355730000000,
+      "end": "2026-09-30",
+      "concept": "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount",
+      "acc": "0001628280-26-066773"
+     },
+     "ContractualObligation": {
+      "usd": 454520000000,
+      "end": "2026-09-30",
+      "concept": "ContractualObligation",
+      "acc": "0001628280-26-066773"
+     }
+    }
+   },
+   "report": {
+    "form": "10-Q",
+    "accession": "0001628280-26-066773",
+    "doc": "meta-20260930.htm",
+    "filed": "2026-10-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+   },
+   "commitments": [
+    {
+     "usd": 2260000000.0,
+     "kind": "purchase_commitment",
+     "category": "land_and_buildings",
+     "horizon": "2026",
+     "quote": "At formation, we contributed $2.26 billion held-for-sale assets, net of liabilities and received a one-time distribution of $1.04 billion."
+    },
+    {
+     "usd": 355730000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "remainder of 2026 through 2036",
+     "quote": "These lease obligations were approximately $355.73 billion, consisting of data centers, energy-related infrastructure, colocations, and certain network infrastructure, which will commence during the remainder of 2026 through 2036 with lease terms ranging from greater than one year to 30 years."
+    },
+    {
+     "usd": 454520000000.0,
+     "kind": "purchase_commitment",
+     "category": "networking",
+     "horizon": "unspecified",
+     "quote": "As of September 30, 2026, we had $454.52 billion of non-cancelable contractual commitments, comprising both short-term and long-term arrangements."
+    },
+    {
+     "usd": 135000000000.0,
+     "kind": "planned_capex",
+     "category": "other",
+     "horizon": "2026",
+     "quote": "We anticipate making capital expenditures of approximately $135 billion to $145 billion in 2026 to support our AI efforts and core business."
+    },
+    {
+     "usd": 454520000000.0,
+     "kind": "purchase_commitment",
+     "category": "networking",
+     "horizon": "September 30, 2026",
+     "quote": "As of September 30, 2026, we had $454.52 billion of non-cancelable contractual commitments, comprising both short-term and long-term arrangements, most of which are related to third-party cloud capacity arrangements and other investments in technical infrastructure, and we continue to enter into additional significant contractual arrangements."
+    }
+   ],
+   "rejected_quotes": 0
+  },
+  "Oracle": {
+   "numbers": {
+    "capex": {
+     "usd": 75660000000,
+     "end": "2026-08-31",
+     "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "acc": "0001193125-26-389274",
+     "how": "year + 3 months - prior 3 months"
+    },
+    "operating_cash_flow": {
+     "usd": 46940000000,
+     "end": "2026-08-31",
+     "concept": "NetCashProvidedByUsedInOperatingActivities",
+     "acc": "0001193125-26-389274",
+     "how": "year + 3 months - prior 3 months"
+    },
+    "cash": {
+     "usd": 36369000000,
+     "end": "2026-08-31",
+     "concept": "CashAndCashEquivalentsAtCarryingValue",
+     "acc": "0001193125-26-389274"
+    },
+    "securities": {
+     "usd": 708000000,
+     "end": "2026-08-31",
+     "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "acc": "0001193125-26-389274"
+    },
+    "debt": {
+     "usd": 130105000000,
+     "end": "2026-05-31",
+     "concept": "DebtInstrumentCarryingAmount",
+     "acc": "0001193125-26-277521"
+    },
+    "xbrl_commitments": {
+     "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+      "usd": 34150000000,
+      "end": "2026-08-31",
+      "concept": "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount",
+      "acc": "0001193125-26-389274"
+     }
+    }
+   },
+   "report": {
+    "form": "10-Q",
+    "accession": "0001193125-26-389274",
+    "doc": "orcl-20260831.htm",
+    "filed": "2026-09-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+   },
+   "commitments": [
+    {
+     "usd": 288000000000.0,
+     "kind": "lease_not_commenced",
+     "category": "land_and_buildings",
+     "horizon": "second quarter of fiscal 2027 to fiscal 2029",
+     "quote": "As of August 31, 2026, we had $288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 and fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    }
+   ],
+   "rejected_quotes": 7
+  }
+ }
+}

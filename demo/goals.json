@@ -1,0 +1,6 @@
+{"goals": [
+ {"id": "g1", "title": "Catch what matters in public filings and news, at the lowest cost per 1,000 items", "parent": null, "status": "running", "run": null},
+ {"id": "g2", "title": "Baseline: one frontier model on 200 scored filings", "parent": "g1", "status": "done", "run": null},
+ {"id": "g3", "title": "Router: cheap first reader, unsure items go to a second reader", "parent": "g1", "status": "running", "run": "demo-router"},
+ {"id": "g4", "title": "Follow-up: which missed filings do both readers get wrong?", "parent": "g3", "status": "planned", "run": null}
+]}

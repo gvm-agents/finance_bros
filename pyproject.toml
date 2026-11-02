@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-model-eval"
+version = "0.1.0"
+description = "Open model vs frontier model benchmark on public SEC data (speed, accuracy, cost)"
+requires-python = ">=3.11"
+dependencies = ["anthropic[vertex]==1.13.0", "openai==3.28.0", "matplotlib==3.11.2", "websockets==15.0.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[tool.setuptools]
+packages = ["bench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

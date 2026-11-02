@@ -1,0 +1,261 @@
+[
+ {
+  "name": "SEC 8-K filings (live)",
+  "group": "Regulators and filings",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&company=&dateb=&owner=include&count=40&output=atom",
+  "status": 200,
+  "items": 40,
+  "newest_min": 1494,
+  "seconds": 0.2
+ },
+ {
+  "name": "SEC Form D filings (live)",
+  "group": "Regulators and filings",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D&company=&dateb=&owner=include&count=40&output=atom",
+  "status": 200,
+  "items": 40,
+  "newest_min": 1493,
+  "seconds": 0.34
+ },
+ {
+  "name": "SEC press releases",
+  "group": "Regulators and filings",
+  "url": "https://www.sec.gov/news/pressreleases.rss",
+  "status": 200,
+  "items": 25,
+  "newest_min": 1613,
+  "seconds": 0.12
+ },
+ {
+  "name": "Federal Register: Commerce BIS (export controls)",
+  "group": "Regulators and filings",
+  "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau",
+  "status": 200,
+  "items": 2,
+  "newest_min": 6863,
+  "seconds": 0.26
+ },
+ {
+  "name": "Federal Register: Treasury OFAC (sanctions)",
+  "group": "Regulators and filings",
+  "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=foreign-assets-control-office",
+  "status": 200,
+  "items": 17,
+  "newest_min": 5423,
+  "seconds": 0.32
+ },
+ {
+  "name": "Federal Register: AI search",
+  "group": "Regulators and filings",
+  "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=%22artificial+intelligence%22",
+  "status": 200,
+  "items": 31,
+  "newest_min": 2543,
+  "seconds": 0.32
+ },
+ {
+  "name": "Federal Reserve press",
+  "group": "Regulators and filings",
+  "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+  "status": 200,
+  "items": 20,
+  "newest_min": 2993,
+  "seconds": 0.1
+ },
+ {
+  "name": "DOJ press releases",
+  "group": "Regulators and filings",
+  "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+  "status": 200,
+  "items": 25,
+  "newest_min": 2063,
+  "seconds": 0.18
+ },
+ {
+  "name": "White House presidential actions",
+  "group": "Regulators and filings",
+  "url": "https://www.whitehouse.gov/presidential-actions/feed/",
+  "status": 200,
+  "items": 30,
+  "newest_min": 4459,
+  "seconds": 0.18
+ },
+ {
+  "name": "UK gov news",
+  "group": "Regulators and filings",
+  "url": "https://www.gov.uk/search/news-and-communications.atom",
+  "status": 200,
+  "items": 20,
+  "newest_min": 737,
+  "seconds": 0.76
+ },
+ {
+  "name": "OpenAI news",
+  "group": "AI labs and releases",
+  "url": "https://openai.com/news/rss.xml",
+  "status": 200,
+  "items": 1341,
+  "newest_min": 2213,
+  "seconds": 0.24
+ },
+ {
+  "name": "Google AI blog",
+  "group": "AI labs and releases",
+  "url": "https://blog.google/technology/ai/rss/",
+  "status": 200,
+  "items": 20,
+  "newest_min": 7583,
+  "seconds": 0.47
+ },
+ {
+  "name": "Google DeepMind blog",
+  "group": "AI labs and releases",
+  "url": "https://deepmind.google/blog/rss.xml",
+  "status": 200,
+  "items": 100,
+  "newest_min": 4642,
+  "seconds": 0.34
+ },
+ {
+  "name": "NVIDIA blog",
+  "group": "AI labs and releases",
+  "url": "https://blogs.nvidia.com/feed/",
+  "status": 200,
+  "items": 18,
+  "newest_min": 1883,
+  "seconds": 0.21
+ },
+ {
+  "name": "Hugging Face blog",
+  "group": "AI labs and releases",
+  "url": "https://huggingface.co/blog/feed.xml",
+  "status": 200,
+  "items": 894,
+  "newest_min": 1706,
+  "seconds": 0.24
+ },
+ {
+  "name": "arXiv cs.AI",
+  "group": "AI labs and releases",
+  "url": "https://rss.arxiv.org/rss/cs.AI",
+  "status": 200,
+  "items": 605,
+  "newest_min": 1103,
+  "seconds": 0.25
+ },
+ {
+  "name": "GitHub releases: Ollama",
+  "group": "AI labs and releases",
+  "url": "https://github.com/ollama/ollama/releases.atom",
+  "status": 200,
+  "items": 10,
+  "newest_min": 4049,
+  "seconds": 0.16
+ },
+ {
+  "name": "GitHub releases: vLLM",
+  "group": "AI labs and releases",
+  "url": "https://github.com/vllm-project/vllm/releases.atom",
+  "status": 200,
+  "items": 10,
+  "newest_min": 907,
+  "seconds": 0.25
+ },
+ {
+  "name": "TechCrunch",
+  "group": "Tech press",
+  "url": "https://techcrunch.com/feed/",
+  "status": 200,
+  "items": 20,
+  "newest_min": 42,
+  "seconds": 0.1
+ },
+ {
+  "name": "The Verge",
+  "group": "Tech press",
+  "url": "https://www.theverge.com/rss/index.xml",
+  "status": 200,
+  "items": 10,
+  "newest_min": 76,
+  "seconds": 0.13
+ },
+ {
+  "name": "Ars Technica",
+  "group": "Tech press",
+  "url": "https://feeds.arstechnica.com/arstechnica/index",
+  "status": 200,
+  "items": 20,
+  "newest_min": 667,
+  "seconds": 0.11
+ },
+ {
+  "name": "Techmeme",
+  "group": "Tech press",
+  "url": "https://www.techmeme.com/feed.xml",
+  "status": 200,
+  "items": 15,
+  "newest_min": 202,
+  "seconds": 0.14
+ },
+ {
+  "name": "MIT Technology Review",
+  "group": "Tech press",
+  "url": "https://www.technologyreview.com/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_min": 2093,
+  "seconds": 0.13
+ },
+ {
+  "name": "Hacker News: AI (hnrss)",
+  "group": "Community",
+  "url": "https://hnrss.org/newest?q=AI&points=10",
+  "status": 200,
+  "items": 20,
+  "newest_min": 260,
+  "seconds": 1.45
+ },
+ {
+  "name": "Hacker News: search API",
+  "group": "Community",
+  "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=open%20model",
+  "status": 200,
+  "items": 20,
+  "newest_min": 809,
+  "seconds": 0.57
+ },
+ {
+  "name": "Reddit r/LocalLLaMA",
+  "group": "Community",
+  "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+  "status": 200,
+  "items": 25,
+  "newest_min": 42,
+  "seconds": 0.91
+ },
+ {
+  "name": "GDELT global news search",
+  "group": "Global sweep",
+  "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22export%20controls%22&mode=artlist&format=json&timespan=24h&maxrecords=25",
+  "status": 429,
+  "items": 0,
+  "seconds": 9.44
+ },
+ {
+  "name": "Google News search: export controls",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=%22export+controls%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 20,
+  "newest_min": 27,
+  "seconds": 0.4
+ },
+ {
+  "name": "Bluesky: Hugging Face profile",
+  "group": "Community",
+  "url": "https://bsky.app/profile/huggingface.bsky.social/rss",
+  "status": 200,
+  "items": 0,
+  "seconds": 0.81
+ }
+]

@@ -1,0 +1,589 @@
+[
+ {
+  "name": "SEC 8-K filings (live)",
+  "group": "Regulators and filings",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&company=&dateb=&owner=include&count=40&output=atom",
+  "status": 200,
+  "items": 40,
+  "newest_min": 2968,
+  "seconds": 0.25
+ },
+ {
+  "name": "SEC Form D filings (live)",
+  "group": "Regulators and filings",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D&company=&dateb=&owner=include&count=40&output=atom",
+  "status": 200,
+  "items": 40,
+  "newest_min": 2967,
+  "seconds": 0.26
+ },
+ {
+  "name": "SEC press releases",
+  "group": "Regulators and filings",
+  "url": "https://www.sec.gov/news/pressreleases.rss",
+  "status": 200,
+  "items": 25,
+  "newest_min": 3087,
+  "seconds": 0.23
+ },
+ {
+  "name": "Federal Register: Commerce BIS (export controls)",
+  "group": "Regulators and filings",
+  "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau",
+  "status": 200,
+  "items": 2,
+  "newest_min": 8337,
+  "seconds": 0.31
+ },
+ {
+  "name": "Federal Register: Treasury OFAC (sanctions)",
+  "group": "Regulators and filings",
+  "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=foreign-assets-control-office",
+  "status": 200,
+  "items": 17,
+  "newest_min": 6897,
+  "seconds": 0.28
+ },
+ {
+  "name": "Federal Register: AI search",
+  "group": "Regulators and filings",
+  "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bterm%5D=%22artificial+intelligence%22",
+  "status": 200,
+  "items": 30,
+  "newest_min": 4017,
+  "seconds": 0.38
+ },
+ {
+  "name": "Federal Reserve press",
+  "group": "Regulators and filings",
+  "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+  "status": 404,
+  "items": 0,
+  "seconds": 0.14
+ },
+ {
+  "name": "DOJ press releases",
+  "group": "Regulators and filings",
+  "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+  "status": 200,
+  "items": 25,
+  "newest_min": 3537,
+  "seconds": 0.15
+ },
+ {
+  "name": "White House presidential actions",
+  "group": "Regulators and filings",
+  "url": "https://www.whitehouse.gov/presidential-actions/feed/",
+  "status": 200,
+  "items": 30,
+  "newest_min": 5933,
+  "seconds": 0.22
+ },
+ {
+  "name": "UK gov news",
+  "group": "Regulators and filings",
+  "url": "https://www.gov.uk/search/news-and-communications.atom",
+  "status": 200,
+  "items": 20,
+  "newest_min": 1467,
+  "seconds": 0.11
+ },
+ {
+  "name": "OpenAI news",
+  "group": "AI labs and releases",
+  "url": "https://openai.com/news/rss.xml",
+  "status": 200,
+  "items": 1341,
+  "newest_min": 3687,
+  "seconds": 0.24
+ },
+ {
+  "name": "Google AI blog",
+  "group": "AI labs and releases",
+  "url": "https://blog.google/technology/ai/rss/",
+  "status": 200,
+  "items": 20,
+  "newest_min": 9057,
+  "seconds": 0.61
+ },
+ {
+  "name": "Google DeepMind blog",
+  "group": "AI labs and releases",
+  "url": "https://deepmind.google/blog/feed/basic/",
+  "status": 200,
+  "items": 100,
+  "newest_min": 6116,
+  "seconds": 0.73
+ },
+ {
+  "name": "NVIDIA blog",
+  "group": "AI labs and releases",
+  "url": "https://blogs.nvidia.com/feed/",
+  "status": 200,
+  "items": 18,
+  "newest_min": 3357,
+  "seconds": 0.19
+ },
+ {
+  "name": "Hugging Face blog",
+  "group": "AI labs and releases",
+  "url": "https://huggingface.co/blog/feed.xml",
+  "status": 200,
+  "items": 894,
+  "newest_min": 3180,
+  "seconds": 0.27
+ },
+ {
+  "name": "arXiv cs.AI",
+  "group": "AI labs and releases",
+  "url": "https://rss.arxiv.org/rss/cs.AI",
+  "status": 200,
+  "items": 0,
+  "seconds": 0.14
+ },
+ {
+  "name": "GitHub releases: Ollama",
+  "group": "AI labs and releases",
+  "url": "https://github.com/ollama/ollama/releases.atom",
+  "status": 200,
+  "items": 10,
+  "newest_min": 5523,
+  "seconds": 0.49
+ },
+ {
+  "name": "GitHub releases: vLLM",
+  "group": "AI labs and releases",
+  "url": "https://github.com/vllm-project/vllm/releases.atom",
+  "status": 200,
+  "items": 10,
+  "newest_min": 816,
+  "seconds": 0.95
+ },
+ {
+  "name": "TechCrunch",
+  "group": "Tech press",
+  "url": "https://techcrunch.com/feed/",
+  "status": 200,
+  "items": 20,
+  "newest_min": 62,
+  "seconds": 0.14
+ },
+ {
+  "name": "The Verge",
+  "group": "Tech press",
+  "url": "https://www.theverge.com/rss/index.xml",
+  "status": 200,
+  "items": 10,
+  "newest_min": 89,
+  "seconds": 0.15
+ },
+ {
+  "name": "Ars Technica",
+  "group": "Tech press",
+  "url": "https://feeds.arstechnica.com/arstechnica/index",
+  "status": 200,
+  "items": 20,
+  "newest_min": 2142,
+  "seconds": 0.13
+ },
+ {
+  "name": "Techmeme",
+  "group": "Tech press",
+  "url": "https://www.techmeme.com/feed.xml",
+  "status": 200,
+  "items": 15,
+  "newest_min": 42,
+  "seconds": 0.15
+ },
+ {
+  "name": "MIT Technology Review",
+  "group": "Tech press",
+  "url": "https://www.technologyreview.com/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_min": 3567,
+  "seconds": 0.18
+ },
+ {
+  "name": "Hacker News: AI (hnrss)",
+  "group": "Community",
+  "url": "https://hnrss.org/newest?q=AI&points=10",
+  "status": 200,
+  "items": 20,
+  "newest_min": 243,
+  "seconds": 0.51
+ },
+ {
+  "name": "Hacker News: search API",
+  "group": "Community",
+  "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=open%20model",
+  "status": 200,
+  "items": 20,
+  "newest_min": 27,
+  "seconds": 0.47
+ },
+ {
+  "name": "Reddit r/LocalLLaMA",
+  "group": "Community",
+  "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+  "status": 200,
+  "items": 25,
+  "newest_min": 9,
+  "seconds": 0.96
+ },
+ {
+  "name": "GDELT global news search",
+  "group": "Global sweep",
+  "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22export%20controls%22&mode=artlist&format=json&timespan=24h&maxrecords=25",
+  "status": 429,
+  "items": 0,
+  "seconds": 9.51
+ },
+ {
+  "name": "Google News search: export controls",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=%22export+controls%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 29,
+  "newest_min": 26,
+  "seconds": 0.46
+ },
+ {
+  "name": "Bluesky: Hugging Face profile",
+  "group": "Community",
+  "url": "https://bsky.app/profile/huggingface.bsky.social/rss",
+  "status": 200,
+  "items": 0,
+  "seconds": 0.81
+ },
+ {
+  "name": "Data Center Dynamics",
+  "group": "Data centers and power",
+  "url": "https://www.datacenterdynamics.com/en/rss/",
+  "status": 200,
+  "items": 20,
+  "newest_min": 477,
+  "seconds": 0.18
+ },
+ {
+  "name": "Data Center Frontier",
+  "group": "Data centers and power",
+  "url": "https://www.datacenterfrontier.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D",
+  "status": 200,
+  "items": 25,
+  "newest_min": 3122,
+  "seconds": 0.17
+ },
+ {
+  "name": "Data Center Knowledge",
+  "group": "Data centers and power",
+  "url": "https://www.datacenterknowledge.com/rss.xml",
+  "status": 200,
+  "items": 50,
+  "newest_min": -42543,
+  "seconds": 1.49
+ },
+ {
+  "name": "The Register",
+  "group": "Tech press",
+  "url": "https://www.theregister.com/headlines.atom",
+  "status": 200,
+  "items": 50,
+  "newest_min": 666,
+  "seconds": 1.37
+ },
+ {
+  "name": "EIA Today in Energy",
+  "group": "Data centers and power",
+  "url": "https://www.eia.gov/rss/todayinenergy.xml",
+  "status": 200,
+  "items": 22,
+  "newest_min": 3417,
+  "seconds": 0.28
+ },
+ {
+  "name": "SemiAnalysis",
+  "group": "Data centers and power",
+  "url": "https://newsletter.semianalysis.com/feed",
+  "status": 200,
+  "items": 20,
+  "newest_min": 257,
+  "seconds": 0.28
+ },
+ {
+  "name": "Google News: data centers",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=%22data+center%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 100,
+  "newest_min": 2,
+  "seconds": 0.54
+ },
+ {
+  "name": "Google News: Digital Realty",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=%22Digital+Realty%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 100,
+  "newest_min": 632,
+  "seconds": 0.53
+ },
+ {
+  "name": "Google News: neocloud",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=neocloud+OR+CoreWeave+OR+Nebius+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 30,
+  "newest_min": 129,
+  "seconds": 0.39
+ },
+ {
+  "name": "Google News: robotics",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=humanoid+robot+OR+robotics+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 46,
+  "newest_min": 118,
+  "seconds": 0.47
+ },
+ {
+  "name": "Google News: AI models",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=%22open+model%22+OR+%22open-weight%22+OR+DeepSeek+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 40,
+  "newest_min": 48,
+  "seconds": 0.41
+ },
+ {
+  "name": "Robot Report",
+  "group": "Robotics",
+  "url": "https://www.therobotreport.com/feed/",
+  "status": 200,
+  "items": 15,
+  "newest_min": 536,
+  "seconds": 0.28
+ },
+ {
+  "name": "IEEE Spectrum robotics",
+  "group": "Robotics",
+  "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+  "status": 200,
+  "items": 30,
+  "newest_min": 3267,
+  "seconds": 0.24
+ },
+ {
+  "name": "Microsoft news",
+  "group": "Big tech newsrooms",
+  "url": "https://news.microsoft.com/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_min": 783057,
+  "seconds": 0.17
+ },
+ {
+  "name": "Meta newsroom",
+  "group": "Big tech newsrooms",
+  "url": "https://about.fb.com/news/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_min": 4677,
+  "seconds": 1.18
+ },
+ {
+  "name": "Apple newsroom",
+  "group": "Big tech newsrooms",
+  "url": "https://www.apple.com/newsroom/rss-feed.rss",
+  "status": 200,
+  "items": 20,
+  "newest_min": 6108,
+  "seconds": 0.11
+ },
+ {
+  "name": "Amazon news",
+  "group": "Big tech newsrooms",
+  "url": "https://www.aboutamazon.com/news/rss",
+  "status": 200,
+  "items": 10,
+  "newest_min": 3043,
+  "seconds": 0.55
+ },
+ {
+  "name": "Yahoo Finance: NVDA",
+  "group": "Market headlines",
+  "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NVDA&region=US&lang=en-US",
+  "status": 200,
+  "items": 20,
+  "newest_min": 9,
+  "seconds": 0.2
+ },
+ {
+  "name": "Yahoo Finance: MSFT",
+  "group": "Market headlines",
+  "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=MSFT&region=US&lang=en-US",
+  "status": 200,
+  "items": 17,
+  "newest_min": 295,
+  "seconds": 0.22
+ },
+ {
+  "name": "Yahoo Finance: DLR",
+  "group": "Market headlines",
+  "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=DLR&region=US&lang=en-US",
+  "status": 200,
+  "items": 19,
+  "newest_min": 1118,
+  "seconds": 0.2
+ },
+ {
+  "name": "Reddit r/MachineLearning",
+  "group": "Community",
+  "url": "https://www.reddit.com/r/MachineLearning/.rss",
+  "status": 429,
+  "items": 0,
+  "seconds": 0.16
+ },
+ {
+  "name": "Reddit r/singularity",
+  "group": "Community",
+  "url": "https://www.reddit.com/r/singularity/.rss",
+  "status": 429,
+  "items": 0,
+  "seconds": 0.16
+ },
+ {
+  "name": "Reddit r/datacenter",
+  "group": "Community",
+  "url": "https://www.reddit.com/r/datacenter/.rss",
+  "status": 429,
+  "items": 0,
+  "seconds": 0.21
+ },
+ {
+  "name": "New York Times: Technology",
+  "group": "Mainstream press",
+  "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+  "status": 200,
+  "items": 32,
+  "newest_min": 338,
+  "seconds": 0.15
+ },
+ {
+  "name": "New York Times: Business",
+  "group": "Mainstream press",
+  "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+  "status": 200,
+  "items": 50,
+  "newest_min": 269,
+  "seconds": 0.13
+ },
+ {
+  "name": "Wall Street Journal: Technology",
+  "group": "Mainstream press",
+  "url": "https://feeds.content.dowjones.io/public/rss/RSSWSJD",
+  "status": 200,
+  "items": 40,
+  "newest_min": 389,
+  "seconds": 0.11
+ },
+ {
+  "name": "Wall Street Journal: Markets",
+  "group": "Mainstream press",
+  "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",
+  "status": 200,
+  "items": 60,
+  "newest_min": 244,
+  "seconds": 0.11
+ },
+ {
+  "name": "San Jose Mercury News",
+  "group": "Mainstream press",
+  "url": "https://news.google.com/rss/search?q=site:mercurynews.com+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 72,
+  "newest_min": 109,
+  "seconds": 0.52
+ },
+ {
+  "name": "CNBC Technology",
+  "group": "Mainstream press",
+  "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+  "status": 200,
+  "items": 30,
+  "newest_min": 383,
+  "seconds": 0.18
+ },
+ {
+  "name": "Google News: Technology",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 70,
+  "newest_min": 31,
+  "seconds": 0.33
+ },
+ {
+  "name": "Google News: AI",
+  "group": "Global sweep",
+  "url": "https://news.google.com/rss/search?q=%22artificial+intelligence%22+when:1h&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 21,
+  "newest_min": 2,
+  "seconds": 0.35
+ },
+ {
+  "name": "Bing News: AI",
+  "group": "Global sweep",
+  "url": "https://www.bing.com/news/search?q=artificial+intelligence&format=rss",
+  "status": 200,
+  "items": 12,
+  "newest_min": 1033,
+  "seconds": 0.3
+ },
+ {
+  "name": "Hacker News front page",
+  "group": "Community",
+  "url": "https://hnrss.org/frontpage",
+  "status": 200,
+  "items": 20,
+  "newest_min": 129,
+  "seconds": 0.48
+ },
+ {
+  "name": "Hacker News newest",
+  "group": "Community",
+  "url": "https://hnrss.org/newest",
+  "status": 200,
+  "items": 20,
+  "newest_min": 3,
+  "seconds": 0.45
+ },
+ {
+  "name": "Utility Dive",
+  "group": "Data centers",
+  "url": "https://www.utilitydive.com/feeds/news/",
+  "status": 200,
+  "items": 10,
+  "newest_min": 3318,
+  "seconds": 0.19
+ },
+ {
+  "name": "PR Newswire: technology",
+  "group": "Company news",
+  "url": "https://www.prnewswire.com/rss/consumer-technology-latest-news/consumer-technology-latest-news-list.rss",
+  "status": 200,
+  "items": 20,
+  "newest_min": 99,
+  "seconds": 0.15
+ },
+ {
+  "name": "WSJ via Google News",
+  "group": "Mainstream press",
+  "url": "https://news.google.com/rss/search?q=site:wsj.com+technology+when:1d&hl=en-US&gl=US&ceid=US:en",
+  "status": 200,
+  "items": 100,
+  "newest_min": 34,
+  "seconds": 0.54
+ }
+]

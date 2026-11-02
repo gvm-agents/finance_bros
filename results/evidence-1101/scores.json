@@ -1,0 +1,123 @@
+{
+ "rows": [
+  {
+   "question": "funding",
+   "arm": "A",
+   "claims": 12,
+   "cited_facts": 11,
+   "verified_current": 6,
+   "verified_older": 1,
+   "verified_share": 63.6,
+   "wrong": 1,
+   "unverified": 3,
+   "own_knowledge": 0,
+   "usd": 0.0147,
+   "worker_usd": 0
+  },
+  {
+   "question": "funding",
+   "arm": "B",
+   "claims": 19,
+   "cited_facts": 19,
+   "verified_current": 19,
+   "verified_older": 0,
+   "verified_share": 100.0,
+   "wrong": 0,
+   "unverified": 0,
+   "own_knowledge": 0,
+   "usd": 0.0366,
+   "worker_usd": 0.018541200000000018
+  },
+  {
+   "question": "algo",
+   "arm": "A",
+   "claims": 8,
+   "cited_facts": 8,
+   "verified_current": 5,
+   "verified_older": 2,
+   "verified_share": 87.5,
+   "wrong": 0,
+   "unverified": 1,
+   "own_knowledge": 0,
+   "usd": 0.0111,
+   "worker_usd": 0
+  },
+  {
+   "question": "algo",
+   "arm": "B",
+   "claims": 25,
+   "cited_facts": 25,
+   "verified_current": 25,
+   "verified_older": 0,
+   "verified_share": 100.0,
+   "wrong": 0,
+   "unverified": 0,
+   "own_knowledge": 0,
+   "usd": 0.04,
+   "worker_usd": 0.016557900000000004
+  },
+  {
+   "question": "backlog",
+   "arm": "A",
+   "claims": 5,
+   "cited_facts": 5,
+   "verified_current": 2,
+   "verified_older": 0,
+   "verified_share": 40.0,
+   "wrong": 1,
+   "unverified": 2,
+   "own_knowledge": 0,
+   "usd": 0.0081,
+   "worker_usd": 0
+  },
+  {
+   "question": "backlog",
+   "arm": "B",
+   "claims": 8,
+   "cited_facts": 8,
+   "verified_current": 7,
+   "verified_older": 0,
+   "verified_share": 87.5,
+   "wrong": 0,
+   "unverified": 1,
+   "own_knowledge": 0,
+   "usd": 0.0325,
+   "worker_usd": 0.031386450000000024
+  },
+  {
+   "question": "life",
+   "arm": "A",
+   "claims": 6,
+   "cited_facts": 0,
+   "verified_current": 0,
+   "verified_older": 0,
+   "verified_share": 0.0,
+   "wrong": 0,
+   "unverified": 0,
+   "own_knowledge": 0,
+   "usd": 0.0105,
+   "worker_usd": 0
+  },
+  {
+   "question": "life",
+   "arm": "B",
+   "claims": 17,
+   "cited_facts": 11,
+   "verified_current": 11,
+   "verified_older": 0,
+   "verified_share": 100.0,
+   "wrong": 0,
+   "unverified": 0,
+   "own_knowledge": 0,
+   "usd": 0.0405,
+   "worker_usd": 0.04418025000000003
+  }
+ ],
+ "helps": {
+  "funding": true,
+  "algo": true,
+  "backlog": true,
+  "life": true
+ },
+ "helps_overall": true
+}

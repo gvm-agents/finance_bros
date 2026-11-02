@@ -1,0 +1,202 @@
+[
+ {
+  "company": "Alphabet",
+  "metric": "capex",
+  "value_usd": 159804000000,
+  "period": "TTM to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "capex",
+  "value_usd": 215192000000,
+  "period": "TTM to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Microsoft",
+  "metric": "capex",
+  "value_usd": 135921000000,
+  "period": "TTM to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "capex",
+  "value_usd": 104438000000,
+  "period": "TTM to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "capex",
+  "value_usd": 75660000000,
+  "period": "TTM to 2026-08-31",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Microsoft",
+  "metric": "backlog_rpo",
+  "value_usd": 683000000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "backlog_rpo",
+  "value_usd": 664000000000,
+  "period": "to 2026-08-31",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "backlog_rpo",
+  "value_usd": 567700000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Broadcom",
+  "metric": "backlog_rpo",
+  "value_usd": 179200000000,
+  "period": "to 2026-08-02",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Micron",
+  "metric": "backlog_rpo",
+  "value_usd": 134000000000,
+  "period": "to 2026-09-03",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "backlog_rpo",
+  "value_usd": 103700000000,
+  "period": "to 2026-06-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "purchase_commitments",
+  "value_usd": 883581000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "purchase_commitments",
+  "value_usd": 924400000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "purchase_commitments",
+  "value_usd": 454520000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "AMD",
+  "metric": "purchase_commitments",
+  "value_usd": 30276000000,
+  "period": "to 2026-06-27",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "revenue",
+  "value_usd": 7590000000,
+  "period": "TTM to 2026-06-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "NVIDIA",
+  "metric": "revenue",
+  "value_usd": 302970000000,
+  "period": "TTM to 2026-07-26",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Snowflake",
+  "metric": "purchase_commitments",
+  "value_usd": 530500000,
+  "period": "to 2026-07-31",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Datadog",
+  "metric": "purchase_commitments",
+  "value_usd": 1400000000,
+  "period": "to 2026-06-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Accenture",
+  "metric": "other",
+  "value_usd": 3000000000,
+  "period": "FY2023-FY2025 commitment",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Accenture",
+  "metric": "other",
+  "value_usd": 1000000000,
+  "period": "5-year AI safety commitment",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Salesforce",
+  "metric": "backlog_rpo",
+  "value_usd": 66300000000,
+  "period": "to 2026-07-31",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "ServiceNow",
+  "metric": "backlog_rpo",
+  "value_usd": 29700000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "debt",
+  "value_usd": 130105000000,
+  "period": "to 2026-05-31",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "leases_not_started",
+  "value_usd": 355730000000,
+  "period": "to 2026-09-30",
+  "source": "SEC filing",
+  "mark": "verified_current"
+ }
+]

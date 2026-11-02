@@ -1,0 +1,9 @@
+{
+  "_comment": "Assumptions for the 'is it worth it' section. All are guesses to be replaced with measured numbers: monthly_items should come from the cost ledger once cost recording is complete (Oct 24 logging brief: only part of the spend is recorded). Upkeep hours from the OpenModel brief estimate (about 1 hour a week plus half a day a quarter). Dedicated GPU price from Fireworks' pricing page (H100 $8/hour, checked 2026-10-24).",
+  "monthly_items": 20000,
+  "scenarios": [1, 10, 100],
+  "upkeep_hours_per_month": 6,
+  "hour_value_usd": 150,
+  "dedicated_gpu_usd_per_hour": 8.0,
+  "dedicated_hours_per_month": 730
+}

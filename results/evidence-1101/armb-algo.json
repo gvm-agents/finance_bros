@@ -1,0 +1,192 @@
+{
+ "topic": "algo",
+ "reply": {
+  "answer": "Cheaper/better AI models mostly benefit hyperscalers and software/application layers (Microsoft, Alphabet, Amazon, Meta, Oracle, ServiceNow, Salesforce, Adobe, Snowflake, Datadog, Palantir, Accenture, JPMorgan, Walmart), since lower inference costs let them serve more AI workloads per dollar and widen margins on AI-enabled products, while heavy compute suppliers (NVIDIA, AMD, Broadcom, Micron, TSMC, CoreWeave) face pricing/volume risk if 'tokens per dollar' efficiency reduces chip/cluster demand growth, even though near-term demand remains strong. CoreWeave explicitly flags that AI efficiency gains and changes to scaling laws could reduce demand for its GPU infrastructure, and Microsoft/NVIDIA/Broadcom filings note margin risk if compute costs fall faster than pricing can adjust. Filings show total spending is still rising sharply across the board: hyperscaler capex is near record highs (Alphabet ~$160B, Amazon ~$215B, Microsoft ~$136B, Meta ~$104B, Oracle ~$76B TTM), and massive backlog/RPO and off-balance-sheet commitments (Microsoft $683B RPO, Oracle $664B RPO, Broadcom $179B RPO, plus huge lease and purchase commitments at Amazon, Meta, Alphabet) indicate spending is expected to keep increasing, not falling. Software companies like Snowflake, Datadog, and Adobe report rising AI-inference cost lines within cost of revenue/R&D, showing investment intensifying even as per-unit AI costs fall. Overall, cheaper AI lowers unit costs but drives more usage, so aggregate capex and AI-related spend commitments across this group are rising, while the chipmakers' pricing power is the key swing factor for who ultimately captures the savings.",
+  "claims": [
+   {
+    "company": "Alphabet",
+    "metric": "capex",
+    "value_usd": 159804000000,
+    "period": "TTM to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Amazon",
+    "metric": "capex",
+    "value_usd": 215192000000,
+    "period": "TTM to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "capex",
+    "value_usd": 135921000000,
+    "period": "TTM to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Meta",
+    "metric": "capex",
+    "value_usd": 104438000000,
+    "period": "TTM to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Oracle",
+    "metric": "capex",
+    "value_usd": 75660000000,
+    "period": "TTM to 2026-08-31",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "backlog_rpo",
+    "value_usd": 683000000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Oracle",
+    "metric": "backlog_rpo",
+    "value_usd": 664000000000,
+    "period": "to 2026-08-31",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "backlog_rpo",
+    "value_usd": 567700000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Broadcom",
+    "metric": "backlog_rpo",
+    "value_usd": 179200000000,
+    "period": "to 2026-08-02",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Micron",
+    "metric": "backlog_rpo",
+    "value_usd": 134000000000,
+    "period": "to 2026-09-03",
+    "source": "SEC filing"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "backlog_rpo",
+    "value_usd": 103700000000,
+    "period": "to 2026-06-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Amazon",
+    "metric": "purchase_commitments",
+    "value_usd": 883581000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "purchase_commitments",
+    "value_usd": 924400000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Meta",
+    "metric": "purchase_commitments",
+    "value_usd": 454520000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "AMD",
+    "metric": "purchase_commitments",
+    "value_usd": 30276000000,
+    "period": "to 2026-06-27",
+    "source": "SEC filing"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "revenue",
+    "value_usd": 7590000000,
+    "period": "TTM to 2026-06-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "NVIDIA",
+    "metric": "revenue",
+    "value_usd": 302970000000,
+    "period": "TTM to 2026-07-26",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Snowflake",
+    "metric": "purchase_commitments",
+    "value_usd": 530500000,
+    "period": "to 2026-07-31",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Datadog",
+    "metric": "purchase_commitments",
+    "value_usd": 1400000000,
+    "period": "to 2026-06-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Accenture",
+    "metric": "other",
+    "value_usd": 3000000000,
+    "period": "FY2023-FY2025 commitment",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Accenture",
+    "metric": "other",
+    "value_usd": 1000000000,
+    "period": "5-year AI safety commitment",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Salesforce",
+    "metric": "backlog_rpo",
+    "value_usd": 66300000000,
+    "period": "to 2026-07-31",
+    "source": "SEC filing"
+   },
+   {
+    "company": "ServiceNow",
+    "metric": "backlog_rpo",
+    "value_usd": 29700000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Oracle",
+    "metric": "debt",
+    "value_usd": 130105000000,
+    "period": "to 2026-05-31",
+    "source": "SEC filing"
+   },
+   {
+    "company": "Meta",
+    "metric": "leases_not_started",
+    "value_usd": 355730000000,
+    "period": "to 2026-09-30",
+    "source": "SEC filing"
+   }
+  ],
+  "next_question": "How are hyperscalers' AI capex-to-revenue ratios trending over the next two to three quarters as inference costs decline?"
+ },
+ "meta": {
+  "usd": 0.04,
+  "tokens_in": 9545,
+  "tokens_out": 2088,
+  "seconds": 17.9,
+  "error": ""
+ },
+ "worker_usd": 0.016557900000000004
+}

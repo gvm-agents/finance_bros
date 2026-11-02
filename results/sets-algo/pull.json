@@ -1,0 +1,3786 @@
+{
+ "Microsoft": {
+  "company": "Microsoft",
+  "ticker": "MSFT",
+  "cik": "789019",
+  "capex": {
+   "usd": 135921000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001193125-26-436133",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 195878000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001193125-26-436133",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 346445000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001193125-26-436133",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 20281000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001193125-26-436133",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 44228000000,
+   "end": "2026-09-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0001193125-26-436133",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 35481000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001193125-26-436133",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 683000000000,
+   "end": "2026-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001193125-26-436133",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001193125-26-436133",
+   "doc": "msft-20260930.htm",
+   "filed": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001193125-26-323660",
+   "doc": "msft-20260630.htm",
+   "filed": "2026-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+  },
+  "leases_not_started": {
+   "usd": 364600000000.0,
+   "quote": "The components of lease expense were as follows: | | | | | | | | | | (In millions) | | | | | | | | | | | | | | | | | Three Months Ended September 30, | | 2026 | | | 2025 | | | | | | | | | | | Operating lease cost | | $ | 1,894 | | | $ | 1,656 | | | | | | | | | | | | | | | | | | | | Finance lease cost: | | | | | | | | | Amortization of right-of-use assets | | $ | 1,702 | | | $ | 1,173 | | Interest "
+  },
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "The estimated useful lives of our property and equipment are generally as follows: software developed or acquired for internal use, three years; servers and network equipment, two to six years; buildings and improvements, five to 15 years; leasehold improvements, three to 15 years; and furniture and equipment, one to 10 years."
+  },
+  "customer_concentration": {
+   "quote": "Industry solutions cloud revenue increased 10% with growth in Dynamics 365 and LinkedIn Talent Solutions. \u2022 Frontier and support services revenue increased $86 million or 4% driven by growth in Customer Success Support (formerly Enterprise Support Services)."
+  },
+  "labs": {
+   "OpenAI": [
+    "We have a long-term strategic partnership with OpenAI.",
+    "As an equity method investee, OpenAI is a related party as defined in Accounting Standards Codification Topic 850, Related Party Disclosures (\u201cASC 850\u201d).",
+    "In accordance with ASC 850, we are disclosing revenue and accounts receivable balances from transactions with OpenAI.",
+    "For the three months ended September 30, 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $10.0 billion.",
+    "Accounts receivable from OpenAI as of September 30, 2026 and June 30, 2026 was $7.2 billion and $6.0 billion, respectively.",
+    "NOTE 3 \u2014 OTHER INCOME (EXPENSE), NET The components of other income (expense), net were as follows: | | | | | | | | | | (In millions) | | | | | | | | | | | | | | | | | | | | | | Three Months Ended September 30, | | 2026 | | | 2025 | | | | | | | | | Interest and dividends income | | $ | 744 | | | $ |"
+   ],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Alphabet": {
+  "company": "Alphabet",
+  "ticker": "GOOGL",
+  "cik": "1652044",
+  "capex": {
+   "usd": 159804000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001652044-26-000084",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 179551000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001652044-26-000084",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 471098000000,
+   "end": "2026-09-30",
+   "concept": "Revenues",
+   "acc": "0001652044-26-000084",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 56334000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001652044-26-000084",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 208764000000,
+   "end": "2026-09-30",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001652044-26-000084",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 127485000000,
+   "end": "2026-09-30",
+   "concept": "DebtInstrumentCarryingAmount",
+   "acc": "0001652044-26-000084",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 567700000000,
+   "end": "2026-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001652044-26-000084",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001652044-26-000084",
+   "doc": "goog-20260930.htm",
+   "filed": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001652044-26-000018",
+   "doc": "goog-20251231.htm",
+   "filed": "2026-02-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 924400000000.0,
+   "quote": "Of the total material purchase commitments of $924.4 billion, $213.4 billion is due within 12 months. \u2022$130.5 billion future payments for leases not yet commenced, primarily related to data centers and energy infrastructure."
+  },
+  "purchase_commitments": {
+   "usd": 924400000000.0,
+   "quote": "These future commitments comprise: \u2022$924.4 billion material purchase commitments, of which $802.1 billion relates to multi-year commitments for technical infrastructure and inventory, energy take-or-pay contracts, and content licenses."
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "Revenues Disaggregated Revenues The following table presents revenues disaggregated by type (in millions): | | | | | | | | | | | | | | | | | | | | Year Ended December 31, | | 2023 | | 2024 | | 2025 | Google Search & other | $ | 175,033 | | | $ | 198,084 | | | $ | 224,532 | | YouTube ads | 31,510 | | | 36,147 | | | 40,367 | | Google Network | 31,312 | | | 30,359 | | | 29,792 | | Google advertising "
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Amazon": {
+  "company": "Amazon",
+  "ticker": "AMZN",
+  "cik": "1018724",
+  "capex": {
+   "usd": 215192000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001018724-26-000040",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 168300000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001018724-26-000040",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 797455000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001018724-26-000040",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 55783000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001018724-26-000040",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 58443000000,
+   "end": "2026-09-30",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001018724-26-000040",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 180887000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001018724-26-000040",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 41000000000,
+   "end": "2020-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001018724-20-000021",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001018724-26-000040",
+   "doc": "amzn-20260930.htm",
+   "filed": "2026-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001018724-26-000004",
+   "doc": "amzn-20251231.htm",
+   "filed": "2026-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 164922000000.0,
+   "quote": "filing table row: Leases not yet commenced, Total column"
+  },
+  "purchase_commitments": {
+   "usd": 883581000000,
+   "quote": "XBRL ContractualObligation as of 2026-09-30"
+  },
+  "server_useful_life": {
+   "quote": "Effective January 1, 2025 we changed our estimate of the useful lives of a subset of our servers and networking equipment from six years to five years."
+  },
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [
+    "In Q1 2026, AWS and OpenAI Group PBC (\u201cOpenAI\u201d) announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
+    "OpenAI \u2014 In Q1 2026, we and OpenAI entered into (i) a commercial arrangement primarily for the provision of AWS cloud services, which includes the use and performance of AWS chips, and (ii) a joint collaboration agreement pursuant to which certain services using OpenAI models will be made available ",
+    "We also invested $15.0 billion in Series C Preferred Stock of OpenAI and entered into an equity commitment letter agreement (the \u201cLetter Agreement\u201d), pursuant to which we agreed to purchase additional shares of Series C Preferred Stock (the \u201cCommitment Shares\u201d) with an aggregate purchase price of $3",
+    "In the event OpenAI consummates an IPO or other liquidity event, then-outstanding Series C Preferred Stock would be converted to common stock.",
+    "As of December 31, 2025 and September 30, 2026, equity investments in private companies not accounted for under the equity-method, which primarily relate to nonvoting preferred stock in Anthropic and preferred stock in OpenAI, had a carrying value of $16.2 billion and $143.7 billion, with adjustment",
+    "Certain of our investments, including our investments in Anthropic and OpenAI, represent a variable interest in entities that we do not consolidate because we are not the primary beneficiary."
+   ],
+   "Anthropic": [
+    "The following table shows the calculation of diluted shares (in millions): | | | | | | | | | | | | | | | | | | | | | | | | | | Three Months Ended September 30, | | Nine Months Ended September 30, | | 2025 | | 2026 | | 2025 | | 2026 | Shares used in computation of basic earnings per share | 10,674 | ",
+    "The upward adjustments relating to equity investments in private companies of $7.2 billion in Q3 2025, and $7.3 billion and $62.9 billion for the nine months ended September 30, 2025 and 2026 reflect observable changes in prices, primarily from our nonvoting preferred stock in Anthropic.",
+    "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $100.0 billion over 10.0 years, which includes contractual obligations related to the performance of AWS chips.",
+    "Non-Marketable Investments Anthropic \u2014 From Q3 2023 to Q4 2025, we invested $8.0 billion in convertible notes from Anthropic, which are classified as available-for-sale and reported at fair value with unrealized gains and losses included in \u201cAccumulated other comprehensive income (loss)\u201d and as Leve",
+    "As a result of these conversions, a portion of the unrealized gain associated with the notes included in \u201cAccumulated other comprehensive income (loss)\u201d was reclassified and gains of approximately $2.3 billion in Q3 2025, and $5.6 billion and $4.5 billion for the nine months ended September 30, 2025",
+    "Additionally, we entered into a financing arrangement to make available to Anthropic an aggregate facility not to exceed $20.0 billion that will expire 30 months after an Anthropic liquidity event, including an initial public offering (\u201cIPO\u201d)."
+   ],
+   "xAI": []
+  }
+ },
+ "Meta": {
+  "company": "Meta",
+  "ticker": "META",
+  "cik": "1326801",
+  "capex": {
+   "usd": 104438000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001628280-26-066773",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 133087000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001628280-26-066773",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 241605000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001628280-26-066773",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 11222000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001628280-26-066773",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 71227000000,
+   "end": "2026-09-30",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001628280-26-066773",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 84000000000,
+   "end": "2026-09-30",
+   "concept": "DebtInstrumentCarryingAmount",
+   "acc": "0001628280-26-066773",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001628280-26-066773",
+   "doc": "meta-20260930.htm",
+   "filed": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001628280-26-003942",
+   "doc": "meta-20251231.htm",
+   "filed": "2026-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 355730000000.0,
+   "quote": "These lease obligations were approximately $355.73 billion, consisting of data centers, energy-related infrastructure, colocations, and certain network infrastructure, which will commence during the remainder of 2026 through 2036 with lease terms ranging from greater than one year to 30 years."
+  },
+  "purchase_commitments": {
+   "usd": 454520000000.0,
+   "quote": "As of September 30, 2026, we had $454.52 billion of non-cancelable contractual commitments, comprising both short-term and long-term arrangements."
+  },
+  "server_useful_life": {
+   "quote": "Change in Accounting Estimate In January 2025, we completed an assessment of the useful lives of property and equipment, which resulted in an increase in the estimated useful lives of most servers and network assets to 5.5 years, effective January 1, 2025."
+  },
+  "customer_concentration": {
+   "quote": "No customer represented 10% or more of total revenue or accounts receivable for the years ended December 31, 2025, 2024, and 2023."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [
+    "Anthropic PBC, et al. and TED Entertainment, Inc. v.",
+    "Anthropic PBC, et al. and TED Entertainment, Inc. v."
+   ],
+   "xAI": []
+  }
+ },
+ "Oracle": {
+  "company": "Oracle",
+  "ticker": "ORCL",
+  "cik": "1341439",
+  "capex": {
+   "usd": 75660000000,
+   "end": "2026-08-31",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001193125-26-389274",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 46940000000,
+   "end": "2026-08-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001193125-26-389274",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 71776000000,
+   "end": "2026-08-31",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001193125-26-389274",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 36369000000,
+   "end": "2026-08-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001193125-26-389274",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 708000000,
+   "end": "2026-08-31",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001193125-26-389274",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 130105000000,
+   "end": "2026-05-31",
+   "concept": "DebtInstrumentCarryingAmount",
+   "acc": "0001193125-26-277521",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 664000000000,
+   "end": "2026-08-31",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001193125-26-389274",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001193125-26-389274",
+   "doc": "orcl-20260831.htm",
+   "filed": "2026-09-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001193125-26-277521",
+   "doc": "orcl-20260531.htm",
+   "filed": "2026-06-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm"
+  },
+  "leases_not_started": {
+   "usd": 288000000000.0,
+   "quote": "The components of lease expense were as follows: | | | | | | | | | | | | Three Months Ended August 31, | | (in millions) | | 2026 | | | 2025 | | Operating lease expense | | $ | 1,101 | | | $ | 575 | | Finance lease expense: | | | | | | | Amortization of ROU assets | | $ | 149 | | | $ | 59 | | Interest on lease liabilities | | | 126 | | | | 48 | | Total finance lease expense | | $ | 275 | | | $ | 1"
+  },
+  "purchase_commitments": {
+   "usd": 19000000000.0,
+   "quote": "Subsequent to May 31, 2026, we entered into an additional $19 billion of unconditional purchase commitments for cloud infrastructure assets that commence in fiscal 2027 and have a term of five years."
+  },
+  "server_useful_life": {
+   "quote": "PROPERTY, PLANT AND EQUIPMENT Property, plant and equipment, net consisted of the following: | | | | | | | | | | | | (Dollars in millions) | | Estimated Useful Life | | August 31, 2026 | | | May 31, 2026 | | Computer, network, machinery and equipment | | 1-6 years(1) | | $ | 77,755 | | | $ | 59,634 | | Buildings and improvements | | 1-40 years | | | 25,539 | | | | 21,263 | | Furniture, fixtures an"
+  },
+  "customer_concentration": {
+   "quote": "Services Business Our services business, which represented 8% of our total revenues on a trailing four-quarter basis, helps customers and partners maximize the performance of their investments in Oracle applications and infrastructure technologies."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Apple": {
+  "company": "Apple",
+  "ticker": "AAPL",
+  "cik": "320193",
+  "capex": {
+   "usd": 10041000000,
+   "end": "2026-06-27",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000320193-26-000020",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 146724000000,
+   "end": "2026-06-27",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000320193-26-000020",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 466823000000,
+   "end": "2026-06-27",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0000320193-26-000020",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 39544000000,
+   "end": "2026-06-27",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000320193-26-000020",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 22855000000,
+   "end": "2026-06-27",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0000320193-26-000020",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 82300000000,
+   "end": "2026-06-27",
+   "concept": "LongTermDebt",
+   "acc": "0000320193-26-000020",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0000320193-26-000020",
+   "doc": "aapl-20260627.htm",
+   "filed": "2026-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000320193-25-000079",
+   "doc": "aapl-20250927.htm",
+   "filed": "2025-10-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+  },
+  "leases_not_started": {
+   "usd": 523000000.0,
+   "quote": "As of September 27, 2025, the Company had $523 million of fixed payment obligations under additional leases, primarily for corporate facilities and retail space, that had not yet commenced."
+  },
+  "purchase_commitments": {
+   "usd": 57000000000.0,
+   "quote": "As of June 27, 2026, the Company had manufacturing purchase obligations of $57.0 billion, with $56.2 billion payable within 12 months."
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "Accounts Receivable Trade Receivables As of both June 27, 2026 and September 27, 2025, the Company had one customer that represented 10% or more of total trade receivables, which accounted for 18% and 12%, respectively."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Tesla": {
+  "company": "Tesla",
+  "ticker": "TSLA",
+  "cik": "1318605",
+  "capex": {
+   "usd": 15407000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001628280-26-066775",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 18710000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001628280-26-066775",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 103570000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001628280-26-066775",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 17853000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001628280-26-066775",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 27594000000,
+   "end": "2026-09-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0001628280-26-066775",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 7956000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001628280-26-066775",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 10730000000,
+   "end": "2026-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001628280-26-066775",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001628280-26-066775",
+   "doc": "tsla-20260930.htm",
+   "filed": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001628280-26-003952",
+   "doc": "tsla-20251231.htm",
+   "filed": "2026-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 849000000.0,
+   "quote": "Other information related to leases where we are the lessee is as follows: | | | | | | | | | | | | | | December 31, 2025 | | December 31, 2024 | Weighted-average remaining lease term: | | | | Operating leases | 7.7 years | | 7.9 years | Finance leases | 4.3 years | | 4.4 years | | | | | Weighted-average discount rate: | | | | Operating leases | 5.0 | % | | 5.3 | % | Finance leases | 4.7 | % | | 4."
+  },
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "Depreciation is generally computed using the straight-line method over the estimated useful lives of the respective assets, as follows: | | | | | | | Machinery, equipment, vehicles and office furniture | 3 to 15 years | Tooling | 4 to 7 years | Building and building improvements | 15 to 30 years | Computer equipment and software | 3 to 6 years | AI infrastructure | 5 to 30 years Leasehold improvem"
+  },
+  "customer_concentration": {
+   "quote": "As of September 30, 2026, one customer accounted for over 10% of our accounts receivable, all of which is current."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": [
+    "(formerly Twitter) and xAI.",
+    "Upon receiving the applicable regulatory approvals, the Company invested $2.00 billion in SpaceX common stock (formerly a preferred share investment in xAI) representing an ownership interest of less than 1% in March 2026.",
+    "(\u201cxAI\u201d), Neuralink Corp. and The Boring Company, and is involved in other ventures.",
+    "Liquidity and Capital Resources As discussed in Part II, Item 9B, Other Information\u2014xAI Investment of this Annual Report on Form 10-K, the Company entered into an agreement in January 2026 to make a minority equity investment.",
+    "(formerly Twitter) and xAI.",
+    "The aggregate carrying values of the VIEs\u2019 assets and liabilities, after elimination of any intercompany transactions and balances, in the consolidated balance sheets were as follows (in millions): | | | | | | | | | | | | | | December 31, 2025 | | December 31, 2024 | Assets | | | | Current assets | "
+   ]
+  }
+ },
+ "CoreWeave": {
+  "company": "CoreWeave",
+  "ticker": "CRWV",
+  "cik": "1769628",
+  "capex": {
+   "usd": 20566000000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001769628-26-000366",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 6911000000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001769628-26-000366",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 7590000000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001769628-26-000366",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 5524000000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001769628-26-000366",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 15000000,
+   "end": "2026-06-30",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001769628-26-000366",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 35551000000,
+   "end": "2026-06-30",
+   "concept": "DebtInstrumentCarryingAmount",
+   "acc": "0001769628-26-000366",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 103700000000,
+   "end": "2026-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001769628-26-000366",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001769628-26-000366",
+   "doc": "crwv-20260630.htm",
+   "filed": "2026-08-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001769628-26-000104",
+   "doc": "crwv-20251231.htm",
+   "filed": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 1800000000.0,
+   "quote": "The Company\u2019s maximum exposure to loss under this lease consists of its committed payments, which total approximately $1.8 billion as of June 30, 2026 and are included within aggregate estimated future undiscounted lease payments, as disclosed in the Leases Not Yet Commenced section. 9."
+  },
+  "purchase_commitments": null,
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "Significant Customers The following customers accounted for 10% or more of the Company's revenue for the periods presented: | | | | | | | | | | | | | | | | | | | | | | | | | | Three Months Ended June 30, | | Six Months Ended June 30, | | 2026 | | 2025 | | 2026 | | 2025 | | | | | | | | | Customer A | 36% | | 71% | | 40% | | 72% | Customer B | 26% | | * | | 23% | | * | Customer C | 10% | | * | | * |"
+  },
+  "labs": {
+   "OpenAI": [
+    "In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC (\"OpenAI\") and in September 2025, we entered into an order form under this master services agreement pursuant to which OpenAI committed to pay us up to approximately $6.5 billion through May 31, 2031 and, as a result, we ",
+    "Other significant customers include Microsoft and OpenAI.",
+    "In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC (\"OpenAI\") and in September 2025, we entered into an order form under this master services agreement pursuant to which OpenAI has committed to pay us up to approximately $6.5 billion through May 31, 2031 and, as a result,",
+    "For example, in March 2025, we entered into a master services agreement with OpenAI, a private company, pursuant to which OpenAI has committed to pay us up to approximately $11.9 billion through October 2030.",
+    "VII, LLC, CoreWeave, Inc., CCAC VII Holdco LLC, and the agents and lenders party thereto, dated December 31, 2025 | | | | | | | | | | X 140 Table of Contents | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 10.32 | | Form of Equity Exchange Right Agreement between Core"
+   ],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Nebius": {
+  "company": "Nebius",
+  "ticker": "NBIS",
+  "cik": "1513845",
+  "capex": {
+   "usd": 4066000000,
+   "end": "2025-12-31",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001104659-26-052948",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 384800000,
+   "end": "2025-12-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001104659-26-052948",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 529800000,
+   "end": "2025-12-31",
+   "concept": "Revenues",
+   "acc": "0001104659-26-052948",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 3678100000,
+   "end": "2025-12-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001104659-26-052948",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 54500000,
+   "end": "2021-12-31",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001558370-22-005654",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 4103200000,
+   "end": "2025-12-31",
+   "concept": "LongTermDebt",
+   "acc": "0001104659-26-052948",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 21333000000,
+   "end": "2025-12-31",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001104659-26-052948",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "20-F",
+   "accession": "0001104659-26-052948",
+   "doc": "nbis-20251231x20f.htm",
+   "filed": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm"
+  },
+  "annual_report": {
+   "form": "20-F",
+   "accession": "0001104659-26-052948",
+   "doc": "nbis-20251231x20f.htm",
+   "filed": "2026-04-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "In January 2026, the Company completed an assessment of the useful lives of servers and network equipment based on updated information and usage patterns obtained subsequent to year-end and concluded that the estimated useful lives of such assets should be extended from four to five years."
+  },
+  "customer_concentration": {
+   "quote": "The following customers accounted for 10% or more of the Company\u2019s revenue for the years ended December 31, 2023, 2024, and 2025 after deconsolidation of Toloka entities: \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | \u200b | Year ended December 31, | \u200b | \u200b | \u200b | 2023 | \u200b | 2024 | \u200b | 2025 | Customer A | \u200b | \u200b | * | \u200b | 27% | \u200b | 25% | Customer B | \u200b | \u200b | * | \u200b | * | \u200b | 15% | Customer C | \u200b | \u200b | * | \u200b"
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "IREN": {
+  "company": "IREN",
+  "ticker": "IREN",
+  "cik": "1878848",
+  "capex": {
+   "usd": 2998006000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001878848-26-000052",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 2100418000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001878848-26-000052",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 707007000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001878848-26-000052",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 5895591000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001878848-26-000052",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 0,
+   "end": "2025-06-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0001878848-25-000063",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 7592944000,
+   "end": "2026-06-30",
+   "concept": "LongTermDebt",
+   "acc": "0001878848-26-000052",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 5100000000,
+   "end": "2026-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001878848-26-000052",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-K",
+   "accession": "0001878848-26-000052",
+   "doc": "iren-20260630.htm",
+   "filed": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001878848-26-000052",
+   "doc": "iren-20260630.htm",
+   "filed": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 198000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2025-09-30"
+  },
+  "server_useful_life": null,
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Applied Digital": {
+  "company": "Applied Digital",
+  "ticker": "APLD",
+  "cik": "1144879",
+  "capex": {
+   "usd": 4690549000,
+   "end": "2026-08-31",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001144879-26-000059",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 235137000,
+   "end": "2026-08-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001144879-26-000059",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 326014000,
+   "end": "2026-08-31",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001144879-26-000059",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2949909000,
+   "end": "2026-08-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001144879-26-000059",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 7190000,
+   "end": "2022-05-31",
+   "concept": "LongTermDebt",
+   "acc": "0001628280-22-023816",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 48700000,
+   "end": "2023-05-31",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001144879-23-000176",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001144879-26-000059",
+   "doc": "apld-20260831.htm",
+   "filed": "2026-10-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001144879-26-000048",
+   "doc": "apld-20260531.htm",
+   "filed": "2026-07-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 16600000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2025-08-31"
+  },
+  "server_useful_life": {
+   "quote": "Property and Equipment Property and equipment consisted of the following as of August 31, 2026 and May 31, 2026 (in thousands): | | | | | | | | | | | | | | | | | | | | Estimated Useful Life | | August 31, 2026 | | May 31, 2026 | Networking equipment, electrical equipment, and software | 3 years - 5 years | | $ | 40,425 | | | $ | 38,669 | | Mechanical infrastructure | 20 years | | 194,896 | | | 71,"
+  },
+  "customer_concentration": {
+   "quote": "HPC Hosting Business During fiscal year 2026, this business segment was comprised of one customer accounting for 59% of our total revenue from continuing operations."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Cipher Mining": {
+  "company": "Cipher Mining",
+  "ticker": "CIFR",
+  "cik": "1819989",
+  "capex": {
+   "usd": 2742193000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001819989-26-000050",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": -337626000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001819989-26-000050",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 146087000,
+   "end": "2026-09-30",
+   "concept": "Revenues",
+   "acc": "0001819989-26-000050",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 656009000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001819989-26-000050",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 170027342,
+   "end": "2020-12-31",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001193125-22-014855",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 5447174000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001819989-26-000050",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001819989-26-000050",
+   "doc": "cifr-20260930.htm",
+   "filed": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001819989-26-000009",
+   "doc": "cifr-20251231.htm",
+   "filed": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000009/cifr-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 46185000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-09-30"
+  },
+  "server_useful_life": null,
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "TeraWulf": {
+  "company": "TeraWulf",
+  "ticker": "WULF",
+  "cik": "1083301",
+  "capex": {
+   "usd": 2225074000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001083301-26-000166",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": -279157000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001083301-26-000166",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 165193000,
+   "end": "2026-06-30",
+   "concept": "Revenues",
+   "acc": "0001083301-26-000166",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2619191000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001083301-26-000166",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 0,
+   "end": "2020-12-31",
+   "concept": "ShortTermInvestments",
+   "acc": "0001437749-21-004835",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 3103758000,
+   "end": "2026-03-31",
+   "concept": "LongTermDebt",
+   "acc": "0001083301-26-000092",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001083301-26-000166",
+   "doc": "wulf-20260630.htm",
+   "filed": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000166/wulf-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001083301-26-000031",
+   "doc": "wulf-20251231.htm",
+   "filed": "2026-02-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000031/wulf-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 11100000.0,
+   "quote": "Equity in net loss of investee, net of tax was $11.1 million and $22.6 million for the three and six months ended June 30, 2026, respectively, which represents TeraWulf\u2019s proportional share of net loss of the Abernathy Joint Venture which was formed in October 2025 and has not yet commenced operations."
+  },
+  "purchase_commitments": {
+   "usd": 90000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-06-30"
+  },
+  "server_useful_life": {
+   "quote": "Depreciation is computed using the straight-line method over the estimated useful lives of the assets (generally 2 to 5 years for computer equipment and 4 years for miners, 2 to 25 years for electrical equipment, 5 to 20 years for building and improvements, 2 to 10 years for office furniture and fixtures, and 2 to 7 years for vehicles)."
+  },
+  "customer_concentration": {
+   "quote": "Revenue from one bitcoin miner hosting customer represented 10.9% of consolidated revenue for the year ended December 31, 2023."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [
+    "Subsequent to June 30, 2026, the Company entered into a long-term datacenter lease agreement with Anthropic to support its HPC operations at the Justified Data Campus (see Note 18).",
+    "AND SUBSIDIARIES NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (unaudited) NOTE 18 \u2013 SUBSEQUENT EVENTS In July 2026, the Company entered into a long-term datacenter lease agreement (the \u201cAnthropic HPC Lease\u201d) with Anthropic PBC (\u201cAnthropic\u201d) for specified datacenter infrastructure at the Just",
+    "Under the Anthropic HPC Lease, the Company will provide Anthropic with approximately 401 MW of critical IT load at the Justified Data Campus.",
+    "The Anthropic HPC Lease has an initial term of 20 years commencing upon delivery of the applicable leased premises, with two options to extend the initial term by five years each at Anthropic\u2019s election.",
+    "The Anthropic HPC Lease had not commenced as of the date these condensed consolidated financial statements were issued. 52 Table of Contents ITEM 2.",
+    "In July 2026, the Company entered into a long-term datacenter lease agreement with Anthropic for approximately 401 MW of critical IT load at the Justified Data Campus."
+   ],
+   "xAI": []
+  }
+ },
+ "Galaxy Digital": {
+  "company": "Galaxy Digital",
+  "ticker": "GLXY",
+  "cik": "1859392",
+  "capex": {
+   "usd": 1532749000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001859392-26-000091",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": -357280000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001859392-26-000091",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 57367747000,
+   "end": "2026-06-30",
+   "concept": "Revenues",
+   "acc": "0001859392-26-000091",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 895744000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001859392-26-000091",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 657951000,
+   "end": "2026-06-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0001859392-26-000091",
+   "unit": "USD"
+  },
+  "debt": null,
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001859392-26-000091",
+   "doc": "glxy-20260630.htm",
+   "filed": "2026-08-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000091/glxy-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001859392-26-000016",
+   "doc": "glxy-20251231.htm",
+   "filed": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000016/glxy-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "As of June 30, 2026 and December 31, 2025, no individual customer accounted for 10% or more of net accounts receivable."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Core Scientific": {
+  "company": "Core Scientific",
+  "ticker": "CORZ",
+  "cik": "1839341",
+  "capex": {
+   "usd": 1477985000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001839341-26-000014",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 520240000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001839341-26-000014",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 440311000,
+   "end": "2026-06-30",
+   "concept": "Revenues",
+   "acc": "0001839341-26-000014",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 1769735000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001839341-26-000014",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 4297967000,
+   "end": "2026-06-30",
+   "concept": "LongTermDebt",
+   "acc": "0001839341-26-000014",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 440700000,
+   "end": "2022-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001628280-22-030600",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001839341-26-000014",
+   "doc": "core-20260630.htm",
+   "filed": "2026-07-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001628280-26-013305",
+   "doc": "core-20251231.htm",
+   "filed": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013305/core-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 3100000000.0,
+   "quote": "Notes to Unaudited Condensed Consolidated Financial Statements The following table represents future operating lease payments expected to be received as of June 30, 2026 (in thousands): | | | | | | | | Operating Leases(1) | Remaining 2026 | $ | 132,281 | | 2027 | 271,468 | | 2028 | 368,963 | | 2029 | 527,771 | | 2030 | 546,112 | | Thereafter | 4,241,072 | | Total | $ | 6,087,667 | | | | | | | | | "
+  },
+  "purchase_commitments": {
+   "usd": 3100000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-06-30"
+  },
+  "server_useful_life": {
+   "quote": "PROPERTY, PLANT, AND EQUIPMENT Property, plant and equipment, net as of December 31, 2025 and 2024 consist of the following (in thousands): | | | | | | | | December 31, 2025 | | December 31, 2024 | | Estimated Useful Lives | Land and improvements1 | $21,769 | | $17,215 | | 20 years | Building and improvements | 278,222 | | 186,267 | | 10 to 39 years | Mining and network equipment | 408,777 | | 413"
+  },
+  "customer_concentration": {
+   "quote": "For the three months ended June 30, 2026 and 2025, 13% and 80%, respectively, of the Company\u2019s total revenue was generated from one customer in the Digital Asset Self-Mining segment."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Hut 8": {
+  "company": "Hut 8",
+  "ticker": "HUT",
+  "cik": "1964789",
+  "capex": null,
+  "operating_cash_flow": {
+   "usd": -89435000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001104659-26-090025",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 317953000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001104659-26-090025",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 233579000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001104659-26-090025",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 7735104000,
+   "end": "2026-06-30",
+   "concept": "DebtInstrumentCarryingAmount",
+   "acc": "0001104659-26-090025",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001104659-26-090025",
+   "doc": "hut-20260630x10q.htm",
+   "filed": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090025/hut-20260630x10q.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001104659-26-019392",
+   "doc": "hut-20251231x10k.htm",
+   "filed": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926019392/hut-20251231x10k.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 40000000,
+   "quote": "XBRL PurchaseObligation as of 2023-10-31"
+  },
+  "server_useful_life": null,
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [
+    "In December 2025, we announced a strategic partnership with Anthropic, PBC (\u201cAnthropic\u201d) and Fluidstack Ltd.",
+    "As part of the partnership, Hut 8 and Anthropic may jointly diligence and develop up to 1,050 MW of additional optional capacity across our broader pipeline for a total of up to 2,295 MW of AI data center infrastructure, reflecting our power-first development model and strategic focus on scaling AI "
+   ],
+   "xAI": []
+  }
+ },
+ "Digital Realty": {
+  "company": "Digital Realty",
+  "ticker": "DLR",
+  "cik": "1297996",
+  "capex": {
+   "usd": 3263914000,
+   "end": "2026-03-31",
+   "concept": "PaymentsToDevelopRealEstateAssets",
+   "acc": "0001104659-26-054255",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 2545472000,
+   "end": "2026-03-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001104659-26-054255",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 6340228000,
+   "end": "2026-03-31",
+   "concept": "Revenues",
+   "acc": "0001104659-26-054255",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2426631000,
+   "end": "2026-03-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001104659-26-054255",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 16013977000,
+   "end": "2026-03-31",
+   "concept": "SeniorNotes",
+   "acc": "0001104659-26-054255",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001104659-26-120710",
+   "doc": "dlr-20260930x10q.htm",
+   "filed": "2026-10-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001104659-26-015365",
+   "doc": "dlr-20251231x10k.htm",
+   "filed": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926015365/dlr-20251231x10k.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "As of September 30, 2026, our two largest customers accounted for approximately 11% and 10%, respectively, of our total revenue."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Equinix": {
+  "company": "Equinix",
+  "ticker": "EQIX",
+  "cik": "1101239",
+  "capex": {
+   "usd": 4817000000,
+   "end": "2026-03-31",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001101239-26-000091",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 4171000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001101239-26-000180",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 10060000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001101239-26-000180",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2362000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001101239-26-000180",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 1235000000,
+   "end": "2026-09-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0001101239-26-000180",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 22839000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001101239-26-000180",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 15900000000,
+   "end": "2026-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001101239-26-000180",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001101239-26-000180",
+   "doc": "eqix-20260930.htm",
+   "filed": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001101239-26-000032",
+   "doc": "eqix-20251231.htm",
+   "filed": "2026-02-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000032/eqix-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 694000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-09-30"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "There was no other country from which we derived revenues that exceeded 10% of our total revenues and no single customer accounted for 10% or greater of our accounts receivable or revenues as at or for the three and nine months ended September 30, 2026."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Iron Mountain": {
+  "company": "Iron Mountain",
+  "ticker": "IRM",
+  "cik": "1020569",
+  "capex": {
+   "usd": 2146311000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001020569-26-000071",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 1655387000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001020569-26-000071",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 7562471000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001020569-26-000071",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 204793000,
+   "end": "2026-06-30",
+   "concept": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "acc": "0001020569-26-000071",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 17349649000,
+   "end": "2026-06-30",
+   "concept": "LongTermDebt",
+   "acc": "0001020569-26-000071",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 252000,
+   "end": "2026-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001020569-26-000071",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001020569-26-000071",
+   "doc": "irm-20260630.htm",
+   "filed": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000071/irm-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001020569-26-000013",
+   "doc": "irm-20251231.htm",
+   "filed": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000013/irm-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 234027000,
+   "quote": "XBRL ContractualObligation as of 2025-12-31"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "Our business has a highly diverse customer base of more than 240,000 customers - with no single customer accounting for more than approximately 3% of revenue during the year ended December 31, 2025 - and operates in 61 countries globally."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "American Tower": {
+  "company": "American Tower",
+  "ticker": "AMT",
+  "cik": "1053507",
+  "capex": {
+   "usd": 1747000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001053507-26-000157",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 5707700000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001053507-26-000157",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 849500000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001053507-26-000157",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 1871900000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001053507-26-000157",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 18400000,
+   "end": "2019-03-31",
+   "concept": "ShortTermInvestments",
+   "acc": "0001053507-19-000073",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 32215200000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebtAndCapitalLeaseObligations",
+   "acc": "0001053507-26-000157",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001053507-26-000157",
+   "doc": "amt-20260930.htm",
+   "filed": "2026-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000157/amt-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001053507-26-000035",
+   "doc": "amt-20251231.htm",
+   "filed": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000035/amt-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "GOODWILL AND OTHER INTANGIBLE ASSETS The changes in the carrying value of goodwill for each of the Company\u2019s business segments were as follows: | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Property | | Services | | Total | | | U.S. & Canada | | Africa & APAC | | Europe | | Latin America | | Data Centers | | Balance as of January 1, 2026 | | $ | 4,"
+  },
+  "customer_concentration": {
+   "quote": "The following is a list of significant customers (representing at least 10% of revenue in any of the last three years) and the percentage of our total revenues for the specified time periods received from these customers: | | | | | | | | | | | | | | | | | | | | For the year ended December 31, | | 2025 | | 2024 | | 2023 | T-Mobile | 18 | % | | 19 | % | | 19 | % | AT&T | 17 | % | | 18 | % | | 18 | %"
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "NVIDIA": {
+  "company": "NVIDIA",
+  "ticker": "NVDA",
+  "cik": "1045810",
+  "capex": {
+   "usd": 7354000000,
+   "end": "2026-07-26",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001045810-26-000075",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 134360000000,
+   "end": "2026-07-26",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001045810-26-000075",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 302970000000,
+   "end": "2026-07-26",
+   "concept": "Revenues",
+   "acc": "0001045810-26-000075",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 22443000000,
+   "end": "2026-07-26",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001045810-26-000075",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 49122000000,
+   "end": "2025-10-26",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001045810-25-000230",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 33366000000,
+   "end": "2026-07-26",
+   "concept": "LongTermDebt",
+   "acc": "0001045810-26-000075",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 3200000000,
+   "end": "2026-07-26",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001045810-26-000075",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001045810-26-000075",
+   "doc": "nvda-20260726.htm",
+   "filed": "2026-08-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001045810-26-000021",
+   "doc": "nvda-20260125.htm",
+   "filed": "2026-02-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 1000000000.0,
+   "quote": "Provisions for inventory and excess inventory purchase obligations totaled $1.0 billion and $6.3 billion for the second quarter and first half of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations for the first quarter of fiscal year 2026."
+  },
+  "server_useful_life": {
+   "quote": "Depreciation of property and equipment is computed using the straight-line method based on the estimated useful lives of the assets of two to seven years."
+  },
+  "customer_concentration": {
+   "quote": "Five direct customers accounted for 22%, 14%, 13%, 11%, and 10% of our accounts receivable balance as of July 26, 2026."
+  },
+  "labs": {
+   "OpenAI": [
+    "(SB Energy) on behalf of a customer, an affiliate of OpenAI Group PBC (OpenAI), related to leases for approximately 4.25 gigawatts of IT load in the aggregate at SB Energy\u2019s PORTS Technology Campus in Pike County, Ohio.",
+    "The guarantees terminate upon certain events, including OpenAI achieving a satisfactory credit rating or after each respective lease term has completed.",
+    "The campus will exclusively host our compute under 20-year leases to OpenAI, subject to limited exceptions, with our obligation capped at $105 billion in the aggregate, subject to certain conditions including SB Energy, the lessor, satisfying applicable ready-for-service conditions.",
+    "Our exposure declines as OpenAI fulfills its lease payments.",
+    "The guarantees terminate upon certain events, including OpenAI achieving a satisfactory credit rating or after each respective lease term has completed.",
+    "If OpenAI does not perform its obligations or becomes subject to an insolvency event, and a guarantee is triggered, we may assume the applicable lease, require the landlord to 34 seek a replacement tenant, initiate a sale process or choose to pursue other remedies."
+   ],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "AMD": {
+  "company": "AMD",
+  "ticker": "AMD",
+  "cik": "2488",
+  "capex": {
+   "usd": 1677000000,
+   "end": "2026-06-27",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000002488-26-000123",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 10080000000,
+   "end": "2026-06-27",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000002488-26-000123",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 41305000000,
+   "end": "2026-06-27",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0000002488-26-000123",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 5086000000,
+   "end": "2026-06-27",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000002488-26-000123",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 8025000000,
+   "end": "2026-06-27",
+   "concept": "ShortTermInvestments",
+   "acc": "0000002488-26-000123",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 2351000000,
+   "end": "2026-06-27",
+   "concept": "LongTermDebtNoncurrent",
+   "acc": "0000002488-26-000123",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 222000000,
+   "end": "2026-06-27",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0000002488-26-000123",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0000002488-26-000123",
+   "doc": "amd-20260627.htm",
+   "filed": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000002488-26-000018",
+   "doc": "amd-20251227.htm",
+   "filed": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  "leases_not_started": {
+   "usd": 1200000000.0,
+   "quote": "We also have commitments for leases that have commenced for approximately $1.2 billion and leases that have not yet commenced for $4.5 billion."
+  },
+  "purchase_commitments": {
+   "usd": 30276000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-06-27"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "International Sales International sales, based on billing location of customers who purchased directly from us, were 70% and 71% of net revenue for the three months ended June 27, 2026 and June 28, 2025, respectively, and 72% and 69% of net revenue for the six months ended June 27, 2026 and June 28, 2025, respectively."
+  },
+  "labs": {
+   "OpenAI": [
+    "Warrants In October 2025 and February 2026, the Company issued warrants to OpenAI OpCo, LLC (OpenAI) and Meta Platforms, Inc.",
+    "(Meta), each entitling the holder the right to purchase up to 160 million shares of the Company\u2019s common stock at an exercise price of $0.01 per share (the OpenAI Warrant and the Meta Warrant, respectively).",
+    "The warrants vest in tranches based on specified AMD InstinctTM GPU purchase milestones by OpenAI, Meta, their affiliates, or indirectly through authorized third-parties and achievement of specified stock price targets.",
+    "The vesting of the OpenAI Warrant is also subject to stock\u2011performance thresholds.",
+    "The OpenAI Warrant and Meta Warrant is exercisable through October 5, 2030 and February 23, 2031, respectively.",
+    "In October 2025 and February 2026, we entered into multi-year agreements with OpenAI OpCo, LLC (OpenAI) and Meta Platforms, Inc."
+   ],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Broadcom": {
+  "company": "Broadcom",
+  "ticker": "AVGO",
+  "cik": "1730168",
+  "capex": {
+   "usd": 1250000000,
+   "end": "2026-08-02",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001730168-26-000080",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 40653000000,
+   "end": "2026-08-02",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001730168-26-000080",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 89104000000,
+   "end": "2026-08-02",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001730168-26-000080",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 23975000000,
+   "end": "2026-08-02",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001730168-26-000080",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 59419000000,
+   "end": "2026-08-02",
+   "concept": "LongTermDebt",
+   "acc": "0001730168-26-000080",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 179200000000,
+   "end": "2026-08-02",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001730168-26-000080",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001730168-26-000080",
+   "doc": "avgo-20260802.htm",
+   "filed": "2026-09-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001730168-25-000121",
+   "doc": "avgo-20251102.htm",
+   "filed": "2025-12-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 126821000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-08-02"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "We believe aggregate sales, through all channels, to our top five end customers accounted for approximately 50% of our net revenue for the three fiscal quarters ended August 2, 2026."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Micron": {
+  "company": "Micron",
+  "ticker": "MU",
+  "cik": "723125",
+  "capex": {
+   "usd": 30712000000,
+   "end": "2026-09-03",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000723125-26-000023",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 89675000000,
+   "end": "2026-09-03",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000723125-26-000023",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 133188000000,
+   "end": "2026-09-03",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0000723125-26-000023",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 38364000000,
+   "end": "2026-09-03",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000723125-26-000023",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 5070000000,
+   "end": "2026-09-03",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0000723125-26-000023",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 2792000000,
+   "end": "2026-09-03",
+   "concept": "LongTermDebt",
+   "acc": "0000723125-26-000023",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 134000000000,
+   "end": "2026-09-03",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0000723125-26-000023",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-K",
+   "accession": "0000723125-26-000023",
+   "doc": "mu-20260903.htm",
+   "filed": "2026-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000723125-26-000023",
+   "doc": "mu-20260903.htm",
+   "filed": "2026-10-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 4179999999.9999995,
+   "quote": "As of September 3, 2026, we had purchase obligations of approximately $4.18 billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year."
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "No customer accounted for 10% or more of total revenue in 2026."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "TSMC": {
+  "company": "TSMC",
+  "ticker": "TSM",
+  "cik": "1046179",
+  "capex": {
+   "usd": 29155400000,
+   "end": "2024-12-31",
+   "concept": "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+   "acc": "0001193125-25-083423",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 55693100000,
+   "end": "2024-12-31",
+   "concept": "CashFlowsFromUsedInOperatingActivities",
+   "acc": "0001193125-25-083423",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 88268000000,
+   "end": "2024-12-31",
+   "concept": "Revenue",
+   "acc": "0001193125-25-083423",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 64886500000,
+   "end": "2024-12-31",
+   "concept": "CashAndCashEquivalents",
+   "acc": "0001193125-25-083423",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 1925600000,
+   "end": "2024-12-31",
+   "concept": "OtherCurrentFinancialAssets",
+   "acc": "0001193125-25-083423",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 28258700000,
+   "end": "2024-12-31",
+   "concept": "NoncurrentPortionOfNoncurrentBondsIssued",
+   "acc": "0001193125-25-083423",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "20-F",
+   "accession": "0001628280-26-025362",
+   "doc": "tsm-20251231.htm",
+   "filed": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm"
+  },
+  "annual_report": {
+   "form": "20-F",
+   "accession": "0001628280-26-025362",
+   "doc": "tsm-20251231.htm",
+   "filed": "2026-04-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "Depreciation is recognized so as to write off the cost of the assets less their residual values over their useful lives, and it is computed using the straight-line method mainly over the following estimated useful lives: land improvements - 10 to 20 years; buildings (assets used by the Company and assets subject to operating leases) - 10 to 20 years; machinery and equipment (assets used by the Com"
+  },
+  "customer_concentration": {
+   "quote": "While we generate revenue from hundreds of customers worldwide, our ten largest customers in 2023, 2024 and 2025 accounted for approximately, 70%, 76% and 78% of our net revenue in the respective year."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "ServiceNow": {
+  "company": "ServiceNow",
+  "ticker": "NOW",
+  "cik": "1373715",
+  "capex": {
+   "usd": 584000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001373715-26-000096",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 5334000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001373715-26-000096",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 15431000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001373715-26-000096",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2393000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001373715-26-000096",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 2214000000,
+   "end": "2026-09-30",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001373715-26-000096",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 5438000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001373715-26-000096",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 29700000000,
+   "end": "2026-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001373715-26-000096",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001373715-26-000096",
+   "doc": "now-20260930.htm",
+   "filed": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001373715-26-000007",
+   "doc": "now-20251231.htm",
+   "filed": "2026-01-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 355000000.0,
+   "quote": "Maturities of operating lease liabilities as of September 30, 2026 are presented in the table below (in millions): | | | | | | | Fiscal Period: | Remainder of 2026 | $ | 34 | | 2027 | 155 | | 2028 | 154 | | 2029 | 146 | | 2030 | 131 | | Thereafter | 408 | | Total operating lease payments | 1,028 | | Less: imputed interest | (137) | | Present value of operating lease liabilities | $ | 891 | In addi"
+  },
+  "purchase_commitments": {
+   "usd": 7900000000.0,
+   "quote": "Non-cancellable purchase commitments for business operations total $7.9 billion as of December 31, 2025, which are due primarily over the next five years."
+  },
+  "server_useful_life": {
+   "quote": "Depreciation is calculated using the straight-line method over the estimated useful lives of the assets as follows: | | | | | | | | | Computer equipment and software | 3-5 years | Furniture and fixtures | 3-7 years | Leasehold and other improvements | shorter of the lease term or 10 years Capitalized Software Development Costs Software development costs for software to be sold, leased or otherwise"
+  },
+  "customer_concentration": {
+   "quote": "We had one customer, a U.S. federal channel partner and systems integrator, that represented 20% and 11% of our accounts receivable balance as of September 30, 2026 and December 31, 2025, respectively."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Salesforce": {
+  "company": "Salesforce",
+  "ticker": "CRM",
+  "cik": "1108524",
+  "capex": {
+   "usd": 596000000,
+   "end": "2026-07-31",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001108524-26-000190",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 15750000000,
+   "end": "2026-07-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001108524-26-000190",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 43938000000,
+   "end": "2026-07-31",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001108524-26-000190",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 8310000000,
+   "end": "2026-07-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001108524-26-000190",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 3093000000,
+   "end": "2026-07-31",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001108524-26-000190",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 39288000000,
+   "end": "2026-07-31",
+   "concept": "LongTermDebt",
+   "acc": "0001108524-26-000190",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 66300000000,
+   "end": "2026-07-31",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001108524-26-000190",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001108524-26-000190",
+   "doc": "crm-20260731.htm",
+   "filed": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001108524-26-000060",
+   "doc": "crm-20260131.htm",
+   "filed": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+  },
+  "leases_not_started": {
+   "usd": 4200000000.0,
+   "quote": "As of July 31, 2026, the maturities of lease liabilities under noncancellable operating and finance leases were as follows (in millions): | | | | | | | | | | | | | | Operating Leases | | Finance Leases | Fiscal Period: | | | | Remaining six months of fiscal 2027 | $ | 290 | | | $ | 147 | | Fiscal 2028 | 581 | | | 181 | | Fiscal 2029 | 488 | | | 138 | | Fiscal 2030 | 336 | | | 120 | | Fiscal 2031 |"
+  },
+  "purchase_commitments": {
+   "usd": 4200000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-07-31"
+  },
+  "server_useful_life": {
+   "quote": "Depreciation is calculated on a straight-line basis over the estimated useful lives of those assets as follows: | | | | | | | Buildings and building improvements | 10 to 40 years | Computers, equipment and software | 3 to 5 years | Furniture and fixtures | 5 years | Leasehold improvements | Shorter of the estimated lease term or 10 years | | | | The Company estimates the useful lives of property a"
+  },
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [
+    "As of July 31, 2026 and January 31, 2026, the Company\u2019s privately held investment in Anthropic PBC (\u201cAnthropic\u201d) had a carrying value that represented approximately 45 percent and 22 percent, respectively, of the Company\u2019s total strategic investments portfolio.",
+    "Upward adjustments for the three and six months ended July 31, 2026 include unrealized gains of $2.7 billion and $3.0 billion, respectively, related to the Company\u2019s investment in Anthropic.",
+    "The unrealized gains for the three and six months ended July 31, 2026 include gains of $2.7 billion and $3.0 billion, respectively, related to the Company\u2019s investment in Anthropic.",
+    "Strategic Investments As of July 31, 2026, our strategic investment portfolio consisted of investments in over 450 companies with a combined carrying value of $11.3 billion, including the Company\u2019s investment in Anthropic PBC (\u201cAnthropic\u201d) which represented approximately $5.1 billion of the total st"
+   ],
+   "xAI": []
+  }
+ },
+ "Adobe": {
+  "company": "Adobe",
+  "ticker": "ADBE",
+  "cik": "796343",
+  "capex": {
+   "usd": 214000000,
+   "end": "2026-08-28",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000796343-26-000156",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 10806000000,
+   "end": "2026-08-28",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000796343-26-000156",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 25970000000,
+   "end": "2026-08-28",
+   "concept": "Revenues",
+   "acc": "0000796343-26-000156",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 4359000000,
+   "end": "2026-08-28",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000796343-26-000156",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 1280000000,
+   "end": "2026-08-28",
+   "concept": "ShortTermInvestments",
+   "acc": "0000796343-26-000156",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 4766000000,
+   "end": "2026-08-28",
+   "concept": "LongTermDebt",
+   "acc": "0000796343-26-000156",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 22160000000,
+   "end": "2026-08-28",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0000796343-26-000156",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0000796343-26-000156",
+   "doc": "adbe-20260828.htm",
+   "filed": "2026-09-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000796343-26-000003",
+   "doc": "adbe-20251128.htm",
+   "filed": "2026-01-15",
+   "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 6820000000.0,
+   "quote": "As of November 28, 2025, the value of our non-cancellable unconditional purchase obligations was $6.82 billion, primarily relating to contracts with vendors for third-party hosting and data center services."
+  },
+  "server_useful_life": {
+   "quote": "Property and equipment are depreciated using the straight-line method over their estimated useful lives, generally as follows: 3 to 8 years for computers and other equipment, which includes our corporate jet, 5 years for furniture and fixtures, 15 years for building improvements and 35 years for buildings."
+  },
+  "customer_concentration": {
+   "quote": "Non-cancellable and non-refundable funds related to some of our enterprise customer agreements referred to above comprised approximately 3% of the total remaining performance obligations."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Snowflake": {
+  "company": "Snowflake",
+  "ticker": "SNOW",
+  "cik": "1640147",
+  "capex": {
+   "usd": 57979000,
+   "end": "2026-07-31",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001640147-26-000037",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 1253253000,
+   "end": "2026-07-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001640147-26-000037",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 5434647000,
+   "end": "2026-07-31",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001640147-26-000037",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 1707187000,
+   "end": "2026-07-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001640147-26-000037",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 637508000,
+   "end": "2026-07-31",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001640147-26-000037",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 2283985000,
+   "end": "2026-07-31",
+   "concept": "ConvertibleDebtNoncurrent",
+   "acc": "0001640147-26-000037",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 9000000000,
+   "end": "2026-07-31",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001640147-26-000037",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001640147-26-000037",
+   "doc": "snow-20260731.htm",
+   "filed": "2026-09-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001640147-26-000008",
+   "doc": "snow-20260131.htm",
+   "filed": "2026-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm"
+  },
+  "leases_not_started": {
+   "usd": 77600000.0,
+   "quote": "As of July 31, 2026, the Company had committed $77.6 million for leases signed but not yet commenced based on the exchange rate as of July 31, 2026."
+  },
+  "purchase_commitments": {
+   "usd": 530500000.0,
+   "quote": "Future minimum payments under the Company\u2019s non-cancelable purchase commitments with a remaining term in excess of one year as of January 31, 2026 are presented in the table below (in thousands): | | | | | | | | | | | Amount | | Fiscal Year Ending January 31, | | | | | | 2027 | $ | 656,283 | | | 2028 | 796,737 | | | 2029 | 660,845 | | (1) | 2030 | 50,000 | | | 2031 and thereafter | 518,020 | | (2)"
+  },
+  "server_useful_life": {
+   "quote": "Depreciation is computed using the straight-line method over the estimated useful life of the related asset, generally ranging from three to seven years."
+  },
+  "customer_concentration": {
+   "quote": "Such customers represented approximately 68% and 67% of our product revenue for the trailing 12 months ended July 31, 2026 and 2025, respectively."
+  },
+  "labs": {
+   "OpenAI": [
+    "In addition, our platform currently operates on public cloud infrastructure provided by Amazon Web Services (AWS), Microsoft Azure (Azure), and Google Cloud Platform (GCP), and services provided by these public cloud providers and frontier AI model providers such as Anthropic and OpenAI, and our cos"
+   ],
+   "Anthropic": [
+    "In addition, our platform currently operates on public cloud infrastructure provided by Amazon Web Services (AWS), Microsoft Azure (Azure), and Google Cloud Platform (GCP), and services provided by these public cloud providers and frontier AI model providers such as Anthropic and OpenAI, and our cos"
+   ],
+   "xAI": []
+  }
+ },
+ "Datadog": {
+  "company": "Datadog",
+  "ticker": "DDOG",
+  "cik": "1561550",
+  "capex": {
+   "usd": 46925000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001628280-26-054458",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 1229034000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001628280-26-054458",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 3966725000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001628280-26-054458",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 434957000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001628280-26-054458",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 4550481000,
+   "end": "2026-06-30",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001628280-26-054458",
+   "unit": "USD"
+  },
+  "debt": null,
+  "backlog_rpo": {
+   "usd": 3471400000,
+   "end": "2026-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001628280-26-054458",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001628280-26-054458",
+   "doc": "ddog-20260630.htm",
+   "filed": "2026-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026054458/ddog-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001628280-26-008819",
+   "doc": "ddog-20251231.htm",
+   "filed": "2026-02-18",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026008819/ddog-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 1400000000.0,
+   "quote": "Non-cancelable purchase commitments for business operations and operating lease obligations total $1.4 billion and $375.2 million, respectively, as of December 31, 2025, due primarily over the next five years."
+  },
+  "server_useful_life": {
+   "quote": "Long-lived assets are amortized over their estimated useful lives which are as follows: | | | | | | | Computers and equipment | 3 years | Furniture and fixtures | 5 years | Leasehold improvements | Shorter of lease term or useful life of asset | Capitalized software development costs | 3 years | Developed technology | 3 years | Customer relationships | 4 years The Company evaluates long lived asse"
+  },
+  "customer_concentration": {
+   "quote": "As of June 30, 2026, we had approximately 4,720 customers with annual run-rate revenue, or ARR, of $100,000 or more, representing 91% of our ARR, up from 3,850 customers as of June 30, 2025, representing 89% of our ARR."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Palantir": {
+  "company": "Palantir",
+  "ticker": "PLTR",
+  "cik": "1321655",
+  "capex": {
+   "usd": 42019000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001321655-26-000041",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 3400291000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001321655-26-000041",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 6155941000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001321655-26-000041",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2030047000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001321655-26-000041",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 7379052000,
+   "end": "2026-06-30",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001321655-26-000041",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 0,
+   "end": "2021-12-31",
+   "concept": "LongTermDebtNoncurrent",
+   "acc": "0001193125-22-050913",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 4900000000,
+   "end": "2026-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001321655-26-000041",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001321655-26-000041",
+   "doc": "pltr-20260630.htm",
+   "filed": "2026-08-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001321655-26-000011",
+   "doc": "pltr-20251231.htm",
+   "filed": "2026-02-17",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 0,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2024-12-31"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "No other customer represented more than 10% of total accounts receivable as of June 30, 2026 or December 31, 2025."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Accenture": {
+  "company": "Accenture",
+  "ticker": "ACN",
+  "cik": "1467373",
+  "capex": {
+   "usd": 742748000,
+   "end": "2026-08-31",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001467373-26-000049",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 12363346000,
+   "end": "2026-08-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001467373-26-000049",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 74183445000,
+   "end": "2026-08-31",
+   "concept": "Revenues",
+   "acc": "0001467373-26-000049",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 12831471000,
+   "end": "2026-08-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001467373-26-000049",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 6298000,
+   "end": "2026-08-31",
+   "concept": "ShortTermInvestments",
+   "acc": "0001467373-26-000049",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 9998689000,
+   "end": "2026-08-31",
+   "concept": "LongTermDebtAndCapitalLeaseObligations",
+   "acc": "0001467373-26-000049",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 37000000000,
+   "end": "2026-08-31",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001467373-26-000049",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-K",
+   "accession": "0001467373-26-000049",
+   "doc": "acn-20260831.htm",
+   "filed": "2026-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001467373-26-000049",
+   "doc": "acn-20260831.htm",
+   "filed": "2026-10-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 403911000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2026-08-31"
+  },
+  "server_useful_life": {
+   "quote": "Depreciation of property and equipment is computed on a straight-line basis over the following estimated useful lives: | | | | | | | Computers, related equipment and software | 3 to 7 years | Furniture and fixtures | 5 to 10 years | Leasehold improvements | Lesser of lease term or 15 years Goodwill Goodwill represents the excess of the purchase price of an acquired entity over the fair value of ne"
+  },
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "JPMorgan": {
+  "company": "JPMorgan",
+  "ticker": "JPM",
+  "cik": "19617",
+  "capex": null,
+  "operating_cash_flow": {
+   "usd": -162534000000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001628280-26-054343",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 199408000000,
+   "end": "2026-06-30",
+   "concept": "RevenuesNetOfInterestExpense",
+   "acc": "0001628280-26-054343",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 309811000000,
+   "end": "2026-06-30",
+   "concept": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "acc": "0001628280-26-054343",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 269929000000,
+   "end": "2014-06-30",
+   "concept": "LongTermDebt",
+   "acc": "0000019617-14-000409",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001628280-26-054343",
+   "doc": "jpm-20260630.htm",
+   "filed": "2026-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001628280-26-008131",
+   "doc": "jpm-20251231.htm",
+   "filed": "2026-02-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 1900000000.0,
+   "quote": "The carrying values of the Firm\u2019s operating leases were as follows: | | | | | | | | | | | | | | | | December 31, (in millions, except where otherwise noted) | | | | | | | | | 2025 | 2024 | | | | | | | Right-of-use assets | $ | 8,901 | $ | 8,494 | | | | | | | Lease liabilities | 9,337 | 8,900 | | | | | | | | | | | | | | | | Weighted average remaining lease term (in years) | 8.2 | 8.3 | | | | | | | "
+  },
+  "purchase_commitments": {
+   "usd": 1900000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2025-12-31"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "Card Services net charge-off rate of 3.34% \u2022Debit and credit card sales volume(a) up 10% \u2022Active mobile customers up 6% | CIB ROE 22% | | \u2022Investment banking fees up 30% YoY, up 14% QoQ; #1 ranking for global investment banking fees with 9.3% wallet share year-to-date (\"YTD\")(b) \u2022Markets revenue up 35%, with Fixed Income Markets up 6% and Equity Markets up 86% \u2022Average Banking & Payments loans up "
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Walmart": {
+  "company": "Walmart",
+  "ticker": "WMT",
+  "cik": "104169",
+  "capex": {
+   "usd": 29414000000,
+   "end": "2026-07-31",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000104169-26-000154",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 42923000000,
+   "end": "2026-07-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000104169-26-000154",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 728466000000,
+   "end": "2026-07-31",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0000104169-26-000154",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 11529000000,
+   "end": "2026-07-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000104169-26-000154",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 36462000000,
+   "end": "2026-07-31",
+   "concept": "LongTermDebtNoncurrent",
+   "acc": "0000104169-26-000154",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0000104169-26-000154",
+   "doc": "wmt-20260731.htm",
+   "filed": "2026-08-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000104169-26-000055",
+   "doc": "wmt-20260131.htm",
+   "filed": "2026-03-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": null,
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "UnitedHealth": {
+  "company": "UnitedHealth",
+  "ticker": "UNH",
+  "cik": "731766",
+  "capex": {
+   "usd": 3400000000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000731766-26-000197",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 27017000000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000731766-26-000197",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 450129000000,
+   "end": "2026-06-30",
+   "concept": "Revenues",
+   "acc": "0000731766-26-000197",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 28585000000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000731766-26-000197",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 2883000000,
+   "end": "2026-06-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0000731766-26-000197",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 69501000000,
+   "end": "2026-06-30",
+   "concept": "LongTermDebtNoncurrent",
+   "acc": "0000731766-26-000197",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 10700000000,
+   "end": "2026-06-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0000731766-26-000197",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0000731766-26-000197",
+   "doc": "unh-20260630.htm",
+   "filed": "2026-08-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000197/unh-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000731766-26-000062",
+   "doc": "unh-20251231.htm",
+   "filed": "2026-03-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 8100000000.0,
+   "quote": "These include $8.1 billion, $2.5 billion of which is expected to be paid within the next twelve months, of fixed or minimum commitments under existing purchase obligations for goods and services, including agreements cancelable with the payment of an early termination penalty, and remaining capital commitments for venture capital funds and other funding commitments."
+  },
+  "server_useful_life": null,
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Elevance": {
+  "company": "Elevance",
+  "ticker": "ELV",
+  "cik": "1156039",
+  "capex": {
+   "usd": 1082000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001156039-26-000071",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 7596000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001156039-26-000071",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 201831000000,
+   "end": "2026-09-30",
+   "concept": "Revenues",
+   "acc": "0001156039-26-000071",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 10348000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001156039-26-000071",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 25347000000,
+   "end": "2026-09-30",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001156039-26-000071",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 30757000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001156039-26-000071",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001156039-26-000071",
+   "doc": "elv-20260930.htm",
+   "filed": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001156039-26-000013",
+   "doc": "elv-20251231.htm",
+   "filed": "2026-02-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000013/elv-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 1558000000,
+   "quote": "XBRL ContractualObligation as of 2021-12-31"
+  },
+  "server_useful_life": {
+   "quote": "Depreciation is computed principally by the straight-line method over estimated useful lives ranging from fifteen to thirty years for buildings and improvements, three to five years for computer equipment and software, and seven years for furniture and other equipment."
+  },
+  "customer_concentration": {
+   "quote": "These requirements and -14- restrictions include, among other things: minimum capital and liquidity requirements; enrollment and customer service performance requirements; participation in programs that provide portability of membership between plans; disclosures to the BCBSA relating to enrollment and financial conditions; disclosures as to the structure of the BCBS system in contracts with third"
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "CVS": {
+  "company": "CVS",
+  "ticker": "CVS",
+  "cik": "64803",
+  "capex": {
+   "usd": 3022000000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0000064803-26-000098",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 14780000000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000064803-26-000098",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 415086000000,
+   "end": "2026-06-30",
+   "concept": "Revenues",
+   "acc": "0000064803-26-000098",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 11329000000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000064803-26-000098",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 2629000000,
+   "end": "2026-06-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0000064803-26-000098",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 59452000000,
+   "end": "2026-06-30",
+   "concept": "LongTermDebtAndCapitalLeaseObligations",
+   "acc": "0000064803-26-000098",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0000064803-26-000098",
+   "doc": "cvs-20260630.htm",
+   "filed": "2026-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000098/cvs-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000064803-26-000010",
+   "doc": "cvs-20251231.htm",
+   "filed": "2026-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000010/cvs-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "Commentary - Three Months Ended June 30, 2026 vs. 2025 Revenues \u2022Revenues primarily relate to products for which the Company no longer solicits or accepts new customers, such as large case pensions and long-term care insurance products. \u2022Total revenues increased $51 million, or 53.1%, in the three months ended June 30, 2026 compared to the prior year driven by an increase in net investment income,"
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "HCA": {
+  "company": "HCA",
+  "ticker": "HCA",
+  "cik": "860730",
+  "capex": {
+   "usd": 5196000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001193125-26-437871",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 11169000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001193125-26-437871",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 78701000000,
+   "end": "2026-09-30",
+   "concept": "Revenues",
+   "acc": "0001193125-26-437871",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 908000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001193125-26-437871",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 121000000,
+   "end": "2022-09-30",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0000950170-22-020865",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 44766000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001193125-26-437871",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001193125-26-321077",
+   "doc": "hca-20260630.htm",
+   "filed": "2026-07-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526321077/hca-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001193125-26-044769",
+   "doc": "hca-20251231.htm",
+   "filed": "2026-02-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526044769/hca-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 450000000,
+   "quote": "XBRL ContractualObligation as of 2009-10-31"
+  },
+  "server_useful_life": null,
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Veeva": {
+  "company": "Veeva",
+  "ticker": "VEEV",
+  "cik": "1393052",
+  "capex": {
+   "usd": 1652000,
+   "end": "2020-04-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001628280-20-008982",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 1665459000,
+   "end": "2026-07-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001393052-26-000036",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 3458098000,
+   "end": "2026-07-31",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001393052-26-000036",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 1812012000,
+   "end": "2026-07-31",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001393052-26-000036",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 5430935000,
+   "end": "2026-07-31",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001393052-26-000036",
+   "unit": "USD"
+  },
+  "debt": null,
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001393052-26-000036",
+   "doc": "veev-20260731.htm",
+   "filed": "2026-08-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000036/veev-20260731.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001393052-26-000014",
+   "doc": "veev-20260131.htm",
+   "filed": "2026-03-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000014/veev-20260131.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 3000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2020-04-30"
+  },
+  "server_useful_life": {
+   "quote": "The estimated useful lives by asset classification are as follows: | | | | | | | | | | | | | Building | | 30 years | Building improvements | | Remaining useful life of the building | Equipment and computers | | 3 years | Furniture and fixtures | | 5 years | Land improvements | | 10 years | Leasehold improvements | | Shorter of remaining life of the lease term or estimated useful life | | | Leases "
+  },
+  "customer_concentration": {
+   "quote": "In each of our fiscal years ended January 31, 2026, 2025, and 2024, our top 10 customers accounted for 28% of our total revenues."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [
+    "And, our Veeva AI products leverage large language models provided by third parties, including Anthropic.",
+    "Moreover, our AI Agents use large language models from Anthropic and Amazon, hosted on Amazon Bedrock."
+   ],
+   "xAI": []
+  }
+ },
+ "Doximity": {
+  "company": "Doximity",
+  "ticker": "DOCS",
+  "cik": "1516513",
+  "capex": {
+   "usd": 62000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001516513-26-000040",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 306344000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001516513-26-000040",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 655568000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001516513-26-000040",
+   "how": "year + 3 months - prior 3 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 273604000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001516513-26-000040",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": null,
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001516513-26-000040",
+   "doc": "docs-20260630.htm",
+   "filed": "2026-08-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1516513/000151651326000040/docs-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001516513-26-000025",
+   "doc": "docs-20260331.htm",
+   "filed": "2026-05-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/1516513/000151651326000025/docs-20260331.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "The estimated useful life of each asset category is as follows: | | | | | | | Furniture and equipment | 3-5 years | Computers and software | 3 years | Internal-use software development costs | 3 years | Leasehold improvements | Shorter of useful life or remaining lease term When assets are retired or otherwise disposed of, the cost and accumulated depreciation and amortization are written off, and"
+  },
+  "customer_concentration": {
+   "quote": "No customer represented 10% or more of revenue or accounts receivable, net for the three months ended June 30, 2026 and 2025."
+  },
+  "labs": {
+   "OpenAI": [
+    "We also compete with providers of scheduling solutions such as QGenda and a number of emerging AI solutions focusing on healthcare, including Abridge, OpenAI, and Anthropic.",
+    "We also compete with providers of scheduling solutions such as QGenda and a number of emerging AI solutions focusing on health care, including Abridge, OpenAI and Anthropic."
+   ],
+   "Anthropic": [
+    "We also compete with providers of scheduling solutions such as QGenda and a number of emerging AI solutions focusing on healthcare, including Abridge, OpenAI, and Anthropic.",
+    "We also compete with providers of scheduling solutions such as QGenda and a number of emerging AI solutions focusing on health care, including Abridge, OpenAI and Anthropic."
+   ],
+   "xAI": []
+  }
+ },
+ "Tempus AI": {
+  "company": "Tempus AI",
+  "ticker": "TEM",
+  "cik": "1717115",
+  "capex": {
+   "usd": 28420000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001193125-26-442624",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": -108374000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001193125-26-442624",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 1509350000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001193125-26-442624",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 590479000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001193125-26-442624",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 175967000,
+   "end": "2026-09-30",
+   "concept": "ConvertibleDebtNoncurrent",
+   "acc": "0001193125-26-442624",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001193125-26-442624",
+   "doc": "tem-20260930.htm",
+   "filed": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526442624/tem-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001193125-26-066961",
+   "doc": "tem-20251231.htm",
+   "filed": "2026-02-24",
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 142592000,
+   "quote": "XBRL PurchaseObligation as of 2026-09-30"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "For the year ended December 31, 2025, Net Revenue Retention was approximately 126% compared to the same cohort of customers for the period ended December 31, 2024."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Hims & Hers": {
+  "company": "Hims & Hers",
+  "ticker": "HIMS",
+  "cik": "1773751",
+  "capex": {
+   "usd": 201800000,
+   "end": "2026-06-30",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001773751-26-000163",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 263450000,
+   "end": "2026-06-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001773751-26-000163",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 2578112000,
+   "end": "2026-06-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001773751-26-000163",
+   "how": "year + 6 months - prior 6 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 609811000,
+   "end": "2026-06-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001773751-26-000163",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 231237000,
+   "end": "2026-06-30",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001773751-26-000163",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 1365299000,
+   "end": "2026-06-30",
+   "concept": "ConvertibleDebtNoncurrent",
+   "acc": "0001773751-26-000163",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001773751-26-000163",
+   "doc": "hims-20260630.htm",
+   "filed": "2026-08-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001773751-26-000022",
+   "doc": "hims-20251231.htm",
+   "filed": "2026-02-23",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm"
+  },
+  "leases_not_started": {
+   "usd": 1500000.0,
+   "quote": "As of December 31, 2025, the weighted average remaining lease term and weighted average discount rate, including for renewal options the Company is reasonably certain to exercise, was 12.3 years and 6.1%, respectively. 106 Table of Contents Future minimum lease payments under the Company's non-cancelable operating lease with an initial lease term in excess of one year subsequent to December 31, 20"
+  },
+  "purchase_commitments": {
+   "usd": 71000000,
+   "quote": "XBRL PurchaseObligation as of 2026-06-30"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "As of December 31, 2025, one customer or partner individually represented more than 10% of accounts receivable."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Teladoc": {
+  "company": "Teladoc",
+  "ticker": "TDOC",
+  "cik": "1477449",
+  "capex": {
+   "usd": 6421000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "acc": "0001477449-26-000052",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 268378000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001477449-26-000052",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 2468143000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001477449-26-000052",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 849909000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001477449-26-000052",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 0,
+   "end": "2022-12-31",
+   "concept": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "acc": "0001558370-23-002559",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 0,
+   "end": "2026-09-30",
+   "concept": "ConvertibleDebtNoncurrent",
+   "acc": "0001477449-26-000052",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0001477449-26-000052",
+   "doc": "tdoc-20260930.htm",
+   "filed": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000052/tdoc-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001477449-26-000012",
+   "doc": "tdoc-20251231.htm",
+   "filed": "2026-02-26",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477449/000147744926000012/tdoc-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "Depreciation is recorded using the straight-line method over the estimated useful lives of the respective asset as follows: | | | | | | | Computer equipment | 3 years | Furniture and equipment | 5 to 7 years | Leasehold improvements | Shorter of the lease term or the estimated useful lives of the improvements | Rental equipment | 4.3 years F-13 Table of Contents Operating Leases The Company accoun"
+  },
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Intuitive Surgical": {
+  "company": "Intuitive Surgical",
+  "ticker": "ISRG",
+  "cik": "1035267",
+  "capex": {
+   "usd": 491500000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001035267-26-000071",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 4089500000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0001035267-26-000071",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 11578000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001035267-26-000071",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2978100000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001035267-26-000071",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 1064400000,
+   "end": "2026-09-30",
+   "concept": "MarketableSecuritiesCurrent",
+   "acc": "0001035267-26-000071",
+   "unit": "USD"
+  },
+  "debt": null,
+  "backlog_rpo": {
+   "usd": 1723000000,
+   "end": "2021-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001035267-21-000178",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001035267-26-000071",
+   "doc": "isrg-20260930.htm",
+   "filed": "2026-10-21",
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001035267-26-000010",
+   "doc": "isrg-20251231.htm",
+   "filed": "2026-02-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "The salvage value of operating lease assets is estimated based on a number of factors including, but not limited to, the lease term, technological obsolescence, and the expected future demand for refurbished systems. 95 Table of Contents Depreciation is recognized over the following estimated useful lives: | | | | | | | | Useful Lives | Building | Up to 30 years | Building improvements | Up to 15 "
+  },
+  "customer_concentration": {
+   "quote": "Field actions, as well as certain outcomes from regulatory activities, can result in adverse effects on our business, including damage to our reputation, delays by customers of purchase decisions, reduction or stoppage of the use of installed systems, and reduced revenue as well as increased expenses. 33 Third Quarter 2026 Operational and Financial Highlights \u2022Total revenue increased by 22% to $3."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "GE HealthCare": {
+  "company": "GE HealthCare",
+  "ticker": "GEHC",
+  "cik": "1932393",
+  "capex": {
+   "usd": 526000000,
+   "end": "2026-09-30",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "acc": "0001932393-26-000059",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "operating_cash_flow": {
+   "usd": 1987000000,
+   "end": "2025-12-31",
+   "concept": "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+   "acc": "0001932393-26-000007",
+   "how": "full year",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 21637000000,
+   "end": "2026-09-30",
+   "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "acc": "0001932393-26-000059",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 2826000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0001932393-26-000059",
+   "unit": "USD"
+  },
+  "securities": null,
+  "debt": {
+   "usd": 9973000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebt",
+   "acc": "0001932393-26-000059",
+   "unit": "USD"
+  },
+  "backlog_rpo": {
+   "usd": 16113000000,
+   "end": "2026-09-30",
+   "concept": "RevenueRemainingPerformanceObligation",
+   "acc": "0001932393-26-000059",
+   "unit": "USD"
+  },
+  "report": {
+   "form": "10-Q",
+   "accession": "0001932393-26-000059",
+   "doc": "gehc-20260930.htm",
+   "filed": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000059/gehc-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0001932393-26-000007",
+   "doc": "gehc-20251231.htm",
+   "filed": "2026-02-04",
+   "url": "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000007/gehc-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": {
+   "usd": 1149000000,
+   "quote": "XBRL UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount as of 2025-12-31"
+  },
+  "server_useful_life": null,
+  "customer_concentration": {
+   "quote": "No single customer accounted for more than 10% of the Company\u2019s revenues for the years ended December 31, 2025, 2024, or 2023."
+  },
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ },
+ "Eli Lilly": {
+  "company": "Eli Lilly",
+  "ticker": "LLY",
+  "cik": "59478",
+  "capex": null,
+  "operating_cash_flow": {
+   "usd": 30645000000,
+   "end": "2026-09-30",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "acc": "0000059478-26-000108",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "revenue": {
+   "usd": 86462000000,
+   "end": "2026-09-30",
+   "concept": "Revenues",
+   "acc": "0000059478-26-000108",
+   "how": "year + 9 months - prior 9 months",
+   "unit": "USD"
+  },
+  "cash": {
+   "usd": 4885000000,
+   "end": "2026-09-30",
+   "concept": "CashAndCashEquivalentsAtCarryingValue",
+   "acc": "0000059478-26-000108",
+   "unit": "USD"
+  },
+  "securities": {
+   "usd": 121600000,
+   "end": "2025-09-30",
+   "concept": "ShortTermInvestments",
+   "acc": "0000059478-25-000254",
+   "unit": "USD"
+  },
+  "debt": {
+   "usd": 46986000000,
+   "end": "2026-09-30",
+   "concept": "LongTermDebtNoncurrent",
+   "acc": "0000059478-26-000108",
+   "unit": "USD"
+  },
+  "backlog_rpo": null,
+  "report": {
+   "form": "10-Q",
+   "accession": "0000059478-26-000108",
+   "doc": "lly-20260930.htm",
+   "filed": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm"
+  },
+  "annual_report": {
+   "form": "10-K",
+   "accession": "0000059478-26-000013",
+   "doc": "lly-20251231.htm",
+   "filed": "2026-02-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm"
+  },
+  "leases_not_started": null,
+  "purchase_commitments": null,
+  "server_useful_life": {
+   "quote": "Provisions for depreciation of buildings and equipment are computed generally by the straight-line method at rates based on their estimated useful lives (12 to 50 years for buildings and three to 25 years for equipment)."
+  },
+  "customer_concentration": null,
+  "labs": {
+   "OpenAI": [],
+   "Anthropic": [],
+   "xAI": []
+  }
+ }
+}

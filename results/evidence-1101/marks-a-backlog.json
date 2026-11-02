@@ -1,0 +1,42 @@
+[
+ {
+  "company": "Microsoft",
+  "metric": "backlog_rpo",
+  "value_usd": 392000000000,
+  "period": "Q1 FY2026 (Sep 2025)",
+  "source": "Microsoft 10-Q",
+  "mark": "unverified"
+ },
+ {
+  "company": "Oracle",
+  "metric": "backlog_rpo",
+  "value_usd": 500000000000,
+  "period": "Q1 FY2026 (Aug 2025)",
+  "source": "Oracle earnings call / 10-Q",
+  "mark": "unverified"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "backlog_rpo",
+  "value_usd": 55600000000,
+  "period": "Q2 2025",
+  "source": "CoreWeave investor letter",
+  "mark": "wrong"
+ },
+ {
+  "company": "Nebius",
+  "metric": "backlog_rpo",
+  "value_usd": 17400000000,
+  "period": "2025 (Microsoft deal)",
+  "source": "Nebius press release",
+  "mark": "verified_current"
+ },
+ {
+  "company": "IREN",
+  "metric": "backlog_rpo",
+  "value_usd": 9700000000,
+  "period": "2025 (Microsoft deal)",
+  "source": "IREN press release",
+  "mark": "verified_current"
+ }
+]

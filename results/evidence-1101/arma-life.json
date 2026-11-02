@@ -1,0 +1,58 @@
+{
+ "topic": "life",
+ "reply": {
+  "answer": "Most hyperscalers (Microsoft, Alphabet, Amazon, Meta, Oracle) currently depreciate servers over 5-6 years and networking equipment over similar or longer periods, having extended these useful lives in recent years (e.g., Amazon extended most servers to 6 years in 2024, Microsoft uses 6 years for servers, Google uses up to 6 years for servers and network equipment post-2023 revision). Neoclouds like CoreWeave, Nebius, and bitcoin miners-turned-AI-infra players (IREN, Applied Digital, Core Scientific, Cipher, TeraWulf) generally use shorter useful lives (4-6 years) given faster GPU obsolescence risk. If actual useful life were 3-4 years instead of 6, annual depreciation expense would roughly double for GPU-heavy capex, which would materially compress reported operating income and EPS for the hyperscalers and neoclouds\u2014potentially cutting hyperscaler operating margins by several hundred basis points given depreciation is now often 15-20% of revenue. This would not directly affect cash flow or capex timing, but it would increase apparent capital intensity and lower ROIC/ROE optics, pressuring valuation multiples that assume long asset life. Companies with heavier leasing/colocation exposure (Digital Realty, Equinix, Iron Mountain, American Tower) are less directly exposed to this specific depreciation risk since they don't own the chips themselves.",
+  "claims": [
+   {
+    "company": "Amazon",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2024 10-K",
+    "source": "Amazon 10-K 2024 - extended useful life of servers to 6 years"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2024 10-K",
+    "source": "Microsoft 10-K - server useful life 6 years"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2023 10-K",
+    "source": "Alphabet 10-K 2023 - extended servers/network equipment useful life to up to 6 years"
+   },
+   {
+    "company": "Meta",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2025 guidance",
+    "source": "Meta investor letters - servers depreciated over 5-5.5 years"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2024 S-1/10-K",
+    "source": "CoreWeave filings - GPU useful life ~5-6 years"
+   },
+   {
+    "company": "Core Scientific",
+    "metric": "depreciation",
+    "value_usd": null,
+    "period": "FY2024 10-K",
+    "source": "Core Scientific 10-K - miner/server useful life ~2-5 years"
+   }
+  ],
+  "next_question": "Which specific companies have disclosed sensitivity analyses showing the EPS impact of shortening GPU/server useful lives?"
+ },
+ "meta": {
+  "usd": 0.0105,
+  "tokens_in": 397,
+  "tokens_out": 973,
+  "seconds": 9.5,
+  "error": ""
+ }
+}

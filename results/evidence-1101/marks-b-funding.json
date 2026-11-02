@@ -1,0 +1,154 @@
+[
+ {
+  "company": "Microsoft",
+  "metric": "leases_not_started",
+  "value_usd": 364600000000,
+  "period": "to 2026-09-30",
+  "source": "Microsoft 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Microsoft",
+  "metric": "operating_cash_flow",
+  "value_usd": 195878000000,
+  "period": "to 2026-09-30",
+  "source": "Microsoft 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "leases_not_started",
+  "value_usd": 924400000000,
+  "period": "to 2026-09-30",
+  "source": "Alphabet 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Alphabet",
+  "metric": "operating_cash_flow",
+  "value_usd": 179551000000,
+  "period": "to 2026-09-30",
+  "source": "Alphabet 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "purchase_commitments",
+  "value_usd": 883581000000,
+  "period": "to 2026-09-30",
+  "source": "Amazon 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Amazon",
+  "metric": "operating_cash_flow",
+  "value_usd": 168300000000,
+  "period": "to 2026-09-30",
+  "source": "Amazon 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "purchase_commitments",
+  "value_usd": 454520000000,
+  "period": "to 2026-09-30",
+  "source": "Meta 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Meta",
+  "metric": "operating_cash_flow",
+  "value_usd": 133087000000,
+  "period": "to 2026-09-30",
+  "source": "Meta 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "backlog_rpo",
+  "value_usd": 664000000000,
+  "period": "to 2026-08-31",
+  "source": "Oracle 10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "leases_not_started",
+  "value_usd": 288000000000,
+  "period": "to 2026-08-31",
+  "source": "Oracle 10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "operating_cash_flow",
+  "value_usd": 46940000000,
+  "period": "to 2026-08-31",
+  "source": "Oracle 10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Oracle",
+  "metric": "cash",
+  "value_usd": 36369000000,
+  "period": "to 2026-08-31",
+  "source": "Oracle 10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "backlog_rpo",
+  "value_usd": 103700000000,
+  "period": "to 2026-06-30",
+  "source": "CoreWeave 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "operating_cash_flow",
+  "value_usd": 6911000000,
+  "period": "to 2026-06-30",
+  "source": "CoreWeave 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "CoreWeave",
+  "metric": "debt",
+  "value_usd": 35551000000,
+  "period": "to 2026-06-30",
+  "source": "CoreWeave 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "TeraWulf",
+  "metric": "operating_cash_flow",
+  "value_usd": -279157000,
+  "period": "to 2026-06-30",
+  "source": "TeraWulf 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Core Scientific",
+  "metric": "leases_not_started",
+  "value_usd": 3100000000,
+  "period": "to 2026-06-30",
+  "source": "Core Scientific 10-Q",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Nebius",
+  "metric": "backlog_rpo",
+  "value_usd": 21333000000,
+  "period": "to 2025-12-31",
+  "source": "Nebius 10-K",
+  "mark": "verified_current"
+ },
+ {
+  "company": "Nebius",
+  "metric": "operating_cash_flow",
+  "value_usd": 384800000,
+  "period": "to 2025-12-31",
+  "source": "Nebius 10-K",
+  "mark": "verified_current"
+ }
+]

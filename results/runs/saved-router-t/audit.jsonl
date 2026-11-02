@@ -1,0 +1,11 @@
+{"id": "0001753926-26-001173", "lane": "gemma4_12b_local", "live": "high", "audit": "high", "seconds": 1.604}
+{"id": "0001104659-26-113975", "lane": "gemma4_12b_local", "live": "high", "audit": "high", "seconds": 3.603}
+{"id": "0001213900-26-085686", "lane": "gemma4_12b_local", "live": "normal", "audit": "normal", "seconds": 0.846}
+{"id": "0001104659-26-092718", "lane": "gemma4_12b_local", "live": "high", "audit": "high", "seconds": 2.541}
+{"id": "0001437749-26-027149", "lane": "gemma4_12b_local", "live": "high", "audit": "high", "seconds": 4.963}
+{"id": "0001654954-26-008404", "lane": "gemma4_12b_local", "live": "high", "audit": "high", "seconds": 1.225}
+{"id": "0001654954-26-006883", "lane": "gemma4_12b_local", "live": "normal", "audit": "high", "seconds": 4.654}
+{"id": "0001104659-26-105733", "lane": "gemma4_12b_local", "live": "normal", "audit": "normal", "seconds": 1.083}
+{"id": "0001437749-26-030124", "lane": "gemma4_12b_local", "live": "normal", "audit": "normal", "seconds": 1.31}
+{"id": "0001493152-26-041396", "lane": "gemma4_12b_local", "live": "normal", "audit": "high", "seconds": 2.159}
+{"id": "0001493152-26-035097", "lane": "gemma4_12b_local", "live": "normal", "audit": "normal", "seconds": 3.282}

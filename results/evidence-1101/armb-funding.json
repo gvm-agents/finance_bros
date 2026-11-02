@@ -1,0 +1,150 @@
+{
+ "topic": "funding",
+ "reply": {
+  "answer": "The widest gap between forward commitments and current liquidity/operating cash flow is at Alphabet and Amazon, which each disclose roughly $900 billion+ in leases-not-started/purchase commitments against operating cash flow of ~$170-180 billion and cash+securities of under $270 billion\u2014commitments are roughly 4-5x annual operating cash flow. Meta (~$455 billion purchase commitments, ~$356 billion unstarted leases vs ~$133 billion operating cash flow) and Oracle ($664 billion backlog, $288 billion unstarted leases vs only $47 billion operating cash flow and $36 billion cash) show even steeper ratios, with Oracle's backlog-to-OCF ratio exceeding 14x. Microsoft's $364.6 billion in not-yet-commenced leases against $196 billion OCF is large in absolute terms but less stretched relatively. Among the smaller AI infrastructure/crypto-miner names (CoreWeave, Nebius, IREN, TeraWulf, Core Scientific), backlog and lease commitments (e.g., CoreWeave's $103.7 billion RPO vs $6.9 billion OCF and $35.6 billion debt) represent extreme multiples of current cash generation, making them the most stretched relative to balance-sheet capacity even though absolute dollar amounts are far smaller than the hyperscalers. Oracle stands out as having the largest commitment-to-cash-flow gap among large, rated issuers given its comparatively thin cash and operating cash flow relative to its $664 billion backlog and $288 billion in unstarted leases.",
+  "claims": [
+   {
+    "company": "Microsoft",
+    "metric": "leases_not_started",
+    "value_usd": 364600000000,
+    "period": "to 2026-09-30",
+    "source": "Microsoft 10-Q"
+   },
+   {
+    "company": "Microsoft",
+    "metric": "operating_cash_flow",
+    "value_usd": 195878000000,
+    "period": "to 2026-09-30",
+    "source": "Microsoft 10-Q"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "leases_not_started",
+    "value_usd": 924400000000,
+    "period": "to 2026-09-30",
+    "source": "Alphabet 10-Q"
+   },
+   {
+    "company": "Alphabet",
+    "metric": "operating_cash_flow",
+    "value_usd": 179551000000,
+    "period": "to 2026-09-30",
+    "source": "Alphabet 10-Q"
+   },
+   {
+    "company": "Amazon",
+    "metric": "purchase_commitments",
+    "value_usd": 883581000000,
+    "period": "to 2026-09-30",
+    "source": "Amazon 10-Q"
+   },
+   {
+    "company": "Amazon",
+    "metric": "operating_cash_flow",
+    "value_usd": 168300000000,
+    "period": "to 2026-09-30",
+    "source": "Amazon 10-Q"
+   },
+   {
+    "company": "Meta",
+    "metric": "purchase_commitments",
+    "value_usd": 454520000000,
+    "period": "to 2026-09-30",
+    "source": "Meta 10-Q"
+   },
+   {
+    "company": "Meta",
+    "metric": "operating_cash_flow",
+    "value_usd": 133087000000,
+    "period": "to 2026-09-30",
+    "source": "Meta 10-Q"
+   },
+   {
+    "company": "Oracle",
+    "metric": "backlog_rpo",
+    "value_usd": 664000000000,
+    "period": "to 2026-08-31",
+    "source": "Oracle 10-K"
+   },
+   {
+    "company": "Oracle",
+    "metric": "leases_not_started",
+    "value_usd": 288000000000,
+    "period": "to 2026-08-31",
+    "source": "Oracle 10-K"
+   },
+   {
+    "company": "Oracle",
+    "metric": "operating_cash_flow",
+    "value_usd": 46940000000,
+    "period": "to 2026-08-31",
+    "source": "Oracle 10-K"
+   },
+   {
+    "company": "Oracle",
+    "metric": "cash",
+    "value_usd": 36369000000,
+    "period": "to 2026-08-31",
+    "source": "Oracle 10-K"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "backlog_rpo",
+    "value_usd": 103700000000,
+    "period": "to 2026-06-30",
+    "source": "CoreWeave 10-Q"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "operating_cash_flow",
+    "value_usd": 6911000000,
+    "period": "to 2026-06-30",
+    "source": "CoreWeave 10-Q"
+   },
+   {
+    "company": "CoreWeave",
+    "metric": "debt",
+    "value_usd": 35551000000,
+    "period": "to 2026-06-30",
+    "source": "CoreWeave 10-Q"
+   },
+   {
+    "company": "TeraWulf",
+    "metric": "operating_cash_flow",
+    "value_usd": -279157000,
+    "period": "to 2026-06-30",
+    "source": "TeraWulf 10-Q"
+   },
+   {
+    "company": "Core Scientific",
+    "metric": "leases_not_started",
+    "value_usd": 3100000000,
+    "period": "to 2026-06-30",
+    "source": "Core Scientific 10-Q"
+   },
+   {
+    "company": "Nebius",
+    "metric": "backlog_rpo",
+    "value_usd": 21333000000,
+    "period": "to 2025-12-31",
+    "source": "Nebius 10-K"
+   },
+   {
+    "company": "Nebius",
+    "metric": "operating_cash_flow",
+    "value_usd": 384800000,
+    "period": "to 2025-12-31",
+    "source": "Nebius 10-K"
+   }
+  ],
+  "next_question": "How much of the contracted backlog (remaining performance obligations) at Oracle, Alphabet, Amazon, Microsoft and CoreWeave depends on a handful of AI customers (e.g., OpenAI, Anthropic), since such concentration would make the above commitment-to-cash-flow gaps far riskier if any single counterparty's spending slows?"
+ },
+ "meta": {
+  "usd": 0.0366,
+  "tokens_in": 9141,
+  "tokens_out": 1835,
+  "seconds": 15.6,
+  "error": ""
+ },
+ "worker_usd": 0.018541200000000018
+}
