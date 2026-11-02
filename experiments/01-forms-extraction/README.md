@@ -46,9 +46,10 @@ Bootstrap (resampling companies): the 95% range of the gain excludes zero in all
 venv/bin/python -m bench.starter                     # unpack test sets
 venv/bin/python -m bench run --lanes gptoss120_fw,deepseek41_fw_off --tasks formd_extract --split test --max-usd 0.30 --run forms-test-open
 venv/bin/python -m bench run --lanes glm53flash_fw --tasks formd_extract --split test --max-usd 0.30 --workers 8 --run glm-base-formd-test
-venv/bin/python -m bench.train_forms --out results/training/forms-lora-2   # serverless LoRA training on Fireworks
-venv/bin/python -m bench.train_forms_score                                  # score base and tuned predictions
-venv/bin/python -m bench.stats                                              # McNemar + bootstrap
+# serverless LoRA training on Fireworks, from the Fireworks cookbook's training folder:
+cd <cookbook>/training && <env>/bin/python <repo>/bench/train_forms.py --run forms-lora-2
+venv/bin/python -m bench.train_forms_score --run forms-lora-2   # same scorer as every other model, free
+venv/bin/python -m bench.stats --help                           # McNemar + company bootstrap
 ```
 Cost of the open-model test runs: about $0.25 (gpt-oss + DeepSeek) and $0.14 (GLM).
 
