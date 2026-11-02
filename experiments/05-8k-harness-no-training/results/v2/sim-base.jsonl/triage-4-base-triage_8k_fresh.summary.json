@@ -1,0 +1,135 @@
+{
+ "run": "triage-4",
+ "answers": "base",
+ "set": "triage_8k_fresh",
+ "inkling_answers": 181,
+ "rules": {
+  "n": 181,
+  "fired": 72,
+  "coverage_pct": 39.8,
+  "right": 70,
+  "precision_pct": 97.2,
+  "urgent_fired": 51,
+  "per_rule": {
+   "earnings": {
+    "fired": 12,
+    "right": 12,
+    "wrong_types": []
+   },
+   "regulation_fd": {
+    "fired": 7,
+    "right": 7,
+    "wrong_types": []
+   },
+   "delisting_notice": {
+    "fired": 19,
+    "right": 18,
+    "wrong_types": [
+     "other_event"
+    ]
+   },
+   "leadership_change": {
+    "fired": 20,
+    "right": 20,
+    "wrong_types": []
+   },
+   "restatement": {
+    "fired": 10,
+    "right": 10,
+    "wrong_types": []
+   },
+   "bankruptcy": {
+    "fired": 0,
+    "right": 0,
+    "wrong_types": []
+   },
+   "cyber_incident": {
+    "fired": 0,
+    "right": 0,
+    "wrong_types": []
+   },
+   "acquisition_or_sale": {
+    "fired": 4,
+    "right": 3,
+    "wrong_types": [
+     "other_event"
+    ]
+   }
+  }
+ },
+ "muse_alone": {
+  "n": 181,
+  "type_right": 155,
+  "urgent": 82,
+  "urgent_caught": 79,
+  "false_alarms": 6,
+  "invalid": 4,
+  "priority_not_matching_type": 0
+ },
+ "inkling_alone": {
+  "n": 181,
+  "type_right": 155,
+  "urgent": 82,
+  "urgent_caught": 80,
+  "false_alarms": 7,
+  "invalid": 8,
+  "usd_per_1000": 2.873
+ },
+ "harness_all": {
+  "n": 181,
+  "type_right": 156,
+  "urgent": 82,
+  "urgent_caught": 79,
+  "false_alarms": 7,
+  "invalid": 1,
+  "to_muse": 181,
+  "to_muse_pct": 100.0,
+  "to_inkling": 7,
+  "to_inkling_pct": 3.9,
+  "no_tiebreak": 0,
+  "rule_fired": 72,
+  "muse_priority_fixed": 0,
+  "inkling_usd_total": 0.04792,
+  "inkling_usd_per_1000_filings": 0.2648,
+  "inkling_seconds_total": 99.23,
+  "how": {
+   "inkling": 4,
+   "inkling_vote": 3,
+   "muse": 105,
+   "rule+muse": 69
+  },
+  "vs_muse_alone": {
+   "only_harness_right": 2,
+   "only_muse_right": 1,
+   "mcnemar_p": 1.0
+  }
+ },
+ "harness_skip": {
+  "n": 181,
+  "type_right": 158,
+  "urgent": 82,
+  "urgent_caught": 79,
+  "false_alarms": 6,
+  "invalid": 1,
+  "to_muse": 109,
+  "to_muse_pct": 60.2,
+  "to_inkling": 4,
+  "to_inkling_pct": 2.2,
+  "no_tiebreak": 0,
+  "rule_fired": 72,
+  "muse_priority_fixed": 0,
+  "inkling_usd_total": 0.04229,
+  "inkling_usd_per_1000_filings": 0.2336,
+  "inkling_seconds_total": 90.17,
+  "how": {
+   "inkling": 4,
+   "muse": 105,
+   "rule": 72
+  },
+  "vs_muse_alone": {
+   "only_harness_right": 4,
+   "only_muse_right": 1,
+   "mcnemar_p": 0.375
+  }
+ }
+}
