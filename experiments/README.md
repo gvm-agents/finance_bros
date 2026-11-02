@@ -9,7 +9,7 @@ We test two analyst jobs. Each experiment has its own folder with the task, the 
 | # | Experiment | Job | Status |
 |---|---|---|---|
 | 01 | [Forms extraction](01-forms-extraction/) | Pull 9 facts out of an SEC Form D (private fundraising) | Done: trained model 0.999 vs 0.987 untrained |
-| 02 | [Sorting 8-K filings](02-sorting-8k/) | Decide if a company event filing is urgent | Final run at 15:30 |
+| 02 | [Sorting 8-K filings](02-sorting-8k/) | Decide if a company event filing is urgent | Done: 3 misses vs frontier 4, false alarms 9 vs 21, $0.37 vs $1.80 per 1,000 |
 | 03 | [Forms, GLM 5.3 Flash LoRA](03-forms-glm-lora/) | Same as 01, fully serverless on Fireworks | Baseline done, training next |
 | 04 | [Forms router](04-forms-router/) | Rules first, model only as a fallback | Planned |
 

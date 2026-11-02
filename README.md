@@ -18,7 +18,7 @@ Every system is scored on the same fixed held-out test set, on three dimensions:
 | # | Experiment | Result |
 |---|---|---|
 | 01 | [Forms extraction](experiments/01-forms-extraction/): 9 facts from a Form D | 0.999 trained vs 0.987 untrained, two training runs |
-| 02 | [Sorting 8-K filings](experiments/02-sorting-8k/): urgent or routine | Final run on 568 held-out filings at 15:30 |
+| 02 | [Sorting 8-K filings](experiments/02-sorting-8k/): urgent or routine | On 568 unseen filings: 3 urgent missed vs 4 for the frontier model, false alarms 9 vs 21 (p = 0.02), $0.37 vs $1.80 per 1,000 |
 | 03 | [Forms on GLM 5.3 Flash](experiments/03-forms-glm-lora/): fully serverless training and inference | Baseline 0.944, $1.16 per 1,000 |
 | 04 | [Forms router](experiments/04-forms-router/): rules first, model as fallback | Planned |
 
