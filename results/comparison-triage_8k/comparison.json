@@ -1,0 +1,142 @@
+{
+ "set": "triage_8k",
+ "filings": 200,
+ "rows": [
+  {
+   "system": "Claude Sonnet 5",
+   "group": "frontier",
+   "source": "results/runs/frontier-1102-sonnet",
+   "type_right": 164,
+   "urgent_caught": 100,
+   "urgent_total": 105,
+   "false_alarms": 6,
+   "invalid": 0,
+   "usd_per_1000": 2.333,
+   "p50_s": 1.29
+  },
+  {
+   "system": "GPT-5.6 Luna",
+   "group": "frontier",
+   "source": "results/runs/frontier-1102-oa",
+   "type_right": 151,
+   "urgent_caught": 99,
+   "urgent_total": 105,
+   "false_alarms": 7,
+   "invalid": 0,
+   "usd_per_1000": 0.148,
+   "p50_s": 0.76
+  },
+  {
+   "system": "DeepSeek V4.1 Flash",
+   "group": "open, ready-made",
+   "source": "results/runs/frontier-1102",
+   "type_right": 160,
+   "urgent_caught": 103,
+   "urgent_total": 105,
+   "false_alarms": 6,
+   "invalid": 0,
+   "usd_per_1000": 0.218,
+   "p50_s": 0.75
+  },
+  {
+   "system": "GLM 5.3 Flash",
+   "group": "open, ready-made",
+   "source": "results/training/glm-type-1/predictions_base.jsonl",
+   "type_right": 168,
+   "urgent_caught": 100,
+   "urgent_total": 105,
+   "false_alarms": 6,
+   "invalid": 0,
+   "usd_per_1000": 0.186,
+   "p50_s": 1.26
+  },
+  {
+   "system": "Harness + GLM 5.3 Flash",
+   "group": "open, ready-made + harness",
+   "source": "experiments/07-8k-glm-trained/results/glm-type-1-base-triage_8k.summary.json",
+   "type_right": 173,
+   "urgent_caught": 103,
+   "urgent_total": 105,
+   "false_alarms": 5,
+   "invalid": 0,
+   "usd_per_1000": 0.103,
+   "p50_s": 1.26,
+   "read_by_model_pct": 55.5
+  },
+  {
+   "system": "gpt-oss-120b",
+   "group": "open, ready-made",
+   "source": "results/training/gptoss-base-triage_8k/predictions_base.jsonl",
+   "type_right": 151,
+   "urgent_caught": 96,
+   "urgent_total": 105,
+   "false_alarms": 5,
+   "invalid": 0,
+   "usd_per_1000": 0.141,
+   "p50_s": 0.51
+  },
+  {
+   "system": "Harness + gpt-oss-120b",
+   "group": "open, ready-made + harness",
+   "source": "experiments/07-8k-glm-trained/results/gptoss-base-triage_8k-base-triage_8k.summary.json",
+   "type_right": 161,
+   "urgent_caught": 99,
+   "urgent_total": 105,
+   "false_alarms": 4,
+   "invalid": 0,
+   "usd_per_1000": 0.078,
+   "p50_s": 0.51,
+   "read_by_model_pct": 55.5
+  },
+  {
+   "system": "Muse Glimmer 30B untrained (baseline)",
+   "group": "open, ready-made",
+   "source": "results/training/type-1/predictions_base.jsonl",
+   "type_right": 157,
+   "urgent_caught": 93,
+   "urgent_total": 105,
+   "false_alarms": 2,
+   "invalid": 11,
+   "usd_per_1000": null,
+   "p50_s": null
+  },
+  {
+   "system": "Harness + Muse Glimmer 30B untrained (baseline)",
+   "group": "open, ready-made + harness",
+   "source": "experiments/06-8k-harness-trained/results/type-1/sim-base/type-1-base-triage_8k.summary.json",
+   "type_right": 162,
+   "urgent_caught": 97,
+   "urgent_total": 105,
+   "false_alarms": 2,
+   "invalid": 7,
+   "usd_per_1000": null,
+   "p50_s": null,
+   "read_by_model_pct": 55.5
+  },
+  {
+   "system": "Muse Glimmer 30B trained (ours)",
+   "group": "open, trained",
+   "source": "results/training/type-1/predictions_tuned.jsonl",
+   "type_right": 183,
+   "urgent_caught": 102,
+   "urgent_total": 105,
+   "false_alarms": 3,
+   "invalid": 0,
+   "usd_per_1000": null,
+   "p50_s": null
+  },
+  {
+   "system": "Harness + Muse Glimmer 30B trained (ours)",
+   "group": "open, trained + harness",
+   "source": "experiments/06-8k-harness-trained/results/type-1/sim-tuned/type-1-tuned-triage_8k.summary.json",
+   "type_right": 184,
+   "urgent_caught": 103,
+   "urgent_total": 105,
+   "false_alarms": 3,
+   "invalid": 0,
+   "usd_per_1000": null,
+   "p50_s": null,
+   "read_by_model_pct": 55.5
+  }
+ ]
+}
