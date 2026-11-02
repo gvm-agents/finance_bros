@@ -94,6 +94,6 @@ New LoRA run `type-1`: Muse Glimmer 30B, 2 epochs, 688 training filings, scored 
 | Muse trained alone | 183 | 102 | 3 | 0 | 100% |
 | Harness v2, trained Muse | 184 | 103 | 3 | 0 | 55.5% |
 
-McNemar, trained vs untrained, same 200 filings: type right 33 to 7 (p = 0.00004); priority right 16 to 4 (p = 0.012). Harness vs model alone: small, not significant. The 11 invalid untrained answers were cut off at the length limit.
+McNemar, same 200 filings: trained alone vs untrained, type right 33 to 7 (p = 0.00004), priority right 16 to 4 (p = 0.012). Harness v2 + trained vs untrained alone: type right 33 to 6 (p = 0.00001), priority right 16 to 3 (p = 0.004). Harness vs model alone: small, not significant. The 11 invalid untrained answers were cut off at the length limit.
 
 Reproduce: `venv/bin/python -m bench.harness_8k sim --run type-1 --answers tuned --set triage_8k`
