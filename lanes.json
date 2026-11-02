@@ -459,6 +459,27 @@
       "group": "open-cloud",
       "origin": "US (Thinking Machines)",
       "reasoning": "none"
+    },
+    "sonnet5_or": {
+      "provider": "openrouter",
+      "runs_on": "vps",
+      "model": "anthropic/claude-sonnet-5",
+      "price_in": 2.0,
+      "price_out": 10.0,
+      "price_source": "OpenRouter model list, read 2026-11-02",
+      "group": "frontier",
+      "origin": "US (Anthropic), via OpenRouter"
+    },
+    "gpt56luna_none_oa": {
+      "provider": "openai",
+      "runs_on": "vps",
+      "model": "gpt-5.6-luna",
+      "price_in": 0.2,
+      "price_out": 1.2,
+      "price_source": "OpenAI list price as shown on OpenRouter, read 2026-11-02",
+      "group": "frontier",
+      "reasoning": "none",
+      "origin": "US (OpenAI)"
     }
   },
   "_vertex_note": "Claude 5.5 models returned 404 on this Vertex project on 2026-10-30, in us-east5 and global; these three answered.",

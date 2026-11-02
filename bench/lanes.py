@@ -5,6 +5,8 @@ Providers:
              (VERTEX_LLM_SA_JSON + VERTEX_LLM_PROJECT), else VERTEX_PROJECT + Google login
   fireworks  Fireworks serverless, OpenAI-style API (FIREWORKS_API_KEY)
   azure      OpenAI models on an Azure resource (AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT)
+  openrouter frontier models through OpenRouter's OpenAI-style API (OPENROUTER_API_KEY)
+  openai     OpenAI models through OpenAI's own API (OPENAI_API_KEY)
   fw_decide  a Fireworks decision model (Rune): one read, typed questions, probabilities, input tokens only
   ollama     Ollama at OLLAMA_URL, by default this machine at 127.0.0.1:11434 (no key; nothing leaves the machine)
   fake       canned replies, for tests only
@@ -81,6 +83,18 @@ class Caller:
                 self.client = OpenAI(base_url="https://api.fireworks.ai/inference/v1", api_key=key)
             else:
                 self.client = OpenAI(base_url=os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434") + "/v1", api_key="ollama", timeout=60, max_retries=0)
+        elif p == "openrouter":
+            from openai import OpenAI
+            key = os.environ.get("OPENROUTER_API_KEY")
+            if not key:
+                raise ValueError("set OPENROUTER_API_KEY for OpenRouter lanes")
+            self.client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=key)
+        elif p == "openai":
+            from openai import OpenAI
+            key = os.environ.get("OPENAI_API_KEY")
+            if not key:
+                raise ValueError("set OPENAI_API_KEY for OpenAI lanes")
+            self.client = OpenAI(api_key=key)
         elif p == "azure":
             from openai import AzureOpenAI
             key = os.environ.get("AZURE_OPENAI_API_KEY")
@@ -134,9 +148,15 @@ class Caller:
                     return Reply("", r.usage.input_tokens, r.usage.output_tokens, time.time() - t0, "refusal")
                 text = "".join(b.text for b in r.content if b.type == "text")
                 return Reply(text, r.usage.input_tokens, r.usage.output_tokens, time.time() - t0)
-            if p == "azure":  # GPT-5 models take no temperature and use max_completion_tokens
+            if p in ("azure", "openai"):  # GPT-5 models take no temperature and use max_completion_tokens
                 r = self.client.chat.completions.create(model=self.lane["model"], max_completion_tokens=max_out + self.lane.get("headroom", REASONING_HEADROOM),
                                                         messages=[{"role": "user", "content": prompt}], reasoning_effort=self.lane.get("reasoning", "low"))
+                u = r.usage
+                return Reply(r.choices[0].message.content or "", u.prompt_tokens or 0, u.completion_tokens or 0, time.time() - t0)
+            if p == "openrouter":  # no temperature (Claude refuses it); reasoning effort only when the lane sets one
+                extra = {"reasoning": {"effort": self.lane["reasoning"]}} if self.lane.get("reasoning") else {}
+                r = self.client.chat.completions.create(model=self.lane["model"], max_tokens=max_out + self.lane.get("headroom", REASONING_HEADROOM),
+                                                        messages=[{"role": "user", "content": prompt}], extra_body=extra or None)
                 u = r.usage
                 return Reply(r.choices[0].message.content or "", u.prompt_tokens or 0, u.completion_tokens or 0, time.time() - t0)
             extra = {"reasoning_effort": self.lane.get("reasoning", "low")} if "gpt-oss" in self.lane["model"] or self.lane.get("reasoning") else {}
