@@ -34,6 +34,7 @@ def main() -> int:
     ap.add_argument("--model", required=True)
     ap.add_argument("--task", default="triage_8k_fresh")
     ap.add_argument("--n", type=int, default=181)
+    ap.add_argument("--split", help="only items in this split, e.g. test (Form D sets hold train and test)")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--minutes", type=float, required=True, help="delete the deployment by this time at the latest")
     ap.add_argument("--shape", default="default")
@@ -60,14 +61,14 @@ def main() -> int:
         ready = time.time() - t0
         from openai import OpenAI
         client = OpenAI(base_url="https://api.fireworks.ai/inference/v1", api_key=os.environ["FIREWORKS_API_KEY"])
-        items = collect.load(a.task)
+        items = [i for i in collect.load(a.task) if not a.split or i.get("split") == a.split]
         random.Random(3).shuffle(items)
 
         def one(item):
             if time.time() > limit - 60:
                 return None
             s = time.time()
-            r = client.chat.completions.create(model=a.model + "#" + name, temperature=0, max_tokens=800, messages=[{"role": "user", "content": prompt_fn(item)}])
+            r = client.chat.completions.create(model=a.model + "#" + name, temperature=0, max_tokens=max(800, max_out), messages=[{"role": "user", "content": prompt_fn(item)}])
             text = r.choices[0].message.content or ""
             return {"item": item["id"], "reply": text, "seconds": round(time.time() - s, 2), **score_fn(item, text)}
 
