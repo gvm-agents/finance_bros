@@ -11,11 +11,11 @@ Everything here is public: SEC filings and public news feeds. Answer keys come f
 | `results/training/<run>/` | Trained-model runs: answers before and after training (`predictions_base.jsonl`, `predictions_tuned.jsonl`), `summary.json`. |
 | `results/scoreboard.jsonl`, `results/stats.jsonl` | Scored results and significance tests. |
 
-Not in git because of size (ask the lead for a copy):
+Not in git because of size. Copies are in the team's shared Google Drive folder **Github Additional Data**; put each one inside `data/` here:
 
 | Collection | Size | How to rebuild |
 |---|---|---|
-| `data/cache/` (raw SEC downloads the sets were built from) | 2.1 GB | Attached to this repo's first release as a zip, when available; otherwise rebuilt automatically by the collectors, which fetch from SEC EDGAR (set `SEC_CONTACT`). |
-| `data/sec_pdfs/` | 33 GB | `python -m bench.sec_pdfs` |
-| `data/adv_library/` | 50 GB | `python -m bench.adv_library` |
+| `data/cache/` (raw SEC downloads the sets were built from) | 2.1 GB (`cache.zip`, 480 MB) | Unzip inside `data/`. Or let the collectors re-fetch from SEC EDGAR (set `SEC_CONTACT`). |
+| `data/sec_pdfs/` (SEC filings as PDFs) | 34 GB | Copy the `sec_pdfs` folder, or rebuild: `python -m bench.sec_pdfs` |
+| `data/adv_library/` (Form ADV filings, brochures, adviser lists) | 50 GB | Copy the `adv_library` folder, or rebuild: `python -m bench.adv_library` |
 | `data/adv/`, `data/adv_screen/` | 120 MB | SEC's public adviser lists; pending approval to add. |
