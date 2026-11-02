@@ -2,7 +2,7 @@
 
 **Fireworks Deploy Buildathon, San Francisco, 2026-11-02.**
 
-**Result:** a small open model, trained on public SEC data, reads private-fundraising filings (Form D) at **0.999** accuracy on 120 forms it never saw, up from **0.987** for the same model untrained and above every ready-made open model we tested (DeepSeek V4.1 Flash 0.986, gpt-oss-120b 0.899). The gain is statistically real (McNemar p = 0.00002 against the untrained model; company bootstrap excludes zero).
+**Result:** a small open model, trained on public SEC data, reads private-fundraising filings (Form D) at **0.999** accuracy on 120 forms it never saw, up from **0.987** for the same model untrained above every ready-made open model we tested (DeepSeek V4.1 Flash 0.986, gpt-oss-120b 0.899), and above the frontier model Claude Sonnet 5 (0.988, at $13.87 per 1,000 forms; trained model right on 15 forms it missed, 0 the other way, p = 0.00006). The gain is statistically real (McNemar p = 0.00002 against the untrained model; company bootstrap excludes zero).
 
 ## The problem
 Finance analysts read thousands of SEC filings a week: fundraising forms to pull facts from, and event filings where missing an urgent one is costly. Frontier models can do this, but at volume they are expensive and the data leaves your control. Our question: can a small open model, trained for the job, match a frontier model's accuracy at a fraction of the price and time?
