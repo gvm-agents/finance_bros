@@ -8,6 +8,4 @@ __pycache__/
 /data/cache/
 /data/sec_pdfs/
 /data/adv_library/
-/data/adv_screen/
 *.log
-/data/adv/
