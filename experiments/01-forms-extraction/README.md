@@ -17,6 +17,7 @@ When a private company raises money it files a Form D with the SEC. An analyst w
 | gpt-oss-120b (open, ready-made) | 0.899 | 0.77 | 1.73 | `results/runs/forms-test-open` |
 | GLM 5.3 Flash (open, untrained) | 0.944 | 1.16 | 5.98 | `results/glm-base-formd-test` (this folder) |
 | DeepSeek V4.1 Flash (open, ready-made) | 0.986 | 1.21 | 1.28 | `results/runs/forms-test-open` |
+| Claude Sonnet 5 (frontier) | 0.988 | 13.87 | 2.16 | `results/runs/forms-test-frontier` |
 | Muse Glimmer 30B, untrained (enough answer space) | 0.987 | to measure | to measure | `results/training/forms-lora-2/predictions_base.jsonl` |
 | **Muse Glimmer 30B + LoRA (ours)** | **0.999** | to measure | to measure | `results/training/forms-lora-1`, `forms-lora-2` |
 
@@ -27,6 +28,7 @@ Same score in two separate training runs.
 | Comparison | Trained right, other wrong | Other right, trained wrong | McNemar p |
 |---|---:|---:|---:|
 | vs the same model untrained | 17 | 0 | 0.00002 |
+| vs Claude Sonnet 5 (frontier) | 15 | 0 | 0.00006 |
 | vs gpt-oss-120b | 90 | 0 | 2e-27 |
 | vs DeepSeek V4.1 Flash | 17 | 1 | 0.0001 |
 

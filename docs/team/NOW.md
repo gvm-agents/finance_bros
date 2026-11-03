@@ -7,7 +7,7 @@ Read this first if you are joining late. It is newer than every other page; wher
 | Experiment | Before | After | Is the gain real? |
 |---|---|---|---|
 | **Sorting** (headline): is an SEC 8-K filing urgent? | Frontier model (Claude Sonnet 5) on 568 held-out filings: caught 236 of 240 urgent, 21 false alarms, $1.80 per 1,000 | Trained open model (LoRA "triage-4"): runs once at 3:30 on the same 568 filings. On practice it caught 82 of 82 with 4 false alarms | Tested at 3:55 with `python -m bench.stats` |
-| **Forms**: pull 9 facts out of an SEC Form D | gpt-oss-120b on 120 held-out forms: score 0.899; DeepSeek: 0.986 | Trained open model (LoRA) on the same 120 forms: **0.999** (twice, two training runs). Same model untrained, given enough answer space: 0.987 | Yes. vs gpt-oss: fully right on 90 more forms, 0 fewer (McNemar p = 2e-27); vs DeepSeek: 17 more, 1 fewer (p = 0.0001). Same model untrained vs trained: 17 more, 0 fewer (p = 0.00002). Bootstrap 95% ranges exclude zero for all three |
+| **Forms**: pull 9 facts out of an SEC Form D | gpt-oss-120b on 120 held-out forms: score 0.899; DeepSeek: 0.986 | Trained open model (LoRA) on the same 120 forms: **0.999** (twice, two training runs). Same model untrained, given enough answer space: 0.987 | Yes. vs gpt-oss: fully right on 90 more forms, 0 fewer (McNemar p = 2e-27); vs DeepSeek: 17 more, 1 fewer (p = 0.0001). Same model untrained vs trained: 17 more, 0 fewer (p = 0.00002). vs frontier (Claude Sonnet 5, 0.988, $13.87 per 1,000 forms): 15 more, 0 fewer (p = 0.00006). Bootstrap 95% ranges exclude zero for all three |
 
 Target for Sorting, fixed before the final run: catch at least 99% of urgent filings (238 of 240) with no more false alarms than the frontier model (21), then lowest cost.
 
