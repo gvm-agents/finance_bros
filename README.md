@@ -12,6 +12,17 @@
 | Overall | **97.9% vs 95.6%** right (McNemar p = 0.02) | Score **0.999 vs 0.988** (McNemar p = 0.00006) |
 | Cost per 1,000 | **$0.37 vs $1.80** (about 5× cheaper) | **about $2 vs $13.87** (about 7× cheaper) |
 
+**Training makes the model accurate; our harness makes it cheap without losing accuracy.** Python rules settle the clear cases at $0 (38% of filings on the 568, 96% right; 44% on the 200, 99% right) and the trained model reads the rest. Event type and urgency from plain 8-K text, item code hidden:
+
+| System | Final test, 568 filings (240 urgent): type right / urgent caught / false alarms | Unseen set, 200 filings (105 urgent): type right / urgent caught / false alarms |
+|---|---|---|
+| Claude Sonnet 5 | 442 / 236 / 21 | 164 / 100 / 6 |
+| Muse Glimmer 30B trained, alone | 502 / 237 / 9 | 183 / 102 / 3 |
+| **Harness + Muse Glimmer 30B trained (ours)** | **498 / 238 / 11** | **184 / 103 / 3** |
+| Model reads | 62% of filings | 56% of filings |
+
+Harness vs trained model alone: no significant difference on either set (568: type p = 0.22; 200: p = 1.0), with about 40% fewer model calls. Harness + trained vs the untrained model on the 200: 83% fewer missed urgent filings, 63% fewer wrong event types (McNemar p = 0.00001). The 568-filing harness rows are simulated on the final run's saved answers with rules frozen before that run. All systems: [results/comparison-triage_8k](results/comparison-triage_8k/), method: [experiments 05-07](experiments/).
+
 ## 1. Two everyday analyst jobs, graded exactly by the SEC's own data
 
 ![How it works](docs/charts/how-it-works.png)
