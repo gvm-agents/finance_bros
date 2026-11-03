@@ -1,8 +1,10 @@
-# Open models beat a frontier model on finance reading, at a fifth of the cost
+# Trained open models read SEC filings more accurately than a frontier model, at a fifth of the cost
 
-**Goal:** use open models wherever they are good enough, prove it against a frontier model on the same held-out documents, improve the open model, and report the net result.
+**The problem.** Analysts in finance and banking must read a constant, high volume of dense public filings, and a missed event or a wrong number can be very costly. Frontier models are too expensive to run on every filing at scale, and they still make mistakes: on our tests, a leading frontier model missed 4 of 240 urgent company announcements and got at least one fact wrong on 16 of 120 fundraising forms.
 
-**Result:** a small open model (Muse Glimmer 30B), trained on Fireworks in under an hour on a few hundred public SEC examples, beat Claude Sonnet 5 on both jobs we tested, on documents it never saw:
+**Our approach.** Use open models where they are good enough, prove it against a frontier model on the same unseen documents, improve the open model step by step, and report the net result with significance tests.
+
+**The result.** A small open model (Muse Glimmer 30B), trained on Fireworks in under an hour on a few hundred public SEC examples, beat Claude Sonnet 5 on both jobs, on documents it never saw:
 
 | | 8-K sorting (568 filings) | Form D extraction (120 forms) |
 |---|---|---|
@@ -10,7 +12,7 @@
 | Overall | **97.9% vs 95.6%** right (McNemar p = 0.02) | Score **0.999 vs 0.988** (McNemar p = 0.00006) |
 | Cost per 1,000 | **$0.37 vs $1.80** (about 5× cheaper) | **about $2 vs $13.87** (about 7× cheaper) |
 
-## 1. Two jobs, graded exactly
+## 1. Two everyday analyst jobs, graded exactly by the SEC's own data
 
 ![How it works](docs/charts/how-it-works.png)
 
@@ -23,7 +25,7 @@
 
 We chose jobs where the SEC publishes the right answer so that no person and no model grades the answers. The skills carry over to documents without an answer key: judging an event from plain sentences, and reading messy form layouts where labels, tick marks and values are separated.
 
-## 2. Baselines: every model, same instructions, same documents
+## 2. Baselines: open models start close to the frontier model, at a fraction of the price
 
 **8-K sorting (practice: 181 filings, 82 urgent)**
 
@@ -46,7 +48,7 @@ We chose jobs where the SEC publishes the right answer so that no person and no 
 
 Hosted open models were already close to the frontier model at a fraction of the price. None, frontier included, was free of mistakes.
 
-## 3. What we changed, and what it did
+## 3. What moved the needle: training, not prompting
 
 | Type | Change | Job | Before → after | Verdict |
 |---|---|---|---|---|
@@ -64,7 +66,7 @@ Hosted open models were already close to the frontier model at a fraction of the
 
 Prompts, settings, routing and model swaps hit a ceiling or made things worse. Training was the change that moved both jobs. On Form D the errors sat in fields that need reading the form's layout: industry group (about 40 ticked categories) was right on 49 of 120 forms for gpt-oss, 107 for DeepSeek and 120 after training.
 
-## 4. Final test: run once, on unseen documents, after the design was locked
+## 4. Final test on unseen documents: fewer mistakes than the frontier model, at a fifth of the cost
 
 ![8-K final](docs/charts/8k-final.png)
 
@@ -94,7 +96,7 @@ Prompts, settings, routing and model swaps hit a ceiling or made things worse. T
 
 **Limits.** Our 8-K target, set before the final run, was at most 2 misses; we missed 3. The one extra urgent filing caught over the frontier model is not significant on its own; the 8-K gain is fewer false alarms at lower cost. A trained model is served on a rented GPU (about $10 an hour, about 4 minutes to start), so it suits batches. Form D has a structured copy at the SEC; the real use is documents without one.
 
-## 5. No single best model
+## 5. No single best model: measure each job, then choose the fix
 
 ![Playbook](docs/charts/playbook.png)
 
