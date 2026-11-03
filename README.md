@@ -152,8 +152,11 @@ Every system is scored on the same fixed held-out test set, on three dimensions:
 |---|---|---|
 | 01 | [Forms extraction](experiments/01-forms-extraction/): 9 facts from a Form D | 0.999 trained vs 0.987 untrained, two training runs |
 | 02 | [Sorting 8-K filings](experiments/02-sorting-8k/): urgent or routine | On 568 unseen filings: 3 urgent missed vs 4 for the frontier model, false alarms 9 vs 21 (p = 0.02), $0.37 vs $1.80 per 1,000 |
-| 03 | [Forms on GLM 5.3 Flash](experiments/03-forms-glm-lora/): fully serverless training and inference | Baseline 0.944, $1.16 per 1,000 |
-| 04 | [Forms router](experiments/04-forms-router/): rules first, model as fallback | Planned |
+| 05 | [8-K harness, no training](experiments/05-8k-harness-no-training/): rules first, untrained Muse for the rest | 157 > 162 event types on 200 unseen 8-Ks |
+| 06 | [8-K harness + trained Muse](experiments/06-8k-harness-trained/) | 157 > 184 event types, 93 > 103 of 105 urgent (p = 0.00001); Sonnet 5: 164, 100 |
+| 07 | [8-K on GLM 5.3 Flash and gpt-oss](experiments/07-8k-glm-trained/) | Harness lifts gpt-oss 151 > 161 (p = 0.002) |
+
+8-K event typing, every system on the same 200 unseen filings: [results/comparison-triage_8k](results/comparison-triage_8k/).
 
 Each folder has the task, the data, every system we tried (failures included), the significance tests and the commands to reproduce.
 

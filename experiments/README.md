@@ -10,8 +10,12 @@ We test two analyst jobs. Each experiment has its own folder with the task, the 
 |---|---|---|---|
 | 01 | [Forms extraction](01-forms-extraction/) | Pull 9 facts out of an SEC Form D (private fundraising) | Done: trained model 0.999 vs 0.987 untrained |
 | 02 | [Sorting 8-K filings](02-sorting-8k/) | Decide if a company event filing is urgent | Done: 3 misses vs frontier 4, false alarms 9 vs 21, $0.37 vs $1.80 per 1,000 |
-| 03 | [Forms, GLM 5.3 Flash LoRA](03-forms-glm-lora/) | Same as 01, fully serverless on Fireworks | Baseline done, training next |
-| 04 | [Forms router](04-forms-router/) | Rules first, model only as a fallback | Planned |
+
+| 05 | [8-K harness, no training](05-8k-harness-no-training/) | Python rules first, untrained Muse for the rest | Type right 157 > 162 on 200 unseen 8-Ks; model reads 56% of filings |
+| 06 | [8-K harness + trained Muse](06-8k-harness-trained/) | Same harness, Muse Glimmer LoRA on 688 filings | Type right 157 > 184, urgent 93 > 103 of 105 (p = 0.00001) |
+| 07 | [8-K with GLM 5.3 Flash and gpt-oss](07-8k-glm-trained/) | Same test on two other open models | Harness lifts gpt-oss 151 > 161 (p = 0.002) |
+
+All 8-K systems side by side on the 200 unseen filings, frontier included: [results/comparison-triage_8k](../results/comparison-triage_8k/).
 
 ## The three dimensions we report for every system
 

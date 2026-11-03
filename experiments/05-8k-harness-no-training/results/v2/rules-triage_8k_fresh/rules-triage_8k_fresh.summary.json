@@ -1,0 +1,54 @@
+{
+ "n": 181,
+ "fired": 72,
+ "coverage_pct": 39.8,
+ "right": 70,
+ "precision_pct": 97.2,
+ "urgent_fired": 51,
+ "per_rule": {
+  "earnings": {
+   "fired": 12,
+   "right": 12,
+   "wrong_types": []
+  },
+  "regulation_fd": {
+   "fired": 7,
+   "right": 7,
+   "wrong_types": []
+  },
+  "delisting_notice": {
+   "fired": 19,
+   "right": 18,
+   "wrong_types": [
+    "other_event"
+   ]
+  },
+  "leadership_change": {
+   "fired": 20,
+   "right": 20,
+   "wrong_types": []
+  },
+  "restatement": {
+   "fired": 10,
+   "right": 10,
+   "wrong_types": []
+  },
+  "bankruptcy": {
+   "fired": 0,
+   "right": 0,
+   "wrong_types": []
+  },
+  "cyber_incident": {
+   "fired": 0,
+   "right": 0,
+   "wrong_types": []
+  },
+  "acquisition_or_sale": {
+   "fired": 4,
+   "right": 3,
+   "wrong_types": [
+    "other_event"
+   ]
+  }
+ }
+}

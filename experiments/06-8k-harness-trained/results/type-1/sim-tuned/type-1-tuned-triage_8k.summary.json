@@ -1,0 +1,122 @@
+{
+ "run": "type-1",
+ "answers": "tuned",
+ "set": "triage_8k",
+ "inkling_answers": 0,
+ "rules": {
+  "n": 200,
+  "fired": 89,
+  "coverage_pct": 44.5,
+  "right": 88,
+  "precision_pct": 98.9,
+  "urgent_fired": 69,
+  "per_rule": {
+   "earnings": {
+    "fired": 13,
+    "right": 13,
+    "wrong_types": []
+   },
+   "regulation_fd": {
+    "fired": 7,
+    "right": 7,
+    "wrong_types": []
+   },
+   "delisting_notice": {
+    "fired": 19,
+    "right": 19,
+    "wrong_types": []
+   },
+   "leadership_change": {
+    "fired": 21,
+    "right": 21,
+    "wrong_types": []
+   },
+   "restatement": {
+    "fired": 13,
+    "right": 13,
+    "wrong_types": []
+   },
+   "bankruptcy": {
+    "fired": 4,
+    "right": 3,
+    "wrong_types": [
+     "acquisition_or_sale"
+    ]
+   },
+   "cyber_incident": {
+    "fired": 0,
+    "right": 0,
+    "wrong_types": []
+   },
+   "acquisition_or_sale": {
+    "fired": 12,
+    "right": 12,
+    "wrong_types": []
+   }
+  }
+ },
+ "muse_alone": {
+  "n": 200,
+  "type_right": 183,
+  "urgent": 105,
+  "urgent_caught": 102,
+  "false_alarms": 3,
+  "invalid": 0,
+  "priority_not_matching_type": 0
+ },
+ "harness_all": {
+  "n": 200,
+  "type_right": 184,
+  "urgent": 105,
+  "urgent_caught": 103,
+  "false_alarms": 3,
+  "invalid": 0,
+  "to_muse": 200,
+  "to_muse_pct": 100.0,
+  "to_inkling": 0,
+  "to_inkling_pct": 0.0,
+  "no_tiebreak": 3,
+  "rule_fired": 89,
+  "muse_priority_fixed": 0,
+  "inkling_usd_total": 0,
+  "inkling_usd_per_1000_filings": 0.0,
+  "inkling_seconds_total": 0.0,
+  "how": {
+   "muse": 111,
+   "no_tiebreak": 3,
+   "rule+muse": 86
+  },
+  "vs_muse_alone": {
+   "only_harness_right": 2,
+   "only_muse_right": 1,
+   "mcnemar_p": 1.0
+  }
+ },
+ "harness_skip": {
+  "n": 200,
+  "type_right": 184,
+  "urgent": 105,
+  "urgent_caught": 103,
+  "false_alarms": 3,
+  "invalid": 0,
+  "to_muse": 111,
+  "to_muse_pct": 55.5,
+  "to_inkling": 0,
+  "to_inkling_pct": 0.0,
+  "no_tiebreak": 0,
+  "rule_fired": 89,
+  "muse_priority_fixed": 0,
+  "inkling_usd_total": 0,
+  "inkling_usd_per_1000_filings": 0.0,
+  "inkling_seconds_total": 0.0,
+  "how": {
+   "muse": 111,
+   "rule": 89
+  },
+  "vs_muse_alone": {
+   "only_harness_right": 2,
+   "only_muse_right": 1,
+   "mcnemar_p": 1.0
+  }
+ }
+}

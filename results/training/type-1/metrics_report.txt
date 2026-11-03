@@ -1,0 +1,2 @@
+base: n=200 type right 157/200 (78.5%); urgent caught 93/105 (88.6%); false alarms 2/95; invalid 11/200; truncated 11
+tuned: n=200 type right 183/200 (91.5%); urgent caught 102/105 (97.1%); false alarms 3/95; invalid 0/200; truncated 0

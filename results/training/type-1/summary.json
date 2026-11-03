@@ -1,0 +1,42 @@
+{
+  "steps": 100,
+  "base": {
+    "label": "base",
+    "exact_match": 0.785,
+    "unterminated": 11,
+    "prompt_tokens": 141238,
+    "sampled_tokens": 97602,
+    "field_accuracy": {
+      "type": 0.785,
+      "priority": 0.91
+    }
+  },
+  "tuned": {
+    "label": "tuned",
+    "exact_match": 0.915,
+    "unterminated": 0,
+    "prompt_tokens": 141238,
+    "sampled_tokens": 3507,
+    "field_accuracy": {
+      "type": 0.915,
+      "priority": 0.97
+    }
+  },
+  "promoted_model": "accounts/furkan-6eo1n9w47cuf/models/muse-starter-sl-type-1",
+  "exact_match_delta": 0.13,
+  "paired": {
+    "only_tuned_correct": 33,
+    "only_base_correct": 7,
+    "p_value": 4.2277022657799534e-05
+  },
+  "session": "ts-7a772dba8b7347eabaa6b8f95957cabb",
+  "log": "/home/hermes/projects/hackathons/2026-11-02-fireworks-deploy/finance_bros/results/training/type-1",
+  "cost": {
+    "training": "$0 (promotional)",
+    "evaluation_sampling": {
+      "prompt_tokens": 282476,
+      "sampled_tokens": 101109,
+      "note": "billed separately from training at published per-token rates"
+    }
+  }
+}
