@@ -12,7 +12,7 @@
 | Overall | **97.9% vs 95.6%** right (McNemar p = 0.02) | Score **0.999 vs 0.988** (McNemar p = 0.00006) |
 | Cost per 1,000 | **$0.37 vs $1.80** (about 5× cheaper) | **about $2 vs $13.87** (about 7× cheaper) |
 
-**Training makes the model accurate; our harness makes it cheap without losing accuracy.** Python rules settle the clear cases at $0 (38-44% of filings, 99% right) and the trained model reads the rest. Event type and urgency from plain 8-K text, item code hidden:
+**Training makes the model accurate; our harness makes it cheap without losing accuracy.** Python rules settle the clear cases at $0 (38% of filings on the 568, 96% right; 44% on the 200, 99% right) and the trained model reads the rest. Event type and urgency from plain 8-K text, item code hidden:
 
 | System | Final test, 568 filings (240 urgent): type right / urgent caught / false alarms | Unseen set, 200 filings (105 urgent): type right / urgent caught / false alarms |
 |---|---|---|
